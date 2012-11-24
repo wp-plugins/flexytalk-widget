@@ -36,11 +36,11 @@ You must signin to the IM account you entered during setup. Once you're online, 
 That's all. Now you're ready to answer chat requests from your website.
 
 Please mail support@flexytalk.com if you are not able to integrate the widget on your site.
+
 == Screenshots ==
+
 1. Live Chat Widget in action
 2. Operator answering chats on GTALK.
-
-
 
 == Frequently asked questions ==
 
