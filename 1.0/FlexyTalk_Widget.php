@@ -115,132 +115,132 @@ class FlexyTalk_Widget extends WP_Widget {
 <td>
 
 <input class="radio" type="radio" <?php checked( $instance['btnLayout'], true ); ?> id="<?php echo $this->get_field_id( 'btnLayout' ); ?>" name="<?php echo $this->get_field_name( 'btnLayout' ); ?>" /> 
-			<label for="<?php echo $this->get_field_id( 'btnLayout' ); ?>"><img src="<?php echo plugins_url( 'hot-sneaks.png', __FILE__ ); ?>"/></label>
+			<label for="<?php echo $this->get_field_id( 'btnLayout' ); ?>"><img src="<?php echo plugins_url( 'img/hot-sneaks.png', __FILE__ ); ?>"/></label>
 </td>
 <td>
 
 <input class="radio" type="radio" value="humanity" <?php checked( $instance['btnLayout'], "humanity"); ?> id="<?php echo $this->get_field_id( 'btnLayout' ); ?>" name="<?php echo $this->get_field_name( 'btnLayout' ); ?>" /> 
-			<label for="<?php echo $this->get_field_id( 'btnLayout' ); ?>"><img src="<?php echo plugins_url( 'humanity.png', __FILE__ ); ?>"/></label>
+			<label for="<?php echo $this->get_field_id( 'btnLayout' ); ?>"><img src="<?php echo plugins_url( 'img/humanity.png', __FILE__ ); ?>"/></label>
 </td>
 <td>
 
 <input class="radio" type="radio" value="lefrog" <?php checked( $instance['btnLayout'], "lefrog"); ?> id="<?php echo $this->get_field_id( 'btnLayout' ); ?>" name="<?php echo $this->get_field_name( 'btnLayout' ); ?>" /> 
-			<label for="<?php echo $this->get_field_id( 'btnLayout' ); ?>"><img src="<?php echo plugins_url( 'lefrog.png', __FILE__ ); ?>"/></label>
+			<label for="<?php echo $this->get_field_id( 'btnLayout' ); ?>"><img src="<?php echo plugins_url( 'img/lefrog.png', __FILE__ ); ?>"/></label>
 </td>
 <td>
 
 <input class="radio" type="radio" value="mint-choc" <?php checked( $instance['btnLayout'], "mint-choc"); ?> id="<?php echo $this->get_field_id( 'btnLayout' ); ?>" name="<?php echo $this->get_field_name( 'btnLayout' ); ?>" /> 
-			<label for="<?php echo $this->get_field_id( 'btnLayout' ); ?>"><img src="<?php echo plugins_url( 'mint-choc.png', __FILE__ ); ?>"/></label>
+			<label for="<?php echo $this->get_field_id( 'btnLayout' ); ?>"><img src="<?php echo plugins_url( 'img/mint-choc.png', __FILE__ ); ?>"/></label>
 </td>
 </tr>
 <tr>
 <td>
 
 <input class="radio" type="radio" style="bottom:10px" value="overcast" <?php checked( $instance['btnLayout'], "overcast"); ?> id="<?php echo $this->get_field_id( 'btnLayout' ); ?>" name="<?php echo $this->get_field_name( 'btnLayout' ); ?>" /> 
-			<label for="<?php echo $this->get_field_id( 'btnLayout' ); ?>"><img src="<?php echo plugins_url( 'overcast.png', __FILE__ ); ?>"/></label>
+			<label for="<?php echo $this->get_field_id( 'btnLayout' ); ?>"><img src="<?php echo plugins_url( 'img/overcast.png', __FILE__ ); ?>"/></label>
 </td>
 <td>
 
 <input class="radio" type="radio" value="pepper-grinder" <?php checked( $instance['btnLayout'], "pepper-grinder"); ?> id="<?php echo $this->get_field_id( 'btnLayout' ); ?>" name="<?php echo $this->get_field_name( 'btnLayout' ); ?>" /> 
-			<label for="<?php echo $this->get_field_id( 'btnLayout' ); ?>"><img src="<?php echo plugins_url( 'pepper-grinder.png', __FILE__ ); ?>"/></label>
+			<label for="<?php echo $this->get_field_id( 'btnLayout' ); ?>"><img src="<?php echo plugins_url( 'img/pepper-grinder.png', __FILE__ ); ?>"/></label>
 </td>
 <td>
 
 <input class="radio" type="radio" value="redmond" <?php checked( $instance['btnLayout'], "redmond"); ?> id="<?php echo $this->get_field_id( 'btnLayout' ); ?>" name="<?php echo $this->get_field_name( 'btnLayout' ); ?>" /> 
-			<label for="<?php echo $this->get_field_id( 'btnLayout' ); ?>"><img src="<?php echo plugins_url( 'redmond.png', __FILE__ ); ?>"/></label>
+			<label for="<?php echo $this->get_field_id( 'btnLayout' ); ?>"><img src="<?php echo plugins_url( 'img/redmond.png', __FILE__ ); ?>"/></label>
 </td>
 <td>
 
 <input class="radio" type="radio" value="smoothness" <?php checked( $instance['btnLayout'], "smoothness"); ?> id="<?php echo $this->get_field_id( 'btnLayout' ); ?>" name="<?php echo $this->get_field_name( 'btnLayout' ); ?>" /> 
-			<label for="<?php echo $this->get_field_id( 'btnLayout' ); ?>"><img src="<?php echo plugins_url( 'smoothness.png', __FILE__ ); ?>"/></label>
+			<label for="<?php echo $this->get_field_id( 'btnLayout' ); ?>"><img src="<?php echo plugins_url( 'img/smoothness.png', __FILE__ ); ?>"/></label>
 </td>
 </tr>
 <tr>
 <td>
 
 <input class="radio" type="radio" value="south-street" <?php checked( $instance['btnLayout'], "south-street"); ?> id="<?php echo $this->get_field_id( 'btnLayout' ); ?>" name="<?php echo $this->get_field_name( 'btnLayout' ); ?>" /> 
-			<label for="<?php echo $this->get_field_id( 'btnLayout' ); ?>"><img src="<?php echo plugins_url( 'south-street.png', __FILE__ ); ?>"/></label>
+			<label for="<?php echo $this->get_field_id( 'btnLayout' ); ?>"><img src="<?php echo plugins_url( 'img/south-street.png', __FILE__ ); ?>"/></label>
 </td>
 <td>
 
 <input class="radio" type="radio" value="start" <?php checked( $instance['btnLayout'], "start"); ?> id="<?php echo $this->get_field_id( 'btnLayout' ); ?>" name="<?php echo $this->get_field_name( 'btnLayout' ); ?>" /> 
-			<label for="<?php echo $this->get_field_id( 'btnLayout' ); ?>"><img src="<?php echo plugins_url( 'start.png', __FILE__ ); ?>"/></label>
+			<label for="<?php echo $this->get_field_id( 'btnLayout' ); ?>"><img src="<?php echo plugins_url( 'img/start.png', __FILE__ ); ?>"/></label>
 </td>
 <td>
 
 <input class="radio" type="radio" value="sunny" <?php checked( $instance['btnLayout'], "sunny"); ?> id="<?php echo $this->get_field_id( 'btnLayout' ); ?>" name="<?php echo $this->get_field_name( 'btnLayout' ); ?>" /> 
-			<label for="<?php echo $this->get_field_id( 'btnLayout' ); ?>"><img src="<?php echo plugins_url( 'sunny.png', __FILE__ ); ?>"/></label>
+			<label for="<?php echo $this->get_field_id( 'btnLayout' ); ?>"><img src="<?php echo plugins_url( 'img/sunny.png', __FILE__ ); ?>"/></label>
 </td>
 <td>
 
 <input class="radio" type="radio" value="swanky-purse" <?php checked( $instance['btnLayout'], "swanky-purse"); ?> id="<?php echo $this->get_field_id( 'btnLayout' ); ?>" name="<?php echo $this->get_field_name( 'btnLayout' ); ?>" /> 
-			<label for="<?php echo $this->get_field_id( 'btnLayout' ); ?>"><img src="<?php echo plugins_url( 'swanky-purse.png', __FILE__ ); ?>"/></label>
+			<label for="<?php echo $this->get_field_id( 'btnLayout' ); ?>"><img src="<?php echo plugins_url( 'img/swanky-purse.png', __FILE__ ); ?>"/></label>
 </td>
 </tr>
 <tr>
 <td>
 
 <input class="radio" type="radio" value="trontastic" <?php checked( $instance['btnLayout'], "trontastic"); ?> id="<?php echo $this->get_field_id( 'btnLayout' ); ?>" name="<?php echo $this->get_field_name( 'btnLayout' ); ?>" /> 
-			<label for="<?php echo $this->get_field_id( 'btnLayout' ); ?>"><img src="<?php echo plugins_url( 'trontastic.png', __FILE__ ); ?>"/></label>
+			<label for="<?php echo $this->get_field_id( 'btnLayout' ); ?>"><img src="<?php echo plugins_url( 'img/trontastic.png', __FILE__ ); ?>"/></label>
 </td>
 <td>
 
 <input class="radio" type="radio" value="ui-darkness" <?php checked( $instance['btnLayout'], "ui-darkness"); ?> id="<?php echo $this->get_field_id( 'btnLayout' ); ?>" name="<?php echo $this->get_field_name( 'btnLayout' ); ?>" /> 
-			<label for="<?php echo $this->get_field_id( 'btnLayout' ); ?>"><img src="<?php echo plugins_url( 'ui-darkness.png', __FILE__ ); ?>"/></label>
+			<label for="<?php echo $this->get_field_id( 'btnLayout' ); ?>"><img src="<?php echo plugins_url( 'img/ui-darkness.png', __FILE__ ); ?>"/></label>
 </td>
 <td>
 
 <input class="radio" type="radio" value="ui-lightness" <?php checked( $instance['btnLayout'], "ui-lightness"); ?> id="<?php echo $this->get_field_id( 'btnLayout' ); ?>" name="<?php echo $this->get_field_name( 'btnLayout' ); ?>" /> 
-			<label for="<?php echo $this->get_field_id( 'btnLayout' ); ?>"><img src="<?php echo plugins_url( 'ui-lightness.png', __FILE__ ); ?>"/></label>
+			<label for="<?php echo $this->get_field_id( 'btnLayout' ); ?>"><img src="<?php echo plugins_url( 'img/ui-lightness.png', __FILE__ ); ?>"/></label>
 </td>
 <td>
 
 <input class="radio" type="radio" value="vader" <?php checked( $instance['btnLayout'], "vader"); ?> id="<?php echo $this->get_field_id( 'btnLayout' ); ?>" name="<?php echo $this->get_field_name( 'btnLayout' ); ?>" /> 
-			<label for="<?php echo $this->get_field_id( 'btnLayout' ); ?>"><img src="<?php echo plugins_url( 'vader.png', __FILE__ ); ?>"/></label>
+			<label for="<?php echo $this->get_field_id( 'btnLayout' ); ?>"><img src="<?php echo plugins_url( 'img/vader.png', __FILE__ ); ?>"/></label>
 </td>
 </tr>
 <tr>
 <td>
 
 <input class="radio" type="radio" value="black-tie" <?php checked( $instance['btnLayout'], "black-tie"); ?> id="<?php echo $this->get_field_id( 'btnLayout' ); ?>" name="<?php echo $this->get_field_name( 'btnLayout' ); ?>" /> 
-			<label for="<?php echo $this->get_field_id( 'btnLayout' ); ?>"><img src="<?php echo plugins_url( 'black-tie.png', __FILE__ ); ?>"/></label>
+			<label for="<?php echo $this->get_field_id( 'btnLayout' ); ?>"><img src="<?php echo plugins_url( 'img/black-tie.png', __FILE__ ); ?>"/></label>
 </td>
 <td>
 
 <input class="radio" type="radio" value="flick" <?php checked( $instance['btnLayout'], "flick"); ?> id="<?php echo $this->get_field_id( 'btnLayout' ); ?>" name="<?php echo $this->get_field_name( 'btnLayout' ); ?>" /> 
-			<label for="<?php echo $this->get_field_id( 'btnLayout' ); ?>"><img src="<?php echo plugins_url( 'flick.png', __FILE__ ); ?>"/></label>
+			<label for="<?php echo $this->get_field_id( 'btnLayout' ); ?>"><img src="<?php echo plugins_url( 'img/flick.png', __FILE__ ); ?>"/></label>
 </td>
 <td>
 
 <input class="radio" type="radio" value="excite-bike" <?php checked( $instance['btnLayout'], "excite-bike"); ?> id="<?php echo $this->get_field_id( 'btnLayout' ); ?>" name="<?php echo $this->get_field_name( 'btnLayout' ); ?>" /> 
-			<label for="<?php echo $this->get_field_id( 'btnLayout' ); ?>"><img src="<?php echo plugins_url( 'excite-bike.png', __FILE__ ); ?>"/></label>
+			<label for="<?php echo $this->get_field_id( 'btnLayout' ); ?>"><img src="<?php echo plugins_url( 'img/excite-bike.png', __FILE__ ); ?>"/></label>
 </td>
 <td>
 
 <input class="radio" type="radio" value="eggplant" <?php checked( $instance['btnLayout'], "eggplant"); ?> id="<?php echo $this->get_field_id( 'btnLayout' ); ?>" name="<?php echo $this->get_field_name( 'btnLayout' ); ?>" /> 
-			<label for="<?php echo $this->get_field_id( 'btnLayout' ); ?>"><img src="<?php echo plugins_url( 'eggplant.png', __FILE__ ); ?>"/></label>
+			<label for="<?php echo $this->get_field_id( 'btnLayout' ); ?>"><img src="<?php echo plugins_url( 'img/eggplant.png', __FILE__ ); ?>"/></label>
 </td>
 </tr>
 <tr>
 <td>
 
 <input class="radio" type="radio" value="dot-luv" <?php checked( $instance['btnLayout'], "dot-luv"); ?> id="<?php echo $this->get_field_id( 'btnLayout' ); ?>" name="<?php echo $this->get_field_name( 'btnLayout' ); ?>" /> 
-			<label for="<?php echo $this->get_field_id( 'btnLayout' ); ?>"><img src="<?php echo plugins_url( 'dot-luv.png', __FILE__ ); ?>"/></label>
+			<label for="<?php echo $this->get_field_id( 'btnLayout' ); ?>"><img src="<?php echo plugins_url( 'img/dot-luv.png', __FILE__ ); ?>"/></label>
 </td>
 <td>
 
 <input class="radio" type="radio" value="dark-hive" <?php checked( $instance['btnLayout'], "dark-hive"); ?> id="<?php echo $this->get_field_id( 'btnLayout' ); ?>" name="<?php echo $this->get_field_name( 'btnLayout' ); ?>" /> 
-			<label for="<?php echo $this->get_field_id( 'btnLayout' ); ?>"><img src="<?php echo plugins_url( 'dark-hive.png', __FILE__ ); ?>"/></label>
+			<label for="<?php echo $this->get_field_id( 'btnLayout' ); ?>"><img src="<?php echo plugins_url( 'img/dark-hive.png', __FILE__ ); ?>"/></label>
 </td>
 <td>
 
 <input class="radio" type="radio" value="cupertino" <?php checked( $instance['btnLayout'], "cupertino"); ?> id="<?php echo $this->get_field_id( 'btnLayout' ); ?>" name="<?php echo $this->get_field_name( 'btnLayout' ); ?>" /> 
-			<label for="<?php echo $this->get_field_id( 'btnLayout' ); ?>"><img src="<?php echo plugins_url( 'cupertino.png', __FILE__ ); ?>"/></label>
+			<label for="<?php echo $this->get_field_id( 'btnLayout' ); ?>"><img src="<?php echo plugins_url( 'img/cupertino.png', __FILE__ ); ?>"/></label>
 </td>
 <td>
 
 <input class="radio" type="radio" value="blitzer" <?php checked( $instance['btnLayout'], "blitzer"); ?> id="<?php echo $this->get_field_id( 'btnLayout' ); ?>" name="<?php echo $this->get_field_name( 'btnLayout' ); ?>" /> 
-			<label for="<?php echo $this->get_field_id( 'btnLayout' ); ?>"><img src="<?php echo plugins_url( 'blitzer.png', __FILE__ ); ?>"/></label>
+			<label for="<?php echo $this->get_field_id( 'btnLayout' ); ?>"><img src="<?php echo plugins_url( 'img/blitzer.png', __FILE__ ); ?>"/></label>
 </td>
 </tr>
 </table>
