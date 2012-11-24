@@ -8,8 +8,7 @@ Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-FlexyTalk Free Live Chat Widget brings your site alive allowing you to chat to your website visitors right on your desktop or mobile device. 
-It is absolutely free and it works out of the box. There's no need to signup in our site.
+FlexyTalk Free Live Chat Widget brings your site alive allowing you to chat to your website visitors.  It is absolutely free and it works out of the box. There's no need to signup to create any account anywhere
 
 == Description ==
 FlexyTalk Free Live Chat Widget
