@@ -1,7 +1,7 @@
 === FlexyTalk  - Free Live Chat Widget for WordPress ===
 Contributors: sodena
 Donate link: 
-Tags: Live Chat - Live Support - Web Chat - 
+Tags: Live Chat, Live Support, Web Chat,  one to one chat, free live chat, gtalk, gmail, google, jabber, xmpp, sidebar chat, widget, website alive, support chat, sales chat, wordpress chat, live chat widget free, mobile chat, phone chat, chat operator
 Requires at least: 3.3
 Tested up to: 3.4
 Stable tag: 1.0
@@ -29,14 +29,18 @@ You must signin to the IM account you entered during setup. Once you're online, 
 
 == Installation ==
 
-1. Activate the plugin. This will create a new widget on Wordpress Appearnce -> Widgets Menu.
+1. Activate the plugin. This will create a new widget under menu Wordpress Appearence -> Widgets.
 2. Drag the widget to the desired location on the sidebar.
 3. Complete the information required by the widget and click "save".
 4. Your new widget should be visible on your web site now. Click the "click to chat" button to activate your free account. On the activation window, read carefully the indications and click "Activate".
 That's all. Now you're ready to answer chat requests from your website.
 
-
 Please mail support@flexytalk.com if you are not able to integrate the widget on your site.
+== Screenshots ==
+1. Live Chat Widget in action
+2. Operator answering chats on GTALK.
+
+
 
 == Frequently asked questions ==
 
