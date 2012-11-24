@@ -8,7 +8,7 @@ Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Turn your site alive with this free Live Chat Plugin.It is absolutely free and it works out of the box. No sign up required.
+Turn your site alive with this free Live Chat Plugin. Works out of the box. No sign up required. 100% FREE FOREVER
 
 == Description ==
 Place a FlexyTalk Free Live Chat Widget on your WordPress web site and start chatting with your visitors. No need to register an account at our site. It just works out of the box.
