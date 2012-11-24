@@ -114,7 +114,7 @@ class FlexyTalk_Widget extends WP_Widget {
 <tr>
 <td>
 
-<input class="radio" type="radio" <?php checked( $instance['btnLayout'], true ); ?> id="<?php echo $this->get_field_id( 'btnLayout' ); ?>" name="<?php echo $this->get_field_name( 'btnLayout' ); ?>" /> 
+<input class="radio" type="radio" value="hot-sneaks" <?php checked( $instance['btnLayout'], true ); ?> id="<?php echo $this->get_field_id( 'btnLayout' ); ?>" name="<?php echo $this->get_field_name( 'btnLayout' ); ?>" /> 
 			<label for="<?php echo $this->get_field_id( 'btnLayout' ); ?>"><img src="<?php echo plugins_url( 'img/hot-sneaks.png', __FILE__ ); ?>"/></label>
 </td>
 <td>
