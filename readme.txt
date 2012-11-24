@@ -8,7 +8,7 @@ Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Turn your site alive with this free Live Chat Plugin.It is absolutely free and it works out of the box. No sign up required.
+Turn your site alive with this free Live Chat Plugin. Works out of the box. No sign up required. 100% FREE FOREVER
 
 == Description ==
 Place a FlexyTalk Free Live Chat Widget on your WordPress web site and start chatting with your visitors. No need to register an account at our site. It just works out of the box.
@@ -21,8 +21,9 @@ A Gmail account is all you need to get started. We also support any opened XMPP 
 * How do I answer chat request coming from my web site?
 You must signin to the IM account you entered during setup. Once you're online, visitors are able to request to chat with you. Then you just chat as you usually do. You may signin to your account on GTALK, Gmail web interface, any IM client you like, phone or any mobile device.
 
+* View all information about the visitor like Country, city and URL where they are requesting help.
 
-*FlexyTalk widget is simple to install and simple to use. No need to download any software or learn complicated chat interfaces.
+* FlexyTalk widget is simple to install and simple to use. No need to download any software or learn complicated chat interfaces.
 
 * **Lightweight:** FlexyTalk downloads some small scripts and does very little client processing. 
 
@@ -39,7 +40,7 @@ Please mail support@flexytalk.com if you are not able to integrate the widget on
 
 == Frequently asked questions ==
 
-1) Is it free? Yes it is absolutely free.There are no limits on the number of chats you can answer, it's ad-free and no annoying messages are sent to the visitor.
+1) Is it free? Yes it is absolutely free.There are no limits on the number of chats you can answer, it's ad-free and no annoying messages are sent to the visitor. We offer a paid plan where you can customize the widget and messages displayed.
 
 2) How should I finish a chat session? Send the message "!end" on your IM application. This will trigger a "goodbye" message to the visitor and you will be ready to answer new chat request.
 
