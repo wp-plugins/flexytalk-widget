@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: FlexyTalk - Free Live Chat Widget
- * Plugin URI: http://wordpress.org/extend/plugins/flexytalk-widget/
+ * Plugin URI: http://www.flexytalk.com
  * Description: FlexyTalk enables you to chat to your web visitors using your current gmail account. No need to signup anywhere, it just works out of the box. it's absolutely free. There are no limits on the number of chats you can answer, it's ad-free and no annoying messages are sent to the visitor.
  * Version: 1.0
  * Author: Sebastian Odena
@@ -57,15 +57,21 @@ class FlexyTalk_Widget extends WP_Widget {
 		$email=$instance['email'];
 		$btnLayout=$instance['btnLayout'];
 		$btnText=$instance['btnText'];
+		$btnPosition=$instance['btnPosition'];
 		
 		
 
 		/* Before widget (defined by themes). */
 		echo $before_widget;
 
-		
+		$style="";
+if($instance['btnPosition']=="1")
+	$style="position:fixed;bottom:5px;right:10px";
+
+	
+	
 		/* Display name from widget settings if one was input. */
-		$htmlCode="<link href='//app.flexytalk.com/btn/". $instance['btnLayout'].".css' rel='stylesheet' type='text/css' /><div class='flexytalk' data-flexytalk='QUICKTRY__".$instance['email']."' ><a href='#' id='dialog_link' class='ft-button dialog-link'><span class='iconchat'></span>".$instance['btnText']."</a></div><script src='//app.flexytalk.com/js/FlexyTalk.js' ></script>";
+		$htmlCode="<link href='//app.flexytalk.com/btn/". $instance['btnLayout'].".css' rel='stylesheet' type='text/css' /><div class='flexytalk' style=".$style." data-flexytalk='QUICKTRY__".$instance['email']."' ><a href='#' id='dialog_link' class='ft-button dialog-link'><span class='iconchat'></span>".$instance['btnText']."</a></div><script src='//app.flexytalk.com/js/FlexyTalk.js' ></script>";
 
 		if ( $htmlCode)
 			printf( $htmlCode);
@@ -86,6 +92,7 @@ class FlexyTalk_Widget extends WP_Widget {
 		$instance['email'] = $new_instance['email'];
 		$instance['btnText'] = $new_instance['btnText'];
 		$instance['btnLayout'] = $new_instance['btnLayout'];
+		$instance['btnPosition'] = $new_instance['btnPosition'];
 
 		
 		return $instance;
@@ -98,7 +105,7 @@ class FlexyTalk_Widget extends WP_Widget {
 	function form( $instance ) {
 
 /* Set up some default widget settings. */
-		$defaults = array( 'btnText' => __('CLICK TO CHAT', ''), 'btnLayout' => __('cupertino', ''), 'email' => __('yourGmailAccount@gmail.com', ''));
+		$defaults = array( 'btnText' => __('CLICK TO CHAT', ''), 'btnLayout' => __('cupertino', ''), 'email' => __('yourGmailAccount@gmail.com', ''), 'btnPosition'=>__("1",""));
 		$instance = wp_parse_args( (array) $instance, $defaults ); ?>
 
 <span>Enter the Gmail account you'll use to answer chats requests coming from your website. A Google Hosted Domain or any Jabber account will also do OK.</span>
@@ -114,7 +121,7 @@ class FlexyTalk_Widget extends WP_Widget {
 <tr>
 <td>
 
-<input class="radio" type="radio" value="hot-sneaks" <?php checked( $instance['btnLayout'], true ); ?> id="<?php echo $this->get_field_id( 'btnLayout' ); ?>" name="<?php echo $this->get_field_name( 'btnLayout' ); ?>" /> 
+<input class="radio" type="radio" <?php checked( $instance['btnLayout'], true ); ?> id="<?php echo $this->get_field_id( 'btnLayout' ); ?>" name="<?php echo $this->get_field_name( 'btnLayout' ); ?>" /> 
 			<label for="<?php echo $this->get_field_id( 'btnLayout' ); ?>"><img src="<?php echo plugins_url( 'img/hot-sneaks.png', __FILE__ ); ?>"/></label>
 </td>
 <td>
@@ -246,14 +253,24 @@ class FlexyTalk_Widget extends WP_Widget {
 </table>
 </p>
 <hr />
-<span>Enter the text to be displayed on the "chat" button </span><br />
+<span>Enter the text to be displayed on the "chat" button </span><br /><br />
 <p> 
 <label for="<?php echo $this->get_field_id( 'btnText' ); ?>"><?php _e('Button Text:', 'hybrid'); ?></label>
 <input id="<?php echo $this->get_field_id( 'btnText' ); ?>" name="<?php echo $this->get_field_name( 'btnText' ); ?>" value="<?php echo $instance['btnText']; ?>" style="width:300px" />
  </p>
 <br>
-<span> If something goes wrong, please email us at <a href="mailto:support@flexytalk.com">support@flexytalk.com</a></span>
-		
+<hr />
+<span> Position on Page</span> <br /><br />
+
+<input name="<?php echo $this->get_field_name( 'btnPosition' ); ?>" class="radio" type="radio" value="1" <?php checked( $instance['btnPosition'], "1"); ?> id="<?php echo $this->get_field_id( 'btnPosition' ); ?>"  />
+<label for="<?php echo $this->get_field_id( 'btnPosition' ); ?>"><?php _e('Fixed: Always visible on the bottom right corner', 'hybrid'); ?></label>
+
+<br /><br />		
+<input name="<?php echo $this->get_field_name( 'btnPosition' ); ?>" class="radio" type="radio" value="2" <?php checked( $instance['btnPosition'], "2"); ?> id="<?php echo $this->get_field_id( 'btnPosition' ); ?>"  />
+<label for="<?php echo $this->get_field_id( 'btnPosition' ); ?>"><?php _e('Flow: Displayed as a button on the sidebar', 'hybrid'); ?></label>
+
+<br />	
+<hr />
 	<?php
 	}
 }
