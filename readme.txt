@@ -8,7 +8,7 @@ Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Turn your site alive with this free Live Chat Plugin. Works out of the box. No sign up required. 100% FREE FOREVER
+Turn your site alive with this free Live Chat Plugin. Works out of the box. No sign up required. 100% FREE FOREVER. Unlimited chats.
 
 == Description ==
 Place a FlexyTalk Free Live Chat Widget on your WordPress web site and start chatting with your visitors. No need to register an account at our site. It just works out of the box.
@@ -25,12 +25,12 @@ You must signin to the IM account you entered during setup. Once you're online, 
 
 * FlexyTalk widget is simple to install and simple to use. No need to download any software or learn complicated chat interfaces.
 
-* **Lightweight:** FlexyTalk downloads some small scripts and does very little client processing. 
+* **Lightweight:** FlexyTalk downloads some few small scripts and does very little client processing. 
 
 == Installation ==
 
-1. Activate the plugin. This will create a new widget under menu Wordpress Appearence -> Widgets.
-2. Drag the widget to the desired location on the sidebar.
+1. Navigate to Plugins --> Add New menu on WordPress admin and search the term "FlexyTalk". Click "Install now" and activate the plugin. This will create a new widget called "FlexyTalk free live chat widget"  under menu  Appearence -> Widgets.
+2. Locate the widget and drag it to the desired location on a sidebar.
 3. Complete the information required by the widget and click "save".
 4. Your new widget should be visible on your web site now. Click the "click to chat" button to activate your free account. On the activation window, read carefully the indications and click "Activate".
 That's all. Now you're ready to answer chat requests from your website.
@@ -39,6 +39,9 @@ Please mail support@flexytalk.com if you are not able to integrate the widget on
 == Screenshots ==
 1. Live Chat Widget in action
 2. Operator answering chats on GTALK.
+3. When plugin is installed, a new widget is created (Appearance --> Widgets menu)
+4. Drop the widget to the desired sidebar
+5. Configure your widget.
 
 
 
