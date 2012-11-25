@@ -32,7 +32,7 @@ You must signin to the IM account you entered during setup. Once you're online, 
 1. Navigate to Plugins --> Add New menu on WordPress admin and search the term "FlexyTalk". Click "Install now" and activate the plugin. This will create a new widget called "FlexyTalk free live chat widget"  under menu  Appearence -> Widgets.
 2. Locate the widget and drag it to the desired location on a sidebar.
 3. Complete the information required by the widget and click "save".
-4. Your new widget should be visible on your web site now. Click the "click to chat" button to activate your free account. On the activation window, read carefully the indications and click "Activate".
+4. Your new widget should be visible on your web site now. Navigate to your site and click the "click to chat" button to activate your free account. At this point you should receive an invitation to your email to join chat contacts.Accept it.
 That's all. Now you're ready to answer chat requests from your website.
 
 Please mail support@flexytalk.com if you are not able to integrate the widget on your site.
