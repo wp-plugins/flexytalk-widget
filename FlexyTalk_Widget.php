@@ -12,6 +12,7 @@
  * 
  */
 add_action( 'widgets_init', 'flexytalk_load_widgets' );
+add_action('wp_enqueue_scripts', 'Jquery');
 
 /**
  * Register our widget.
@@ -19,6 +20,11 @@ add_action( 'widgets_init', 'flexytalk_load_widgets' );
  *
  * 
  */
+
+function Jquery()
+{
+ wp_enqueue_script('jquery');
+}
 function flexytalk_load_widgets() {
 	register_widget( 'FlexyTalk_Widget' );
 }
