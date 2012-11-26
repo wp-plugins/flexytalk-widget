@@ -39,7 +39,7 @@ Please mail support@flexytalk.com if you are not able to integrate the widget on
 == Screenshots ==
 1. Live Chat Widget in action
 2. Operator answering chats on GTALK.
-3. When plugin is installed, a new widget is created (Appearance --> Widgets menu)
+3. When plugin is installed, a new widget is created (Appearance --> Widgets menu).
 4. Drop the widget to the desired sidebar
 5. Configure your widget.
 
