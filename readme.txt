@@ -8,12 +8,14 @@ Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Turn your site alive with this free Live Chat Plugin. Works out of the box. No sign up required. 100% FREE FOREVER. Unlimited chats.
+Start chatting to your site's visitors with this free Live Chat Plugin. Works out of the box. No registration required. 100% FREE FOREVER with unlimited chats.
 
 == Description ==
 Place a FlexyTalk Free Live Chat Widget on your WordPress web site and start chatting with your visitors. No need to register an account at our site. It just works out of the box.
 
-Once you place the plugin on your site, you're automatically given our **FREE FOR EVER** account. Don't worry about ads. Our software is ad-free and no annoying messages are sent to the visitor.
+*Once you place the plugin on your site, you're automatically given our **FREE FOR EVER** account. There's no limit on the number of chats you can answer and the account never expires.
+ 
+*Don't worry about ads. Our software is ad-free and no annoying messages are sent to the visitor.
 
 * What do I need te get started?
 A Gmail account is all you need to get started. We also support any opened XMPP network like JABBER.ORG.
@@ -47,9 +49,18 @@ Please mail support@flexytalk.com if you are not able to integrate the widget on
 
 == Frequently asked questions ==
 
-1) Is it free? Yes it is absolutely free.There are no limits on the number of chats you can answer, it's ad-free and no annoying messages are sent to the visitor. We offer a paid plan where you can customize the widget and messages displayed.
+* Is it free? 
+Yes it is absolutely free. Your free account never expires, there are no limits on the number of chats you can answer, it's ad-free and no annoying messages are sent to the visitor. We only ask you to rate and review our plugin.
 
-2) How should I finish a chat session? Send the message "!end" on your IM application. This will trigger a "goodbye" message to the visitor and you will be ready to answer new chat request.
 
+*How can I customize the widget displayed on my website?
+ We offer a paid plan where you can customize the widget and messages displayed, plus many more features.
+
+* How should I finish a chat session? Send the message "!end" on your IM application. This will trigger a "goodbye" message to the visitor and you will be ready to answer new chat request.
+
+* Can I use my Google hosted domain account to answer chats?
+Yes, but you need to add some DNS entries to your domain. Read: http://support.google.com/a/bin/answer.py?hl=en&answer=34143
+
+* What's the cost of your premium plan? There's no monthly fee. We've got a Pay AS YOU GO scheme. Prices start at $0.025 (USD) per chat session. If you don't get any chat request, you pay nothing. Do your numbers.
 
 
