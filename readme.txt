@@ -8,14 +8,14 @@ Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Start chatting to your site's visitors with this free Live Chat Plugin. Works out of the box. No registration required. 100% FREE FOREVER with unlimited chats.
+Start chatting to your site's visitors today. Works out of the box. No registration required. 100% FREE FOREVER with unlimited chats.
 
 == Description ==
 Place a FlexyTalk Free Live Chat Widget on your WordPress web site and start chatting with your visitors. No need to register an account at our site. It just works out of the box.
 
-*Once you place the plugin on your site, you're automatically given our **FREE FOR EVER** account. There's no limit on the number of chats you can answer and the account never expires.
+* Once you place the plugin on your site, you're automatically given our **FREE FOR EVER** account. There's no limit on the number of chats you can answer and the account never expires.
  
-*Don't worry about ads. Our software is ad-free and no annoying messages are sent to the visitor.
+* Don't worry about ads. Our software is ad-free and no annoying messages are sent to the visitor.
 
 * What do I need te get started?
 A Gmail account is all you need to get started. We also support any opened XMPP network like JABBER.ORG.
@@ -53,7 +53,7 @@ Please mail support@flexytalk.com if you are not able to integrate the widget on
 Yes it is absolutely free. Your free account never expires, there are no limits on the number of chats you can answer, it's ad-free and no annoying messages are sent to the visitor. We only ask you to rate and review our plugin.
 
 
-*How can I customize the widget displayed on my website?
+* How can I customize the widget displayed on my website?
  We offer a paid plan where you can customize the widget and messages displayed, plus many more features.
 
 * How should I finish a chat session? Send the message "!end" on your IM application. This will trigger a "goodbye" message to the visitor and you will be ready to answer new chat request.
