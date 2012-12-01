@@ -31,7 +31,48 @@ You must signin to the IM account you entered during setup. Once you're online, 
 
 == Installation ==
 
-* Navigate to Plugins --> Add New menu on WordPress admin and search the term "FlexyTalk". Click "Install now" and activate the plugin. This will create a new widget called "FlexyTalk free live chat widget"  under menu  Appearence -> Widgets.
+**INSTALL AND ACTIVATE PLUGIN**
+
+* Search the term FLEXYTALK on the plugin search page
+
+* Locate the plugin in the search results, click **INSTALL** and the click **ACTIVATE**
+
+The plugin creates a new widget on the **WIDGETS** section.
+
+
+**CONFIGURE THE WIDGET**
+
+* Locate the widget called "FlexyTalk Free Live Chat Widget" on the widget's list 
+
+* Drag the widget to the desire location in any sidebar you like.
+
+* On the displayed configuration area, enter your **GMAIL** account, choose the button layout, enter a text for the button, and select button's position on page. Finally click SAVE.
+
+By now you should have your brand new button on your WordPress site. 
+
+** ACTIVATE YOUR ACCOUNT
+
+* Click the "click to chat" button on your WP site. You will see an activation window displayed.
+
+* If you entered a real gmail account, check your chat contacts. There´s a new invitation request from one of FlexyTalk's bots.
+
+* Accept the invitation.
+
+By now, we've become chat buddies and next time you click the CHAT BUTTON, you will see the chat interface.
+
+
+**OFFLINE MESSAGES
+
+* Every time you want to retrieve your offline messages, open your IM app (GTALK, GMAIL or whatever app you use), start a chat session with the BOT and send the message **!off** .
+The bot will send you a response containing all the messages you received while you were offline. On Premium plans, offline messages are sent directly to your mail
+
+
+
+
+
+
+
+
 * Locate the widget and drag it to the desired location on a sidebar.
 * Complete the information required by the widget and click "save".
 * Your new widget should be visible on your web site now. Navigate to your site and click the "click to chat" button to activate your free account. At this point you should receive an invitation to your email to join chat contacts. Accept it.
@@ -55,11 +96,15 @@ Yes it is absolutely free. Your free account never expires, there are no limits 
 
 * How should I finish a chat session? Send the message "!end" on your IM application. This will trigger a "goodbye" message to the visitor and you will be ready to answer new chat request.
 
-* How do I retrieve my offline messages? At any moment send the bot the message "!off". The bot will send you a response with your unread messages.
 
 * Can I use my Google hosted domain account to answer chats?
 Yes, but you need to add some DNS entries to your domain. Read: http://support.google.com/a/bin/answer.py?hl=en&answer=34143
 
 * What's the cost of your premium plan? There's no monthly fee. We've got a Pay AS YOU GO scheme. Prices start at $0.025 (USD) per chat session. If you don't get any chat request, you pay nothing. Do your numbers.
+
+**OFFLINE MESSAGES
+
+* Every time you want to retrieve your offline messages, open your IM app (GTALK, GMAIL or whatever app you use), start a chat session with the BOT and send the message **!off** .
+The bot will send you a response containing all the messages you received while you were offline. On Premium plans, offline messages are sent directly to your mail
 
 
