@@ -50,7 +50,7 @@ The plugin creates a new widget on the **WIDGETS** section.
 
 By now you should have your brand new button on your WordPress site. 
 
-** ACTIVATE YOUR ACCOUNT
+**ACTIVATE YOUR ACCOUNT
 
 * Click the "click to chat" button on your WP site. You will see an activation window displayed.
 
