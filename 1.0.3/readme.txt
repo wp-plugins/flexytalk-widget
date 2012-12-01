@@ -50,7 +50,7 @@ The plugin creates a new widget on the **WIDGETS** section.
 
 By now you should have your brand new button on your WordPress site. 
 
-**ACTIVATE YOUR ACCOUNT
+**ACTIVATE YOUR ACCOUNT**
 
 * Click the "click to chat" button on your WP site. You will see an activation window displayed.
 
@@ -61,7 +61,7 @@ By now you should have your brand new button on your WordPress site.
 By now, we've become chat buddies and next time you click the CHAT BUTTON, you will see the chat interface.
 
 
-**OFFLINE MESSAGES
+**OFFLINE MESSAGES**
 
 * Every time you want to retrieve your offline messages, open your IM app (GTALK, GMAIL or whatever app you use), start a chat session with the BOT and send the message **!off** .
 The bot will send you a response containing all the messages you received while you were offline. On Premium plans, offline messages are sent directly to your mail
