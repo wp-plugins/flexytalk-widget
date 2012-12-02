@@ -1,10 +1,10 @@
 <?php
 /**
  * Plugin Name: FlexyTalk - Free Live Chat Widget
- * Plugin URI: http://www.flexytalk.com
- * Description: FlexyTalk enables you to chat to your web visitors using your current gmail account. No need to signup anywhere, it just works out of the box. it's absolutely free. There are no limits on the number of chats you can answer, it's ad-free and no annoying messages are sent to the visitor.
- * Version: 1.0
- * Author: Sebastian Odena
+ * Plugin URI: http://wordpress.org/extend/plugins/flexytalk-widget/
+ * Description: FlexyTalk enables you to chat to your web visitors using your current gmail account. Free lifetime plan with unlimited chats.
+ * Version: 1.0.3
+ * Author: FlexyTalk
  */
 
 /**
@@ -13,6 +13,7 @@
  */
 add_action( 'widgets_init', 'flexytalk_load_widgets' );
 add_action('wp_enqueue_scripts', 'Jquery');
+add_filter( 'plugin_row_meta', 'flexytalk_register_plugin_links',10,2);
 
 /**
  * Register our widget.
@@ -20,6 +21,15 @@ add_action('wp_enqueue_scripts', 'Jquery');
  *
  * 
  */
+function flexytalk_register_plugin_links($links, $file) {
+	$base = plugin_basename(__FILE__);
+	if ($file == $base) {
+		$links[] = '<a href="widgets.php">' . __('GO TO WIDGETS','flexytalk_widget') . '</a>';
+		$links[] = '<a href="http://wordpress.org/extend/plugins/flexytalk-widget/faq/" target="_blank">' . __('FAQ','flexytalk_widget') . '</a>';
+		$links[] = '<a href="Mailto:support@flexytalk.com">' . __('Support','flexytalk_widget') . '</a>';
+	}
+	return $links;
+}
 
 function Jquery()
 {
@@ -66,18 +76,41 @@ class FlexyTalk_Widget extends WP_Widget {
 		$btnPosition=$instance['btnPosition'];
 		
 		
+		
 
 		/* Before widget (defined by themes). */
 		echo $before_widget;
 
 		$style="";
+		$widgetid="";
 if($instance['btnPosition']=="1")
-	$style="position:fixed;bottom:5px;right:10px";
+	$style="position:fixed;bottom:10px;right:10px";
+	if($instance['btnPosition']=="2")
+	$style="position:fixed;bottom:10px;left:10px";
+	if($instance['btnPosition']=="3")
+	$style="position:fixed;top:10px;right:10px";
+	if($instance['btnPosition']=="4")
+	$style="position:fixed;top:10px;left:10px";
+	if($instance['btnPosition']=="5")
+	$style="";
+	
+	if($instance['WidgetID']=="")
+	{
+		$widgetid="QUICKTRY__".$instance['email'];
+	}
+	else
+	{
+		$widgetid=$instance['WidgetID'];
+	}
+	
+	
+	
+	
 
 	
 	
 		/* Display name from widget settings if one was input. */
-		$htmlCode="<link href='//app.flexytalk.com/btn/". $instance['btnLayout'].".css' rel='stylesheet' type='text/css' /><div class='flexytalk' style=".$style." data-flexytalk='QUICKTRY__".$instance['email']."' ><a href='#' id='dialog_link' class='ft-button dialog-link'><span class='iconchat'></span>".$instance['btnText']."</a></div><script src='//app.flexytalk.com/js/FlexyTalk.js' ></script>";
+		$htmlCode="<link href='//app.flexytalk.com/btn/". $instance['btnLayout'].".css' rel='stylesheet' type='text/css' /><div class='flexytalk' style='z-index:2147483647;".$style."' data-flexytalk-title='".$instance['WindowTitle']."' data-flexytalk='".$widgetid."' ><a href='#' id='dialog_link' class='ft-button dialog-link'><span class='iconchat'></span>".$instance['btnText']."</a></div><script src='//app.flexytalk.com/js/FlexyTalk.js' ></script>";
 
 		if ( $htmlCode)
 			printf( $htmlCode);
@@ -99,6 +132,8 @@ if($instance['btnPosition']=="1")
 		$instance['btnText'] = $new_instance['btnText'];
 		$instance['btnLayout'] = $new_instance['btnLayout'];
 		$instance['btnPosition'] = $new_instance['btnPosition'];
+		$instance['WindowTitle'] = $new_instance['WindowTitle'];
+		$instance['WidgetID'] = $new_instance['WidgetID'];
 
 		
 		return $instance;
@@ -111,15 +146,20 @@ if($instance['btnPosition']=="1")
 	function form( $instance ) {
 
 /* Set up some default widget settings. */
-		$defaults = array( 'btnText' => __('CLICK TO CHAT', ''), 'btnLayout' => __('cupertino', ''), 'email' => __('yourGmailAccount@gmail.com', ''), 'btnPosition'=>__("1",""));
+		$defaults = array( 'btnText' => __('CLICK TO CHAT', ''), 'btnLayout' => __('cupertino', ''), 'email' => __('yourGmailAccount@gmail.com', ''), 'btnPosition'=>__("1",""), 'WindowTitle' => __('LIVE CHAT', ''), 'WidgetID' => __('', ''));
 		$instance = wp_parse_args( (array) $instance, $defaults ); ?>
 
-<span>Enter the Gmail account you'll use to answer chats requests coming from your website. A Google Hosted Domain or any Jabber account will also do OK.</span>
+<span>Enter the Gmail account you'll use to answer chats requests coming from your website. A Google Hosted Domain or any Jabber account will also do OK.</span><br />
 <p> 
 <label for="<?php echo $this->get_field_id( 'email' ); ?>"><?php _e('Gmail Account (email):', 'hybrid'); ?></label>
 <input style="width:300px" id="<?php echo $this->get_field_id( 'email' ); ?>" name="<?php echo $this->get_field_name( 'email' ); ?>" value="<?php echo $instance['email']; ?>" style="width:100%;" />
  </p>
-<hr />
+<br /><hr />
+<span>Enter the WIDGET ID.  (only for <a href="http://panel.flexytalk.com/account/create" target="_blank">permium plan</a>. Free users please leave blank)</span><br /><br />
+<p> 
+<label for="<?php echo $this->get_field_id( 'WidgetID' ); ?>"><?php _e('Widget Id:', 'hybrid'); ?></label>
+<input style="width:300px" id="<?php echo $this->get_field_id( 'WidgetID' ); ?>" name="<?php echo $this->get_field_name( 'WidgetID' ); ?>" value="<?php echo $instance['WidgetID']; ?>" style="width:100%;" /> 
+<br /><hr />
 <p>
 <span>Choose the button layout. Check out the mouse over effects of each button on your real WordPress site.</span>
 <table>
@@ -266,13 +306,28 @@ if($instance['btnPosition']=="1")
  </p>
 <br>
 <hr />
+<span>Enter the Widget's window Title (displayed as the header on the chat widiget) </span><br /><br />
+<p> 
+<label for="<?php echo $this->get_field_id( 'WindowTitle' ); ?>"><?php _e('Window Title:', 'hybrid'); ?></label>
+<input id="<?php echo $this->get_field_id( 'WindowTitle' ); ?>" name="<?php echo $this->get_field_name( 'WindowTitle' ); ?>" value="<?php echo $instance['WindowTitle']; ?>" style="width:300px" />
+ </p>
+<br>
+<hr />
 <span> Position on Page</span> <br /><br />
 
 <input name="<?php echo $this->get_field_name( 'btnPosition' ); ?>" class="radio" type="radio" value="1" <?php checked( $instance['btnPosition'], "1"); ?> id="<?php echo $this->get_field_id( 'btnPosition' ); ?>"  />
-<label for="<?php echo $this->get_field_id( 'btnPosition' ); ?>"><?php _e('Fixed: Always visible on the bottom right corner', 'hybrid'); ?></label>
+<label for="<?php echo $this->get_field_id( 'btnPosition' ); ?>"><?php _e('Fixed: Always visible on the bottom right corner', 'hybrid'); ?></label><br /><br />
 
-<br /><br />		
 <input name="<?php echo $this->get_field_name( 'btnPosition' ); ?>" class="radio" type="radio" value="2" <?php checked( $instance['btnPosition'], "2"); ?> id="<?php echo $this->get_field_id( 'btnPosition' ); ?>"  />
+<label for="<?php echo $this->get_field_id( 'btnPosition' ); ?>"><?php _e('Fixed: Always visible on the bottom left corner', 'hybrid'); ?></label><br /><br />
+
+<input name="<?php echo $this->get_field_name( 'btnPosition' ); ?>" class="radio" type="radio" value="3" <?php checked( $instance['btnPosition'], "3"); ?> id="<?php echo $this->get_field_id( 'btnPosition' ); ?>"  />
+<label for="<?php echo $this->get_field_id( 'btnPosition' ); ?>"><?php _e('Fixed: Always visible on the top right corner', 'hybrid'); ?></label><br /><br />
+
+<input name="<?php echo $this->get_field_name( 'btnPosition' ); ?>" class="radio" type="radio" value="4" <?php checked( $instance['btnPosition'], "4"); ?> id="<?php echo $this->get_field_id( 'btnPosition' ); ?>"  />
+<label for="<?php echo $this->get_field_id( 'btnPosition' ); ?>"><?php _e('Fixed: Always visible on the top left corner', 'hybrid'); ?></label><br /><br />
+		
+<input name="<?php echo $this->get_field_name( 'btnPosition' ); ?>" class="radio" type="radio" value="5" <?php checked( $instance['btnPosition'], "5"); ?> id="<?php echo $this->get_field_id( 'btnPosition' ); ?>"  />
 <label for="<?php echo $this->get_field_id( 'btnPosition' ); ?>"><?php _e('Flow: Displayed as a button on the sidebar', 'hybrid'); ?></label>
 
 <br />	
