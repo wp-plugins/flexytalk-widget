@@ -3,7 +3,7 @@
  * Plugin Name: FlexyTalk - Free Live Chat Widget
  * Plugin URI: http://wordpress.org/extend/plugins/flexytalk-widget/
  * Description: FlexyTalk enables you to chat to your web visitors using your current gmail account. Free lifetime plan with unlimited chats.
- * Version: 1.0.3
+ * Version: 2.0.0
  * Author: FlexyTalk
  */
 
