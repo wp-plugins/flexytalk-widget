@@ -90,7 +90,7 @@ Yes, but you need to add some DNS entries to your domain. Read: http://support.g
 
 * What's the cost of your premium plan? There's no monthly fee. We've got a Pay AS YOU GO scheme. Prices start at $0.025 (USD) per chat session. If you don't get any chat request, you pay nothing. Do your numbers.
 
-**OFFLINE MESSAGES
+**OFFLINE MESSAGES**
 
 * Every time you want to retrieve your offline messages, open your IM app (GTALK, GMAIL or whatever app you use), start a chat session with the BOT and send the message **!off** .
 The bot will send you a response containing all the messages you received while you were offline. On Premium plans, offline messages are sent directly to your mail
