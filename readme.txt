@@ -69,18 +69,19 @@ The bot will send you a response containing all the messages you received while 
 
 Please mail support@flexytalk.com if you are not able to integrate the widget on your site.
 == Screenshots ==
-1. Live Chat Widget in action
-2. Operator answering chats on GTALK.
-3. When plugin is installed, a new widget is created (Appearance --> Widgets menu).
-4. Drop the widget to the desired sidebar
-5. Configure your widget.
-
+1. Offline contact form
+2. Place it on your menu
+3. Once installed, a new widget is created
+4. Drag to the desired location on your sidebars
+5. Choose one of several buttons
+6. All incoming chats go to your IM app
+7. Lots of themes to choose from
 
 
 == Frequently asked questions ==
 
 * Is it free? 
-Yes it is absolutely free. Your free account never expires, there are no limits on the number of chats you can answer, it's ad-free and no annoying messages are sent to the visitor. We only ask you to rate and review our plugin.
+Yes it is absolutely free. Your free account never expires, there are no limits on the number of chats you can answer, and it's ad-free. There's a premium plan if you want to customize the widget.
 
 * How should I finish a chat session? Send the message "!end" on your IM application. This will trigger a "goodbye" message to the visitor and you will be ready to answer new chat request.
 
