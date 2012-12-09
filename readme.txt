@@ -8,7 +8,7 @@ Stable tag: 2.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Start chatting to your site's visitors today. Works out of the box. No registration required. FREE lifetime account with unlimited chats.
+Start chatting to your site's visitors today from Google Talk or mobile phone. FREE lifetime account with unlimited chats.
 
 == Description ==
 Place a FlexyTalk Free Live Chat Widget on your WordPress web site and start chatting with your visitors. No need to register an account at our site. It just works out of the box.
