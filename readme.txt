@@ -11,7 +11,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Start chatting to your site's visitors today from Google Talk or mobile phone. FREE lifetime account with unlimited chats.
 
 == Description ==
-Place a FlexyTalk Free Live Chat Widget on your WordPress web site and start chatting with your visitors. No need to register an account at our site. It just works out of the box.
+Responsive, clean, fast, easy to setup, ad-free and.... free. Get it up and running in seconds. DOES NOT need a registration in our site. It just works out of the box. 
 
 * Once you place the plugin on your site, you're automatically given our **FREE FOR EVER** account. There's no limit on the number of chats you can answer and the account never expires.
  
