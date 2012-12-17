@@ -102,11 +102,11 @@ We are looking for investors. Please email us at investors@flexytalk.com
 
 ==Changelog ==
 Version 2.0.1
-* Enqueues Jquery UI and Jquery UI Dialog
+*Enqueues Jquery UI and Jquery UI Dialog
 
 Version 2.0
-* Includes new field to add Premium Widget Id
+*Includes new field to add Premium Widget Id
 
 Version 1.0.3
-* Includes new field to add Widget Title
+*Includes new field to add Widget Title
 
