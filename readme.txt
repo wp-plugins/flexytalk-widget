@@ -4,7 +4,7 @@ Donate link:
 Tags: Live Chat, Live Support, Web Chat,  one to one chat, free live chat, gtalk, gmail, google, jabber, xmpp, sidebar chat, widget, website alive, support chat, sales chat, wordpress chat, live chat widget free, mobile chat, phone chat, chat operator
 Requires at least: 3.3
 Tested up to: 3.4
-Stable tag: 2.0.0
+Stable tag: 2.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -98,3 +98,15 @@ The bot will send you a response containing all the messages you received while 
 
 == Investment Opp ==
 We are looking for investors. Please email us at investors@flexytalk.com
+
+
+==Changelog ==
+Version 2.0.1
+* Enqueues Jquery UI and Jquery UI Dialog
+
+Version 2.0
+* Includes new field to add Premium Widget Id
+
+Version 1.0.3
+* Includes new field to add Widget Title
+
