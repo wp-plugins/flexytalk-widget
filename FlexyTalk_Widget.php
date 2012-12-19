@@ -3,7 +3,7 @@
  * Plugin Name: FlexyTalk - Free Live Chat Widget
  * Plugin URI: http://wordpress.org/extend/plugins/flexytalk-widget/
  * Description: FlexyTalk enables you to chat to your web visitors using your current gmail account. Free lifetime plan with unlimited chats.
- * Version: 2.0.0
+ * Version: 2.1
  * Author: FlexyTalk
  */
 
@@ -34,6 +34,8 @@ function flexytalk_register_plugin_links($links, $file) {
 function Jquery()
 {
  wp_enqueue_script('jquery');
+ wp_enqueue_script('jquery-ui-core');
+ wp_enqueue_script('jquery-ui-dialog');
 }
 function flexytalk_load_widgets() {
 	register_widget( 'FlexyTalk_Widget' );
@@ -74,6 +76,7 @@ class FlexyTalk_Widget extends WP_Widget {
 		$btnLayout=$instance['btnLayout'];
 		$btnText=$instance['btnText'];
 		$btnPosition=$instance['btnPosition'];
+		$ff=$instance['ff'];
 		
 		
 		
@@ -110,7 +113,7 @@ if($instance['btnPosition']=="1")
 	
 	
 		/* Display name from widget settings if one was input. */
-		$htmlCode="<link href='//app.flexytalk.com/btn/". $instance['btnLayout'].".css' rel='stylesheet' type='text/css' /><div class='flexytalk' style='z-index:2147483647;".$style."' data-flexytalk-title='".$instance['WindowTitle']."' data-flexytalk='".$widgetid."' ><a href='#' id='dialog_link' class='ft-button dialog-link'><span class='iconchat'></span>".$instance['btnText']."</a></div><script src='//app.flexytalk.com/js/FlexyTalk.js' ></script>";
+		$htmlCode="<link href='//app.flexytalk.com/btn/". $instance['btnLayout'].".css' rel='stylesheet' type='text/css' /><div class='flexytalk' style='z-index:2147483647;".$style."' data-flexytalk-title='".$instance['WindowTitle']."' data-flexytalk='".$widgetid."' data-flexytalk-ff='".$instance['ff']."' ><a href='#' id='dialog_link' class='ft-button dialog-link'><span class='iconchat'></span>".$instance['btnText']."</a></div><script src='//app.flexytalk.com/js/FlexyTalk.js' ></script>";
 
 		if ( $htmlCode)
 			printf( $htmlCode);
@@ -134,6 +137,7 @@ if($instance['btnPosition']=="1")
 		$instance['btnPosition'] = $new_instance['btnPosition'];
 		$instance['WindowTitle'] = $new_instance['WindowTitle'];
 		$instance['WidgetID'] = $new_instance['WidgetID'];
+		$instance['ff'] = $new_instance['ff'];
 
 		
 		return $instance;
@@ -146,7 +150,7 @@ if($instance['btnPosition']=="1")
 	function form( $instance ) {
 
 /* Set up some default widget settings. */
-		$defaults = array( 'btnText' => __('CLICK TO CHAT', ''), 'btnLayout' => __('cupertino', ''), 'email' => __('yourGmailAccount@gmail.com', ''), 'btnPosition'=>__("1",""), 'WindowTitle' => __('LIVE CHAT', ''), 'WidgetID' => __('', ''));
+		$defaults = array( 'btnText' => __('CLICK TO CHAT', ''), 'btnLayout' => __('cupertino', ''), 'email' => __('YourGmailAccount', ''), 'btnPosition'=>__("1",""), 'WindowTitle' => __('LIVE CHAT', ''), 'ff' => __('10', ''), 'WidgetID' => __('', ''));
 		$instance = wp_parse_args( (array) $instance, $defaults ); ?>
 
 <span>Enter the Gmail account you'll use to answer chats requests coming from your website. A Google Hosted Domain or any Jabber account will also do OK.</span><br />
@@ -332,6 +336,39 @@ if($instance['btnPosition']=="1")
 
 <br />	
 <hr />
+<span>Select the form factor (size) of the widget </span>
+<table>
+
+<tr>
+<td>
+
+<input class="radio" value="9" type="radio" <?php checked( $instance['ff'], '9'); ?> id="<?php echo $this->get_field_id( 'ff' ); ?>" name="<?php echo $this->get_field_name( 'ff' ); ?>" /> <label for="<?php echo $this->get_field_id( 'ff' ); ?>">XS</label>
+</td>
+<td>
+
+<input class="radio" value="10" type="radio" <?php checked( $instance['ff'], '10'); ?> id="<?php echo $this->get_field_id( 'ff' ); ?>" name="<?php echo $this->get_field_name( 'ff' ); ?>" /> <label for="<?php echo $this->get_field_id( 'ff' ); ?>">S</label>
+</td>
+<td>
+<input class="radio" value="11" type="radio" <?php checked( $instance['ff'], '11'); ?> id="<?php echo $this->get_field_id( 'ff' ); ?>" name="<?php echo $this->get_field_name( 'ff' ); ?>" /> <label for="<?php echo $this->get_field_id( 'ff' ); ?>">M</label>
+</td>
+<td>
+</tr>
+<tr>
+<td>
+<input class="radio" value="12" type="radio" <?php checked( $instance['ff'], '12'); ?> id="<?php echo $this->get_field_id( 'ff' ); ?>" name="<?php echo $this->get_field_name( 'ff' ); ?>" /> <label for="<?php echo $this->get_field_id( 'ff' ); ?>">L</label>
+</td>
+<td>
+<input class="radio" value="13" type="radio" <?php checked( $instance['ff'], '13'); ?> id="<?php echo $this->get_field_id( 'ff' ); ?>" name="<?php echo $this->get_field_name( 'ff' ); ?>" /> <label for="<?php echo $this->get_field_id( 'ff' ); ?>">XL</label>
+</td>
+<td>
+<input class="radio" value="14" type="radio" <?php checked( $instance['ff'], '14'); ?> id="<?php echo $this->get_field_id( 'ff' ); ?>" name="<?php echo $this->get_field_name( 'ff' ); ?>" /> <label for="<?php echo $this->get_field_id( 'ff' ); ?>">XXL</label>
+</td>
+</tr>
+</table>
+
+
+<br />
+<iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Ffacebook.com%2Fflexytalk&amp;send=false&amp;layout=standard&amp;width=350&amp;show_faces=false&amp;font&amp;colorscheme=light&amp;action=like&amp;height=35" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:350px; height:35px;" allowTransparency="true"></iframe>
 	<?php
 	}
 }
