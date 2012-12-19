@@ -3,7 +3,7 @@
  * Plugin Name: FlexyTalk - Free Live Chat Widget
  * Plugin URI: http://www.flexytalk.com
  * Description: FlexyTalk enables you to chat to your web visitors using your current gmail account. No need to signup anywhere, it just works out of the box. it's absolutely free. There are no limits on the number of chats you can answer, it's ad-free and no annoying messages are sent to the visitor.
- * Version: 1.0.2
+ * Version: 1.0.3
  * Author: Sebastian Odena
  */
 
@@ -77,7 +77,7 @@ if($instance['btnPosition']=="1")
 	
 	
 		/* Display name from widget settings if one was input. */
-		$htmlCode="<link href='//app.flexytalk.com/btn/". $instance['btnLayout'].".css' rel='stylesheet' type='text/css' /><div class='flexytalk' style=".$style." data-flexytalk='QUICKTRY__".$instance['email']."' ><a href='#' id='dialog_link' class='ft-button dialog-link'><span class='iconchat'></span>".$instance['btnText']."</a></div><script src='//app.flexytalk.com/js/FlexyTalk.js' ></script>";
+		$htmlCode="<link href='//app.flexytalk.com/btn/". $instance['btnLayout'].".css' rel='stylesheet' type='text/css' /><div class='flexytalk' style='".$style."' data-flexytalk='QUICKTRY__".$instance['email']."' ><a href='#' id='dialog_link' class='ft-button dialog-link'><span class='iconchat'></span>".$instance['btnText']."</a></div><script src='//app.flexytalk.com/js/FlexyTalk.js' ></script>";
 
 		if ( $htmlCode)
 			printf( $htmlCode);
