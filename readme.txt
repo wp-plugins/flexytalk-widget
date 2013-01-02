@@ -94,13 +94,13 @@ Yes, but you need to add some DNS entries to your domain. Read: http://support.g
 **OFFLINE MESSAGES**
 
 * Every time you want to retrieve your offline messages, open your IM app (GTALK, GMAIL or whatever app you use), start a chat session with the BOT and send the message **!off** .
-The bot will send you a response containing all the messages you received while you were offline. On Premium plans, offline messages are sent directly to your mail
-
-== Investment Opp ==
-We are looking for investors. Please email us at investors@flexytalk.com
+The bot will send you a response containing all the messages you received while you were offline. On Premium plans, offline messages are sent directly to your mail.
 
 
 ==Changelog ==
+Version 2.2
+* New Feature: User may choose to display pre-chat form or go directly to chat window.
+
 Version 2.1
 * New feature: Widget Form Factor
 
