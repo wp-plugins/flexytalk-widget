@@ -4,7 +4,7 @@ Donate link:
 Tags: Live Chat, Live Support, Web Chat,  one to one chat, free live chat, gtalk, gmail, google, jabber, xmpp, sidebar chat, widget, website alive, support chat, sales chat, wordpress chat, live chat widget free, mobile chat, phone chat, chat operator
 Requires at least: 2.7
 Tested up to: 3.5
-Stable tag: 2.1
+Stable tag: 2.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -101,6 +101,8 @@ We are looking for investors. Please email us at investors@flexytalk.com
 
 
 ==Changelog ==
+Version 2.2
+* New Feature: User may choose to display pre-chat form or go directly to chat window.
 Version 2.1
 * New feature: Widget Form Factor
 

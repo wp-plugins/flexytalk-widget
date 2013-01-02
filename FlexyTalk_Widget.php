@@ -3,7 +3,7 @@
  * Plugin Name: FlexyTalk - Free Live Chat Widget
  * Plugin URI: http://wordpress.org/extend/plugins/flexytalk-widget/
  * Description: FlexyTalk enables you to chat to your web visitors using your current gmail account. Free lifetime plan with unlimited chats.
- * Version: 2.1
+ * Version: 2.2
  * Author: FlexyTalk
  */
 
@@ -113,7 +113,7 @@ if($instance['btnPosition']=="1")
 	
 	
 		/* Display name from widget settings if one was input. */
-		$htmlCode="<link href='//app.flexytalk.com/btn/". $instance['btnLayout'].".css' rel='stylesheet' type='text/css' /><div class='flexytalk' style='z-index:2147483647;".$style."' data-flexytalk-title='".$instance['WindowTitle']."' data-flexytalk='".$widgetid."' data-flexytalk-ff='".$instance['ff']."' ><a href='#' id='dialog_link' class='ft-button dialog-link'><span class='iconchat'></span>".$instance['btnText']."</a></div><script src='//app.flexytalk.com/js/FlexyTalk.js' ></script>";
+		$htmlCode="<link href='//app.flexytalk.com/btn/". $instance['btnLayout'].".css' rel='stylesheet' type='text/css' /><div class='flexytalk' style='z-index:2147483647;".$style."' data-flexytalk-title='".$instance['WindowTitle']."' data-flexytalk='".$widgetid."' data-flexytalk-ff='".$instance['ff']."' data-flexytalk-chatdirect='".$instance['cd']."' ><a href='#' id='dialog_link' class='ft-button dialog-link'><span class='iconchat'></span>".$instance['btnText']."</a></div><script src='//app.flexytalk.com/js/FlexyTalk.js' ></script>";
 
 		if ( $htmlCode)
 			printf( $htmlCode);
@@ -138,6 +138,7 @@ if($instance['btnPosition']=="1")
 		$instance['WindowTitle'] = $new_instance['WindowTitle'];
 		$instance['WidgetID'] = $new_instance['WidgetID'];
 		$instance['ff'] = $new_instance['ff'];
+		$instance['cd'] = $new_instance['cd'];
 
 		
 		return $instance;
@@ -150,16 +151,16 @@ if($instance['btnPosition']=="1")
 	function form( $instance ) {
 
 /* Set up some default widget settings. */
-		$defaults = array( 'btnText' => __('CLICK TO CHAT', ''), 'btnLayout' => __('cupertino', ''), 'email' => __('YourGmailAccount', ''), 'btnPosition'=>__("1",""), 'WindowTitle' => __('LIVE CHAT', ''), 'ff' => __('10', ''), 'WidgetID' => __('', ''));
+		$defaults = array( 'btnText' => __('CLICK TO CHAT', ''), 'btnLayout' => __('cupertino', ''), 'email' => __('YourGmailAccount', ''), 'cd'=>__("0",""), 'btnPosition'=>__("1",""), 'WindowTitle' => __('LIVE CHAT', ''), 'ff' => __('10', ''), 'WidgetID' => __('', ''));
 		$instance = wp_parse_args( (array) $instance, $defaults ); ?>
 
-<span>Enter the Gmail account you'll use to answer chats requests coming from your website. A Google Hosted Domain or any Jabber account will also do OK.</span><br />
+<span>Enter the Gmail account you'll use to answer chats requests coming from your website. A Google Hosted Domain <a href=" http://support.google.com/a/bin/answer.py?hl=en&answer=34143" target="_blank">DNS ready </a>  or any Jabber account will also do OK.</span><br />
 <p> 
 <label for="<?php echo $this->get_field_id( 'email' ); ?>"><?php _e('Gmail Account (email):', 'hybrid'); ?></label>
 <input style="width:300px" id="<?php echo $this->get_field_id( 'email' ); ?>" name="<?php echo $this->get_field_name( 'email' ); ?>" value="<?php echo $instance['email']; ?>" style="width:100%;" />
  </p>
 <br /><hr />
-<span>Enter the WIDGET ID.  (only for <a href="http://panel.flexytalk.com/account/create" target="_blank">permium plan</a>. Free users please leave blank)</span><br /><br />
+<span>Enter the WIDGET ID.  (only for <a href="http://www.flexytalk.com" target="_blank">permium plan</a>. Free users please leave blank)</span><br /><br />
 <p> 
 <label for="<?php echo $this->get_field_id( 'WidgetID' ); ?>"><?php _e('Widget Id:', 'hybrid'); ?></label>
 <input style="width:300px" id="<?php echo $this->get_field_id( 'WidgetID' ); ?>" name="<?php echo $this->get_field_name( 'WidgetID' ); ?>" value="<?php echo $instance['WidgetID']; ?>" style="width:100%;" /> 
@@ -336,7 +337,7 @@ if($instance['btnPosition']=="1")
 
 <br />	
 <hr />
-<span>Select the form factor (size) of the widget </span>
+<span>Select the form factor (size) of the widget </span><br /><br />
 <table>
 
 <tr>
@@ -362,6 +363,23 @@ if($instance['btnPosition']=="1")
 </td>
 <td>
 <input class="radio" value="14" type="radio" <?php checked( $instance['ff'], '14'); ?> id="<?php echo $this->get_field_id( 'ff' ); ?>" name="<?php echo $this->get_field_name( 'ff' ); ?>" /> <label for="<?php echo $this->get_field_id( 'ff' ); ?>">XXL</label>
+</td>
+</tr>
+</table>
+<hr />
+<span>Display pre-chat form or start directly chat window? </span><br /><br />
+<table>
+
+<tr>
+<td>
+
+<input class="radio" value="0" type="radio" <?php checked( $instance['cd'], '0'); ?> id="<?php echo $this->get_field_id( 'cd' ); ?>" name="<?php echo $this->get_field_name( 'cd' ); ?>" /> <label for="<?php echo $this->get_field_id( 'cd' ); ?>">Display pre-chat form</label>
+</td>
+</tr>
+<tr>
+<td>
+
+<input class="radio" value="1" type="radio" <?php checked( $instance['cd'], '1'); ?> id="<?php echo $this->get_field_id( 'cd' ); ?>" name="<?php echo $this->get_field_name( 'cd' ); ?>" /> <label for="<?php echo $this->get_field_id( 'cd' ); ?>">Go directly to chat window</label>
 </td>
 </tr>
 </table>
