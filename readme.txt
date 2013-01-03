@@ -11,14 +11,16 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Start chatting to your site's visitors today from Google Talk or mobile phone. FREE lifetime account with unlimited chats.
 
 == Description ==
-Impress your website visitors and convert them into loyal customers. FlexyTalk integrates with your current IM app and mobile phone. No software downloads nor complicated chat dashboards.
+Impress your website visitors and convert them into loyal customers. [FlexyTalk](http://www.flexytalk.com) integrates with your current IM app and mobile phone. No software downloads nor complicated chat dashboards. If you are already chatting on Gmail and/or Gtalk, that's all you'll ever need to chat to your website visitors.
 
-* Once you place the plugin on your site, you're automatically given our **FREE FOR EVER** account. There's no limit on the number of chats you can answer and the account never expires.
+* **No signup required.** The plugin works out of the box. You don't need to create an account with us to use our free plugin.
+
+* Once you install the plugin on your site, you're automatically given our **FREE FOR EVER** account. There's no limit on the number of chats you can answer and the account never expires.
  
-* Don't worry about ads. Our software is ad-free and no annoying messages are sent to the visitor.
+* [FlexyTalk](http://www.flexytalk.com)  was launched on November 24, 2012 and growing rapidly with hundreds of free and premium users.
 
 * What do I need te get started?
-A Gmail account is all you need to get started. We also support any opened XMPP network like JABBER.ORG.
+A Gmail account is all you need to get started. We also support JABBER accounts
 
 * How do I answer chat request coming from my web site?
 You must signin to the IM account you entered during setup. Once you're online, visitors are able to request to chat with you. Then you just chat as you usually do. You may signin to your account on GTALK, Gmail web interface, any IM client you like, phone or any mobile device.
@@ -27,7 +29,7 @@ You must signin to the IM account you entered during setup. Once you're online, 
 
 * FlexyTalk widget is simple to install and simple to use. No need to download any software or learn complicated chat interfaces.
 
-* **Lightweight:** FlexyTalk downloads some few small scripts and does very little client processing. 
+* **Lightweight:** FlexyTalk downloads a few small scripts and does very little client processing. 
 
 == Installation ==
 
