@@ -4,14 +4,16 @@ Donate link:
 Tags: Live Chat, Live Support, Web Chat,  one to one chat, free live chat, gtalk, gmail, google, jabber, xmpp, sidebar chat, widget, website alive, support chat, sales chat, wordpress chat, live chat widget free, mobile chat, phone chat, chat operator
 Requires at least: 2.7
 Tested up to: 3.5
-Stable tag: 2.2
+Stable tag: 2.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Start chatting to your site's visitors today from Google Talk or mobile phone. FREE lifetime account with unlimited chats.
+Start chatting to your site's visitors and FACEBOOK fans from Google Talk or mobile phone . FREE lifetime account with unlimited chats.
 
 == Description ==
 Impress your website visitors and convert them into loyal customers. FlexyTalk integrates with your current IM app and mobile phone. No software downloads nor complicated chat dashboards.
+
+* **New! FACEBOOK Integration:** You are a few clicks away of bringing our live chat solution to your FACEBOOK fan page. Maximize Facebook's potential for new sales and leads.
 
 * Once you place the plugin on your site, you're automatically given our **FREE FOR EVER** account. There's no limit on the number of chats you can answer and the account never expires.
  
