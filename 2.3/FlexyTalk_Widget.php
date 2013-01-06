@@ -386,7 +386,12 @@ if($instance['btnPosition']=="1")
 
 
 <br />
-<iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Ffacebook.com%2Fflexytalk&amp;send=false&amp;layout=standard&amp;width=350&amp;show_faces=false&amp;font&amp;colorscheme=light&amp;action=like&amp;height=35" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:350px; height:35px;" allowTransparency="true"></iframe>
+<iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Ffacebook.com%2Fflexytalk&amp;send=false&amp;layout=standard&amp;width=350&amp;show_faces=false&amp;font&amp;colorscheme=light&amp;action=like&amp;height=35" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:350px; height:35px;" allowTransparency="true"></iframe><br />
+<hr />
+<a target="_blank" href="http://www.facebook.com/dialog/pagetab?app_id=262700000525594&redirect_uri=http://www.flexytalk.com/home/tabadded"><img src="http://groovechatstorage.blob.core.windows.net/web/images/fb.png" width="75px"></a>Click on Facebook logo to add a live chat widget to your business or fan site
+<hr />
+
+
 	<?php
 	}
 }
