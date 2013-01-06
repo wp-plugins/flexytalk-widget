@@ -99,21 +99,27 @@ Yes, but you need to add some DNS entries to your domain. Read: http://support.g
 The bot will send you a response containing all the messages you received while you were offline. On Premium plans, offline messages are sent directly to your mail
 
 ==Changelog ==
-Version 2.2
+2.3
+
+* New Feature: Facebook integration!
+
+2.2
+
 * New Feature: User may choose to display pre-chat form or go directly to chat window.
 
-Version 2.1
+2.1
+
 * New feature: Widget Form Factor
 
-Version 2.0.1
+2.0.1
 
 * Enqueues Jquery UI and Jquery UI Dialog
 
-Version 2.0
+2.0
 
 * Includes new field to add Premium Widget Id
 
-Version 1.0.3
+1.0.3
 
 * Includes new field to add Widget Title
 
