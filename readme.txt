@@ -11,13 +11,11 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Start chatting to your site's visitors and FACEBOOK fans from Google Talk or mobile phone . FREE lifetime account with unlimited chats.
 
 == Description ==
-Impress your website visitors and convert them into loyal customers. FlexyTalk integrates with your current IM app and mobile phone. No software downloads nor complicated chat dashboards.
+Impress your website visitors and convert them into loyal customers.[FlexyTalk](http://www.flexytalk.com)  integrates with your current IM app and mobile phone. No software downloads nor complicated chat dashboards.
 
 * **New! FACEBOOK Integration:** You are a few clicks away from bringing our live chat solution to your FACEBOOK fan page. Maximize Facebook's potential for new sales and leads.
 
-* Once you place the plugin on your site, you're automatically given our **FREE FOR EVER** account. There's no limit on the number of chats you can answer and the account never expires.
- 
-* Don't worry about ads. Our software is ad-free and no annoying messages are sent to the visitor.
+* Once you install the plugin on your site, you're automatically given our **FREE FOR EVER** ad-free account. There's no limit on the number of chats you can answer and the account never expires.
 
 * What do I need te get started?
 A Gmail account is all you need to get started. We also support any opened XMPP network like JABBER.ORG.
@@ -26,6 +24,8 @@ A Gmail account is all you need to get started. We also support any opened XMPP 
 You must signin to the IM account you entered during setup. Once you're online, visitors are able to request to chat with you. Then you just chat as you usually do. You may signin to your account on GTALK, Gmail web interface, any IM client you like, phone or any mobile device.
 
 * View all information about the visitor like Country, city and URL where they are requesting help.
+
+* Use FlexyTalk FACEBOOK app to provide direct links to your chat room in newsletters, tweets, ads and banners. Check it out: [http://on.fb.me/TH9TQV] (http://on.fb.me/TH9TQV)
 
 * FlexyTalk widget is simple to install and simple to use. No need to download any software or learn complicated chat interfaces.
 
