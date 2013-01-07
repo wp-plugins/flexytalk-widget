@@ -25,7 +25,7 @@ You must signin to the IM account you entered during setup. Once you're online, 
 
 * View all information about the visitor like Country, city and URL where they are requesting help.
 
-* Use FlexyTalk FACEBOOK app to provide direct links to your chat room in newsletters, tweets, ads and banners. Check it out: [http://on.fb.me/TH9TQV] (http://on.fb.me/TH9TQV)
+* Use FlexyTalk FACEBOOK app to provide direct links to your chat room in newsletters, tweets, ads and banners. Check it out: <http://on.fb.me/TH9TQV>
 
 * FlexyTalk widget is simple to install and simple to use. No need to download any software or learn complicated chat interfaces.
 
