@@ -36,7 +36,7 @@ function Jquery()
  wp_enqueue_script('jquery');
  wp_enqueue_script('jquery-ui-core');
  wp_enqueue_script('jquery-ui-dialog');
-wp_enqueue_script('flexytalk','//app.flexytalk.com/js/flexytalk.js', array(), 'version', true ); 
+wp_enqueue_script('flexytalk','https://app.flexytalk.com/js/flexytalk.js', array(), 'version', true ); 
 }
 function flexytalk_load_widgets() {
 	register_widget( 'FlexyTalk_Widget' );
