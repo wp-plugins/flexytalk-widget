@@ -101,7 +101,7 @@ Yes, but you need to add some DNS entries to your domain. Read: http://support.g
 The bot will send you a response containing all the messages you received while you were offline. On Premium plans, offline messages are sent directly to your mail
 
 ==Changelog ==
-2.3.1
+2.4
 
 * New Feature: GRAVATAR integration! Display your Gravatar profile on your chat widget and let the visitors know who they are chatting with.
 
