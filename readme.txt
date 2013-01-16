@@ -4,7 +4,7 @@ Donate link:
 Tags: Live Chat, Live Support, Web Chat,  one to one chat, free live chat, gtalk, gmail, google, jabber, xmpp, sidebar chat, widget, website alive, support chat, sales chat, wordpress chat, live chat widget free, mobile chat, phone chat, chat operator
 Requires at least: 2.7
 Tested up to: 3.5
-Stable tag: 2.3.1
+Stable tag: 2.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -13,7 +13,9 @@ Start chatting to your site's visitors and FACEBOOK fans from Google Talk or mob
 == Description ==
 Impress your website visitors and convert them into loyal customers.[FlexyTalk](http://www.flexytalk.com)  integrates with your current IM app and mobile phone. No software downloads nor complicated chat dashboards.
 
-* **New! FACEBOOK Integration:** You are a few clicks away from bringing our live chat solution to your FACEBOOK fan page. Maximize Facebook's potential for new sales and leads.
+* ** New! 16/01/2012 GRAVATAR Integration:** Let the visitors know who they are chatting with. Display your picture, current location and a brief text about you. Fill you profile at  <http://www.gravatar.com>
+
+* ** New!  05/01/2012 FACEBOOK Integration:** You are a few clicks away from bringing our live chat solution to your FACEBOOK fan page. Maximize Facebook's potential for new sales and leads.
 
 * Once you install the plugin on your site, you're automatically given our **FREE FOR EVER** ad-free account. There's no limit on the number of chats you can answer and the account never expires.
 
@@ -101,7 +103,12 @@ The bot will send you a response containing all the messages you received while 
 ==Changelog ==
 2.3.1
 
+* New Feature: GRAVATAR integration! Display your Gravatar profile on your chat widget and let the visitors know who they are chatting with.
+
+2.3.1
+
 * Bug Fix: Problem loading javascript.
+
 2.3
 
 * New Feature: Facebook integration!

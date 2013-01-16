@@ -3,7 +3,7 @@
  * Plugin Name: FlexyTalk - Free Live Chat Widget
  * Plugin URI: http://wordpress.org/extend/plugins/flexytalk-widget/
  * Description: FlexyTalk enables you to chat to your web visitors using your current gmail account. Free lifetime plan with unlimited chats.
- * Version: 2.3.1
+ * Version: 2.4
  * Author: FlexyTalk
  */
 
@@ -78,6 +78,7 @@ class FlexyTalk_Widget extends WP_Widget {
 		$btnText=$instance['btnText'];
 		$btnPosition=$instance['btnPosition'];
 		$ff=$instance['ff'];
+		$gvtr=$instance['gvtr'];
 		
 		
 		
@@ -114,7 +115,7 @@ if($instance['btnPosition']=="1")
 	
 	
 		/* Display name from widget settings if one was input. */
-		$htmlCode="<link href='//app.flexytalk.com/btn/". $instance['btnLayout'].".css' rel='stylesheet' type='text/css' /><div class='flexytalk' style='z-index:2147483647;".$style."' data-flexytalk-title='".$instance['WindowTitle']."' data-flexytalk='".$widgetid."' data-flexytalk-ff='".$instance['ff']."' data-flexytalk-chatdirect='".$instance['cd']."' ><a href='#' id='dialog_link' class='ft-button dialog-link'><span class='iconchat'></span>".$instance['btnText']."</a></div>";
+		$htmlCode="<link href='//app.flexytalk.com/btn/". $instance['btnLayout'].".css' rel='stylesheet' type='text/css' /><div class='flexytalk' style='z-index:2147483647;".$style."' data-flexytalk-title='".$instance['WindowTitle']."' data-flexytalk='".$widgetid."' data-flexytalk-ff='".$instance['ff']."' data-flexytalk-chatdirect='".$instance['cd']."'data-flexytalk-gvtr='".$instance['gvtr']."' ><a href='#' id='dialog_link' class='ft-button dialog-link'><span class='iconchat'></span>".$instance['btnText']."</a></div>";
 
 		if ( $htmlCode)
 			printf( $htmlCode);
@@ -140,7 +141,7 @@ if($instance['btnPosition']=="1")
 		$instance['WidgetID'] = $new_instance['WidgetID'];
 		$instance['ff'] = $new_instance['ff'];
 		$instance['cd'] = $new_instance['cd'];
-
+		$instance['gvtr'] = $new_instance['gvtr'];
 		
 		return $instance;
 	}
@@ -152,7 +153,7 @@ if($instance['btnPosition']=="1")
 	function form( $instance ) {
 
 /* Set up some default widget settings. */
-		$defaults = array( 'btnText' => __('CLICK TO CHAT', ''), 'btnLayout' => __('cupertino', ''), 'email' => __('YourGmailAccount', ''), 'cd'=>__("0",""), 'btnPosition'=>__("1",""), 'WindowTitle' => __('LIVE CHAT', ''), 'ff' => __('10', ''), 'WidgetID' => __('', ''));
+		$defaults = array( 'btnText' => __('CLICK TO CHAT', ''), 'btnLayout' => __('cupertino', ''), 'email' => __('YourGmailAccount', ''), 'cd'=>__("0",""), 'btnPosition'=>__("1",""), 'WindowTitle' => __('LIVE CHAT', ''), 'ff' => __('10', ''), 'WidgetID' => __('', ''), 'gvtr' =>__('0',''));
 		$instance = wp_parse_args( (array) $instance, $defaults ); ?>
 
 <span>Enter the Gmail account you'll use to answer chats requests coming from your website. A Google Hosted Domain <a href=" http://support.google.com/a/bin/answer.py?hl=en&answer=34143" target="_blank">DNS ready </a>  or any Jabber account will also do OK.</span><br />
@@ -367,6 +368,9 @@ if($instance['btnPosition']=="1")
 </td>
 </tr>
 </table>
+<hr />
+Let the visitor know something about you displaying your picture, current location and a brief text about you. Fill your profile at <a href="http://www.gravatar.com" target="_blank">GRAVATAR</a>, a free globally recognized Avatar service. Your Gravatar profile e-mail must be the same Gmail account you entered above. <br /><br />
+<input class="checkbox" value="1" type="checkbox" <?php checked( $instance['gvtr'], '1'); ?> id="<?php echo $this->get_field_id( 'gvtr' ); ?>" name="<?php echo $this->get_field_name( 'gvtr' ); ?>" /> <label for="<?php echo $this->get_field_id( 'gvtr' ); ?>">Show my GRAVATAR profile on the chat widget</label>
 <hr />
 <span>Display pre-chat form or start directly chat window? </span><br /><br />
 <table>
