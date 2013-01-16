@@ -73,13 +73,39 @@ The bot will send you a response containing all the messages you received while 
 
 Please mail support@flexytalk.com if you are not able to integrate the widget on your site.
 == Screenshots ==
-1. Offline contact form
-2. Place it on your menu
-3. Once installed, a new widget is created
-4. Drag to the desired location on your sidebars
-5. Choose one of several buttons
-6. All incoming chats go to your IM app
-7. Lots of themes to choose from
+1. Create your own theme with JQUERY THEME ROLLER
+2. Live Chat in action on FACEBOOK
+3. Operator responding chat on cell phone
+4. Operator responding chat on GTALK
+5. 24 chat button with amazing mouse over effects
+6. Locate the widget on your widget admin menu
+7. Drag it to the desired sidebar
+8. 24 themes or create your own
+9. 24 themes or create your own
+10. 24 themes or create your own
+11. 24 themes or create your own
+12. 24 themes or create your own
+13. 24 themes or create your own
+14. 24 themes or create your own
+15. 24 themes or create your own
+16. 24 themes or create your own
+17. 24 themes or create your own
+18. 24 themes or create your own
+19. 24 themes or create your own
+20. 24 themes or create your own
+21. 24 themes or create your own
+22. 24 themes or create your own
+23. 24 themes or create your own
+24. 24 themes or create your own
+25. 24 themes or create your own
+26. 24 themes or create your own
+27. 24 themes or create your own
+28. 24 themes or create your own
+29. 24 themes or create your own
+30. 24 themes or create your own
+31. 24 themes or create your own
+32. 24 themes or create your own
+
 
 
 == Frequently asked questions ==
