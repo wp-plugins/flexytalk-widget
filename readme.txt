@@ -13,9 +13,9 @@ Start chatting to your site's visitors and FACEBOOK fans from Google Talk or mob
 == Description ==
 Impress your website visitors and convert them into loyal customers.[FlexyTalk](http://www.flexytalk.com)  integrates with your current IM app and mobile phone. No software downloads nor complicated chat dashboards.
 
-* ** New! 16/01/2012 GRAVATAR Integration:** Let the visitors know who they are chatting with. Display your picture, current location and a brief text about you. Fill you profile at  <http://www.gravatar.com>
+* **New! 16/01/2012 GRAVATAR Integration:** Let the visitors know who they are chatting with. Display your picture, current location and a brief text about you. Fill you profile at  <http://www.gravatar.com>
 
-* ** New!  05/01/2012 FACEBOOK Integration:** You are a few clicks away from bringing our live chat solution to your FACEBOOK fan page. Maximize Facebook's potential for new sales and leads.
+* **New!  05/01/2012 FACEBOOK Integration:** You are a few clicks away from bringing our live chat solution to your FACEBOOK fan page. Maximize Facebook's potential for new sales and leads.
 
 * Once you install the plugin on your site, you're automatically given our **FREE FOR EVER** ad-free account. There's no limit on the number of chats you can answer and the account never expires.
 
