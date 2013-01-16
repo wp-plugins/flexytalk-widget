@@ -20,7 +20,7 @@ Impress your website visitors and convert them into loyal customers.[FlexyTalk](
 * Once you install the plugin on your site, you're automatically given our **FREE FOR EVER** ad-free account. There's no limit on the number of chats you can answer and the account never expires.
 
 * What do I need te get started?
-A Gmail account is all you need to get started. We also support any opened XMPP network like JABBER.ORG.
+A Gmail or JABBER account is all you need to get started. Please read the FAQ section for Google Apps domains.
 
 * How do I answer chat request coming from my web site?
 You must signin to the IM account you entered during setup. Once you're online, visitors are able to request to chat with you. Then you just chat as you usually do. You may signin to your account on GTALK, Gmail web interface, any IM client you like, phone or any mobile device.
