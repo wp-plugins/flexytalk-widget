@@ -11,7 +11,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Start chatting to your site's visitors and FACEBOOK fans from Google Talk or mobile phone . FREE lifetime account with unlimited chats.
 
 == Description ==
-Impress your website visitors and convert them into loyal customers.[FlexyTalk](http://www.flexytalk.com)  integrates with your current IM app and mobile phone. No software downloads nor complicated chat dashboards.
+Impress your website visitors and convert them into loyal customers.[FlexyTalk](http://bit.ly/VfHp3A)  integrates with your current IM app and mobile phone. No software downloads nor complicated chat dashboards.
 
 * **New! 16/01/2013 GRAVATAR Integration:** Let the visitors know who they are chatting with. Display your picture, current location and a brief text about you. Fill you profile at  <http://www.gravatar.com>
 
