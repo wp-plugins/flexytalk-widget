@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: FlexyTalk - Free Live Chat Widget
- * Plugin URI: http://wordpress.org/extend/plugins/flexytalk-widget/
+ * Plugin URI: http://bit.ly/VfHp3A
  * Description: FlexyTalk enables you to chat to your web visitors using your current gmail account. Free lifetime plan with unlimited chats.
  * Version: 2.4.1
  * Author: FlexyTalk
@@ -158,7 +158,7 @@ if($instance['btnPosition']=="1")
 	function form( $instance ) {
 
 /* Set up some default widget settings. */
-		$defaults = array( 'btnText' => __('CLICK TO CHAT', ''), 'btnLayout' => __('cupertino', ''), 'email' => __('YourGmailAccount', ''), 'cd'=>__("0",""), 'btnPosition'=>__("1",""), 'WindowTitle' => __('LIVE CHAT', ''), 'ff' => __('10', ''), 'WidgetID' => __('', ''), 'gvtr' =>__('0',''));
+		$defaults = array( 'btnText' => __('CLICK TO CHAT', ''), 'btnLayout' => __('cupertino', ''), 'email' => __('', ''), 'cd'=>__("0",""), 'btnPosition'=>__("1",""), 'WindowTitle' => __('LIVE CHAT', ''), 'ff' => __('10', ''), 'WidgetID' => __('', ''), 'gvtr' =>__('0',''));
 		$instance = wp_parse_args( (array) $instance, $defaults ); ?>
 <table class="wc_status_table widefat" cellspacing="0">
 
