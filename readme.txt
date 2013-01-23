@@ -4,7 +4,7 @@ Donate link:
 Tags: Live Chat, Live Support, Web Chat,  one to one chat, free live chat, gtalk, gmail, google, jabber, xmpp, sidebar chat, widget, website alive, support chat, sales chat, wordpress chat, live chat widget free, mobile chat, phone chat, chat operator
 Requires at least: 2.7
 Tested up to: 3.5
-Stable tag: 2.4
+Stable tag: 2.4.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -127,6 +127,13 @@ Yes, but you need to add some DNS entries to your domain. Read: http://support.g
 The bot will send you a response containing all the messages you received while you were offline. On Premium plans, offline messages are sent directly to your mail
 
 ==Changelog ==
+2.4.1
+
+* Bug Fix: Call to an unexisting version of a javascript
+* Bug Fix: Javascript was not dequeued when widget was not active
+* New Widget Configuration layout
+
+
 2.4
 
 * New Feature: GRAVATAR integration! Display your Gravatar profile on your chat widget and let the visitors know who they are chatting with.
