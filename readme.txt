@@ -95,8 +95,10 @@ The pay-per-use plan is unique. It lets you create unlimited operators at no cha
 
 **PREMIUM PLAN II: Anual subscription**
 Opposite to the pay per use plan, this plan comes with unlimited chat sessions, but you have to pay for each operator. It's ideal for high traffic websites, so you don't have to worry about spending money on each chat session. All features are the same as the pay-per use plan.
-** Current pricing: $35 / year 
-**Each  additional operator: $25 /year
+
+* Current pricing: $35 / year 
+
+*Each  additional operator: $25 /year
 [Pricing and Sign up](http://bit.ly/VfHp3A)
 
 
