@@ -20,26 +20,47 @@ Impress your website visitors and convert them into loyal customers.[FlexyTalk](
 **FREE PLAN**
 The free plan is activated automatically when you install our plugin and start chatting. You don't need to sign up on our site. Your free account never expires. It includes:
 * 1 operator
+
 * 1 concurrent chat
+
 * Unlimited Chats
+
 * Cloud based - Hosted on Microsoft's cloud service Windows Azure
+
 * No software downloads (except wordpress plugin)
+
 * No chat dashboards - You chat right on any IM app.
+
 * GMAIL/GTALK compatible (chat within gtalk /gmail)
+
 * JABBER/XMPP compatible (user your current jabber account with any IM client to chat)
+
 * GOOGLE APPS Domains compatible (needs some DNS configuration) [Tutorial](http://support.google.com/a/bin/answer.py?hl=en&answer=34143) 
+
 * Mobile phone compatible (use any free IM app on your phone to connect to your IM account)
+
 * Contact form when you're offline (retrieve messages from your IM app -[Tutorial](http://bit.ly/V87ts9) )
+
 * Show your picture and profile from GRAVATAR [Tutorial](http://bit.ly/VfHp3A) 
+
 * Install your live chat widget on FACEBOOK business site ([Tutorial](http://bit.ly/Tob5ee) )
+
 * Layered chat widget (displays a layer on your website - no popup)
+
 * Customize Widget Form Factor (all elements on the chat widget change size proportionally)
+
 * "Click to Chat" buttons gallery (24 elegant buttons with amazing CSS mouse over effects)
+
 * View all information about the visitor like Country, city and URL where they are requesting help (if available)
+
 * Customize "click to chat" button text and Live chat widget title
+
 * Pre chat form. Ask the visitor to enter name, e-mail and message
+
 * Flashing widget header when visitor receives a message from operator
+
 * Persists chat session across website navigation
+
 * E-mail Support: Only for installation issues
 
 
@@ -47,19 +68,30 @@ The free plan is activated automatically when you install our plugin and start c
 The pay-per-use plan is unique. It lets you create unlimited operators at no charge. You only pay for each chat session. It's ideal for small teams with not so high traffic websites. 
  It includes all features from the free plan plus:
 * Unlimited Operators (at no charge)
+
 * 3 concurrent chats
+
 * Chat distributed among operators in round-robin fashion
+
 * Contact form when you're offline (messages sent to your e-mail address)
+
 * 24 chat widget themes (from [ JQUERY THEME ROLLER](http://bit.ly/Toatp0) )
+
 * Build you custom JQUERY THEME ([Tutorial](http://bit.ly/146HMyO) )
+
 * Customize all messages and text on the widget
+
 * White label
+
 * Layered or popup widget
+
 * Customize widget size and position on page
+
 * E-mail support: Full and unlimited
+
 [Pricing & Sign up](http://bit.ly/WVGgIT) 
 
-** PREMIUM PLAN II: Anual subscription**
+**PREMIUM PLAN II: Anual subscription**
 Opposite to the pay per use plan, this plan comes with unlimited chat sessions, but you have to pay for each operator. It's ideal for high traffic websites, so you don't have to worry about spending money on each chat session. All features are the same as the pay-per use plan.
 ** Current pricing: $35 / year 
 **Each  additional operator: $25 /year
