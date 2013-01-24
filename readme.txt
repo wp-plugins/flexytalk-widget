@@ -141,24 +141,6 @@ Please mail support@flexytalk.com if you are not able to integrate the widget on
 
 
 
-== Frequently asked questions ==
-
-* Is it free? 
-Yes it is absolutely free. Your free account never expires, there are no limits on the number of chats you can answer, and it's ad-free. There's a premium plan if you want to customize the widget.
-
-* How should I finish a chat session? Send the message "!end" on your IM application. This will trigger a "goodbye" message to the visitor and you will be ready to answer new chat request.
-
-
-* Can I use my Google hosted domain account to answer chats?
-Yes, but you need to add some DNS entries to your domain. Read: http://support.google.com/a/bin/answer.py?hl=en&answer=34143
-
-* What's the cost of your premium plan? There's no monthly fee. We've got a Pay AS YOU GO scheme. Prices start at $0.025 (USD) per chat session. If you don't get any chat request, you pay nothing. Do your numbers.
-
-**OFFLINE MESSAGES**
-
-* Every time you want to retrieve your offline messages, open your IM app (GTALK, GMAIL or whatever app you use), start a chat session with the BOT and send the message **!off** .
-The bot will send you a response containing all the messages you received while you were offline. On Premium plans, offline messages are sent directly to your mail
-
 ==Changelog ==
 2.4.1
 
