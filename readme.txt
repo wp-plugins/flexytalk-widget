@@ -17,21 +17,54 @@ Impress your website visitors and convert them into loyal customers.[FlexyTalk](
 
 * **New!  05/01/2013 FACEBOOK Integration:** You are a few clicks away from bringing our live chat solution to your FACEBOOK fan page. Maximize Facebook's potential for new sales and leads.
 
-* Once you install the plugin on your site, you're automatically given our **FREE FOR EVER** ad-free account. There's no limit on the number of chats you can answer and the account never expires.
+**FREE PLAN**
+The free plan is activated automatically when you install our plugin and start chatting. You don't need to sign up on our site. Your free account never expires. It includes:
+* 1 operator
+* 1 concurrent chat
+* Unlimited Chats
+* Cloud based - Hosted on Microsoft's cloud service Windows Azure
+* No software downloads (except wordpress plugin)
+* No chat dashboards - You chat right on any IM app.
+* GMAIL/GTALK compatible (chat within gtalk /gmail)
+* JABBER/XMPP compatible (user your current jabber account with any IM client to chat)
+* GOOGLE APPS Domains compatible (needs some DNS configuration) [Tutorial](http://support.google.com/a/bin/answer.py?hl=en&answer=34143) 
+* Mobile phone compatible (use any free IM app on your phone to connect to your IM account)
+* Contact form when you're offline (retrieve messages from your IM app -[Tutorial](http://bit.ly/V87ts9) )
+* Show your picture and profile from GRAVATAR [Tutorial](http://bit.ly/VfHp3A) 
+* Install your live chat widget on FACEBOOK business site ([Tutorial](http://bit.ly/Tob5ee) )
+* Layered chat widget (displays a layer on your website - no popup)
+* Customize Widget Form Factor (all elements on the chat widget change size proportionally)
+* "Click to Chat" buttons gallery (24 elegant buttons with amazing CSS mouse over effects)
+* View all information about the visitor like Country, city and URL where they are requesting help (if available)
+* Customize "click to chat" button text and Live chat widget title
+* Pre chat form. Ask the visitor to enter name, e-mail and message
+* Flashing widget header when visitor receives a message from operator
+* Persists chat session across website navigation
+* E-mail Support: Only for installation issues
 
-* What do I need te get started?
-A Gmail or JABBER account is all you need to get started. Please read the FAQ section for Google Apps domains.
 
-* How do I answer chat request coming from my web site?
-You must signin to the IM account you entered during setup. Once you're online, visitors are able to request to chat with you. Then you just chat as you usually do. You may signin to your account on GTALK, Gmail web interface, any IM client you like, phone or any mobile device.
+**PREMIUM PLAN I : PAY-PER-USE**
+The pay-per-use plan is unique. It lets you create unlimited operators at no charge. You only pay for each chat session. It's ideal for small teams with not so high traffic websites. 
+ It includes all features from the free plan plus:
+* Unlimited Operators (at no charge)
+* 3 concurrent chats
+* Chat distributed among operators in round-robin fashion
+* Contact form when you're offline (messages sent to your e-mail address)
+* 24 chat widget themes (from [ JQUERY THEME ROLLER](http://bit.ly/Toatp0) )
+* Build you custom JQUERY THEME ([Tutorial](http://bit.ly/146HMyO) )
+* Customize all messages and text on the widget
+* White label
+* Layered or popup widget
+* Customize widget size and position on page
+* E-mail support: Full and unlimited
+[Pricing & Sign up](http://bit.ly/WVGgIT) 
 
-* View all information about the visitor like Country, city and URL where they are requesting help.
+** PREMIUM PLAN II: Anual subscription**
+Opposite to the pay per use plan, this plan comes with unlimited chat sessions, but you have to pay for each operator. It's ideal for high traffic websites, so you don't have to worry about spending money on each chat session. All features are the same as the pay-per use plan.
+** Current pricing: $35 / year 
+**Each  additional operator: $25 /year
+([Pricing and Sign up](http://bit.ly/VfHp3A)
 
-* Use FlexyTalk FACEBOOK app to provide direct links to your chat room in newsletters, tweets, ads and banners. Check it out: <http://on.fb.me/TH9TQV>
-
-* FlexyTalk widget is simple to install and simple to use. No need to download any software or learn complicated chat interfaces.
-
-* **Lightweight:** FlexyTalk downloads some few small scripts and does very little client processing. 
 
 == Installation ==
 
@@ -107,24 +140,6 @@ Please mail support@flexytalk.com if you are not able to integrate the widget on
 32. 24 themes or create your own
 
 
-
-== Frequently asked questions ==
-
-* Is it free? 
-Yes it is absolutely free. Your free account never expires, there are no limits on the number of chats you can answer, and it's ad-free. There's a premium plan if you want to customize the widget.
-
-* How should I finish a chat session? Send the message "!end" on your IM application. This will trigger a "goodbye" message to the visitor and you will be ready to answer new chat request.
-
-
-* Can I use my Google hosted domain account to answer chats?
-Yes, but you need to add some DNS entries to your domain. Read: http://support.google.com/a/bin/answer.py?hl=en&answer=34143
-
-* What's the cost of your premium plan? There's no monthly fee. We've got a Pay AS YOU GO scheme. Prices start at $0.025 (USD) per chat session. If you don't get any chat request, you pay nothing. Do your numbers.
-
-**OFFLINE MESSAGES**
-
-* Every time you want to retrieve your offline messages, open your IM app (GTALK, GMAIL or whatever app you use), start a chat session with the BOT and send the message **!off** .
-The bot will send you a response containing all the messages you received while you were offline. On Premium plans, offline messages are sent directly to your mail
 
 ==Changelog ==
 2.4.1
