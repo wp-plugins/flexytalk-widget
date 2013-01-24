@@ -17,8 +17,9 @@ Impress your website visitors and convert them into loyal customers.[FlexyTalk](
 
 * **New!  05/01/2013 FACEBOOK Integration:** You are a few clicks away from bringing our live chat solution to your FACEBOOK fan page. Maximize Facebook's potential for new sales and leads.
 
-**FREE PLAN**
+**FREE PLAN:**
 The free plan is activated automatically when you install our plugin and start chatting. You don't need to sign up on our site. Your free account never expires. It includes:
+
 * 1 operator
 
 * 1 concurrent chat
@@ -35,13 +36,13 @@ The free plan is activated automatically when you install our plugin and start c
 
 * JABBER/XMPP compatible (user your current jabber account with any IM client to chat)
 
-* GOOGLE APPS Domains compatible (needs some DNS configuration) [Tutorial](http://support.google.com/a/bin/answer.py?hl=en&answer=34143) 
+* GOOGLE APPS Domains compatible (needs some DNS configuration) ([Tutorial](http://support.google.com/a/bin/answer.py?hl=en&answer=34143))
 
 * Mobile phone compatible (use any free IM app on your phone to connect to your IM account)
 
 * Contact form when you're offline (retrieve messages from your IM app -[Tutorial](http://bit.ly/V87ts9) )
 
-* Show your picture and profile from GRAVATAR [Tutorial](http://bit.ly/VfHp3A) 
+* Show your picture and profile from GRAVATAR ([Tutorial](http://bit.ly/VfHp3A) )
 
 * Install your live chat widget on FACEBOOK business site ([Tutorial](http://bit.ly/Tob5ee) )
 
@@ -67,6 +68,7 @@ The free plan is activated automatically when you install our plugin and start c
 **PREMIUM PLAN I : PAY-PER-USE**
 The pay-per-use plan is unique. It lets you create unlimited operators at no charge. You only pay for each chat session. It's ideal for small teams with not so high traffic websites. 
  It includes all features from the free plan plus:
+ 
 * Unlimited Operators (at no charge)
 
 * 3 concurrent chats
@@ -95,7 +97,7 @@ The pay-per-use plan is unique. It lets you create unlimited operators at no cha
 Opposite to the pay per use plan, this plan comes with unlimited chat sessions, but you have to pay for each operator. It's ideal for high traffic websites, so you don't have to worry about spending money on each chat session. All features are the same as the pay-per use plan.
 ** Current pricing: $35 / year 
 **Each  additional operator: $25 /year
-([Pricing and Sign up](http://bit.ly/VfHp3A)
+[Pricing and Sign up](http://bit.ly/VfHp3A)
 
 
 == Installation ==
