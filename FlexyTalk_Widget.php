@@ -244,12 +244,12 @@ if($instance['btnPosition']=="1")
 			<tbody>
                 <tr>
                     <td>Facebook</td>
-                    <td><a href="http://www.facebook.com/dialog/pagetab?app_id=262700000525594&redirect_uri=http://www.flexytalk.com/home/tabadded" target="_blank">Setup</td>
+                    <td><a href="http://www.facebook.com/dialog/pagetab?app_id=262700000525594&redirect_uri=http://www.flexytalk.com/home/tabadded" target="_blank">Setup</a> <i>(Installs a live chat widget on your FaceBook business site)</i></td>
 					
                 </tr>
                 <tr>
                     <td>Gravatar</td>
-                    <td><input class="checkbox" value="1" type="checkbox" <?php checked( $instance['gvtr'], '1'); ?> id="<?php echo $this->get_field_id( 'gvtr' ); ?>" name="<?php echo $this->get_field_name( 'gvtr' ); ?>" /> <label for="<?php echo $this->get_field_id( 'gvtr' ); ?>">Show my GRAVATAR profile</label> <i>(Gravatar account must be the same as IM Account)</i></td>
+                    <td><input class="checkbox" value="1" type="checkbox" <?php checked( $instance['gvtr'], '1'); ?> id="<?php echo $this->get_field_id( 'gvtr' ); ?>" name="<?php echo $this->get_field_name( 'gvtr' ); ?>" /> <label for="<?php echo $this->get_field_id( 'gvtr' ); ?>">Show my GRAVATAR profile</label> <i>(Your Gravatar e-mail account must be the same as GMail Account entered above)</i></td>
 					
                 </tr>
 			</tbody>
@@ -414,6 +414,19 @@ if($instance['btnPosition']=="1")
                    
 					
                 </tr>
+			</tbody>
+<thead>
+				<tr>
+					<th colspan="2"></th>
+				</tr>
+			</thead>
+			<tbody>
+                <tr>
+                    <td colspan="2"><iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Ffacebook.com%2Fflexytalk&amp;send=false&amp;layout=standard&amp;width=350&amp;show_faces=false&amp;font&amp;colorscheme=light&amp;action=like&amp;height=35" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:350px; height:35px;" allowTransparency="true"></iframe></td>
+					
+                    
+                </tr>
+                
 			</tbody>
 
 			
