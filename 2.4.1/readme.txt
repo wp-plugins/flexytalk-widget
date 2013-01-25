@@ -42,7 +42,7 @@ The free plan is activated automatically when you install our plugin and start c
 
 * Contact form when you're offline (retrieve messages from your IM app -[Tutorial](http://bit.ly/V87ts9) )
 
-* Show your picture and profile from GRAVATAR ([Tutorial](http://bit.ly/VfHp3A) )
+* Show your picture and profile from GRAVATAR ([Tutorial](http://bit.ly/W1gDum) )
 
 * Install your live chat widget on FACEBOOK business site ([Tutorial](http://bit.ly/Tob5ee) )
 
