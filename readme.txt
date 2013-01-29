@@ -64,6 +64,12 @@ The free plan is activated automatically when you install our plugin and start c
 
 * E-mail Support: Only for installation issues
 
+**We are offering 2 paid plans:**
+
+* **PAY PAY USE**
+
+* **SUBSCRIPTION**
+
 
 **PREMIUM PLAN I : PAY-PER-USE**
 The pay-per-use plan is unique. It lets you create unlimited operators at no charge. You only pay for each chat session. It's ideal for small teams with not so high traffic websites. 
@@ -71,7 +77,7 @@ The pay-per-use plan is unique. It lets you create unlimited operators at no cha
  
 * Unlimited Operators (at no charge)
 
-* 3 concurrent chats
+* 3 concurrent chats 
 
 * Chat distributed among operators in round-robin fashion
 
