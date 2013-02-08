@@ -99,7 +99,7 @@ The pay-per-use plan is unique. It lets you create unlimited operators at no cha
 
 * [Pricing & Sign up](http://bit.ly/WVGgIT) 
 
-**PREMIUM PLAN II: Anual subscription**
+**PREMIUM PLAN II: Annual subscription**
 Opposite to the pay per use plan, this plan comes with unlimited chat sessions, but you have to pay for each operator. It's ideal for high traffic websites, so you don't have to worry about spending money on each chat session. All features are the same as the pay-per use plan.
 
 * Current pricing: $35 / year 
