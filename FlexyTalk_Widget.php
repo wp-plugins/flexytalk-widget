@@ -120,7 +120,7 @@ if($instance['btnPosition']=="1")
 	
 	
 		/* Display name from widget settings if one was input. */
-		$htmlCode="<link href='//app.flexytalk.com/btn/". $instance['btnLayout'].".css' rel='stylesheet' type='text/css' /><div class='flexytalk' style='z-index:2147483647;".$style."' data-flexytalk-title='".$instance['WindowTitle']."' data-flexytalk='".$widgetid."' data-flexytalk-ff='".$instance['ff']."' data-flexytalk-chatdirect='".$instance['cd']."'data-flexytalk-gvtr='".$instance['gvtr']."' ><a href='#' id='dialog_link' class='ft-button dialog-link'><span class='iconchat'></span>".$instance['btnText']."</a></div>";
+		$htmlCode="<link href='//app.flexytalk.com/btn/". $instance['btnLayout'].".css' rel='stylesheet' type='text/css' /><div class='flexytalk' style='z-index:2147483647;".$style."' data-flexytalk-title='".$instance['WindowTitle']."' data-flexytalk='".$widgetid."' data-flexytalk-ff='".$instance['ff']."' data-flexytalk-chatdirect='".$instance['cd']."' data-flexytalk-gvtr='".$instance['gvtr']."' ><a href='#' id='dialog_link' class='ft-button dialog-link'><span class='iconchat'></span>".$instance['btnText']."</a></div>";
 
 		if ( $htmlCode)
 			printf( $htmlCode);
@@ -462,7 +462,7 @@ if($instance['btnPosition']=="1")
 		$widgetid=$instance['WidgetID'];
 	}
 
-		$htmlCode="&lt;link href='//app.flexytalk.com/btn/". $instance['btnLayout'].".css' rel='stylesheet' type='text/css' /&gt;&lt;div class='flexytalk' style='z-index:2147483647;".$style."' data-flexytalk-title='".$instance['WindowTitle']."' data-flexytalk='".$widgetid."' data-flexytalk-ff='".$instance['ff']."' data-flexytalk-chatdirect='".$instance['cd']."'data-flexytalk-gvtr='".$instance['gvtr']."' &gt;&lt;a href='#' id='dialog_link' class='ft-button dialog-link'&gt;&lt;span class='iconchat'&gt;&lt;/span&gt;".$instance['btnText']."&lt;/a&gt;&lt;/div&gt;";
+		$htmlCode="&lt;link href='//app.flexytalk.com/btn/". $instance['btnLayout'].".css' rel='stylesheet' type='text/css' /&gt;&lt;div class='flexytalk' style='z-index:2147483647;".$style."' data-flexytalk-title='".$instance['WindowTitle']."' data-flexytalk='".$widgetid."' data-flexytalk-ff='".$instance['ff']."' data-flexytalk-chatdirect='".$instance['cd']."' data-flexytalk-gvtr='".$instance['gvtr']."' &gt;&lt;a href='#' id='dialog_link' class='ft-button dialog-link'&gt;&lt;span class='iconchat'&gt;&lt;/span&gt;".$instance['btnText']."&lt;/a&gt;&lt;/div&gt;";
 ?>
 
 <?php echo $htmlCode; ?> </td></tr></tbody>
