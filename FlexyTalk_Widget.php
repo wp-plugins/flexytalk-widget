@@ -3,7 +3,7 @@
  * Plugin Name: FlexyTalk - Free Live Chat Widget
  * Plugin URI: http://bit.ly/VfHp3A
  * Description: FlexyTalk enables you to chat to your web visitors using your current gmail account. Free lifetime plan with unlimited chats.
- * Version: 2.4.1
+ * Version: 2.4.2
  * Author: FlexyTalk
  */
 
@@ -267,7 +267,7 @@ if($instance['btnPosition']=="1")
 					<table>
 					<tr>
 					<td>
-					<input class="radio" type="radio" <?php checked( $instance['btnLayout'], true ); ?> id="<?php echo $this->get_field_id( 'btnLayout' ); ?>" name="<?php echo $this->get_field_name( 'btnLayout' ); ?>" /> 
+					<input class="radio" value="hot-sneaks" type="radio" <?php checked( $instance['btnLayout'], "hot-sneaks"); ?> id="<?php echo $this->get_field_id( 'btnLayout' ); ?>" name="<?php echo $this->get_field_name( 'btnLayout' ); ?>" /> 
 			<label for="<?php echo $this->get_field_id( 'btnLayout' ); ?>"><img style="width:127px;height:32px" src="<?php echo plugins_url( 'img/hot-sneaks.png', __FILE__ ); ?>"/></label>
 </td>
 <td>
@@ -431,7 +431,41 @@ if($instance['btnPosition']=="1")
                 </tr>
 
 			</tbody>
+<thead>
+<tr>
+<th colspan="2">If you are unable to use widgets, use the following code to paste it as HTML in your theme source code.</th>
+</tr>
+<tr>
+<td colspan="2">
+<?php
+		
+		
+		$style="";
+		$widgetid="";
+if($instance['btnPosition']=="1")
+	$style="position:fixed;bottom:10px;right:10px";
+	if($instance['btnPosition']=="2")
+	$style="position:fixed;bottom:10px;left:10px";
+	if($instance['btnPosition']=="3")
+	$style="position:fixed;top:10px;right:10px";
+	if($instance['btnPosition']=="4")
+	$style="position:fixed;top:10px;left:10px";
+	if($instance['btnPosition']=="5")
+	$style="";
+	
+	if($instance['WidgetID']=="")
+	{
+		$widgetid="QUICKTRY__".$instance['email'];
+	}
+	else
+	{
+		$widgetid=$instance['WidgetID'];
+	}
 
+		$htmlCode="&lt;link href='//app.flexytalk.com/btn/". $instance['btnLayout'].".css' rel='stylesheet' type='text/css' /&gt;&lt;div class='flexytalk' style='z-index:2147483647;".$style."' data-flexytalk-title='".$instance['WindowTitle']."' data-flexytalk='".$widgetid."' data-flexytalk-ff='".$instance['ff']."' data-flexytalk-chatdirect='".$instance['cd']."'data-flexytalk-gvtr='".$instance['gvtr']."' &gt;&lt;a href='#' id='dialog_link' class='ft-button dialog-link'&gt;&lt;span class='iconchat'&gt;&lt;/span&gt;".$instance['btnText']."&lt;/a&gt;&lt;/div&gt;";
+?>
+
+<?php echo $htmlCode; ?> </td></tr></tbody>
 			
 		</table>
 
