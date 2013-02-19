@@ -66,7 +66,7 @@ The free plan is activated automatically when you install our plugin and start c
 
 **We are offering 2 paid plans:**
 
-* **PAY PAY USE**
+* **PAY PER USE**
 
 * **SUBSCRIPTION**
 
