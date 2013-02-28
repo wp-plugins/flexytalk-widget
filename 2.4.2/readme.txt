@@ -11,7 +11,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Start chatting to your site's visitors and FACEBOOK fans from Google Talk or mobile phone . FREE lifetime account with unlimited chats.
 
 == Description ==
-** 27/02/2013 Unfortunately we are experiencing technical issues for accepting new users. This will be fixed soon... **
+**27/02/2013 Unfortunately we are experiencing technical issues for accepting new users. This will be fixed soon...**
 
 Impress your website visitors and convert them into loyal customers.[FlexyTalk](http://bit.ly/VfHp3A)  integrates with your current IM app and mobile phone. No software downloads nor complicated chat dashboards.
 
