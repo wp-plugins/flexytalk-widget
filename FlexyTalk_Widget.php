@@ -1,26 +1,93 @@
-<?php
+<?php 
 /**
  * Plugin Name: FlexyTalk - Free Live Chat Widget
  * Plugin URI: http://bit.ly/VfHp3A
  * Description: FlexyTalk enables you to chat to your web visitors using your current gmail account. Free lifetime plan with unlimited chats.
- * Version: 2.4.2
+ * Version: 2.4.3
  * Author: FlexyTalk
  */
 
-/**
- * Add function to widgets_init that'll load our widget.
- * 
- */
-add_action( 'widgets_init', 'flexytalk_load_widgets' );
 
+function FT_Process()
+{
+$installation_mode=get_option(ft_installation_mode);
+
+if($installation_mode=="1"){
+	Enqueue_Scripts();
+	echo Get_Code();
+}
+}
+
+function Get_Code() {
+$widget_id=get_option(ft_widget_id);
+$btn_text=get_option(ft_btn_text);
+$btn_layout=get_option(ft_btn_layout);
+$gvtr=get_option(ft_gvtr);
+$cd=get_option(ft_cd);
+$ff=get_option(ft_ff);
+$email=get_option(ft_email);
+$btn_position=get_option(ft_btn_position);
+$window_title=get_option(ft_window_title);
+$style="";
+$widgetid="";
+if($btn_position=="1")
+	$style="position:fixed;bottom:10px;right:10px";
+	else if($btn_position=="2")
+	$style="position:fixed;bottom:10px;left:10px";
+	else if($btn_position=="3")
+	$style="position:fixed;top:10px;right:10px";
+	else if($btn_position=="4")
+	$style="position:fixed;top:10px;left:10px";
+	
+	
+	
+	if($widget_id=="")
+	{
+		$widgetid="QUICKTRY__".$email;
+	}
+	else
+	{
+		$widgetid=$widget_id;
+	}
+
+$htmlCode="<link href='//app.flexytalk.com/btn/". $btn_layout.".css' rel='stylesheet' type='text/css' /><div class='flexytalk' style='z-index:2147483647;".$style."' data-flexytalk-title='".$window_title."' data-flexytalk='".$widgetid."' data-flexytalk-ff='".$ff."' data-flexytalk-chatdirect='".$cd."' data-flexytalk-gvtr='".$gvtr."' ><a href='#' id='dialog_link' class='ft-button dialog-link'><span class='iconchat'></span>".$btn_text."</a></div>";
+return $htmlCode;
+
+ 
+}
+//*************** Admin function ***************
+function flexytalk_admin() {
+
+	include("flexytalk_settings.php");
+}
+
+
+
+function flexytalk_admin_actions() {
+
+ add_menu_page('FlexyTalk Settings', 'FlexyTalk Chat', 'administrator',"flexytalk", 'flexytalk_admin', plugins_url( 'img/logo_icon.png', __FILE__ ));
+
+ 
+}
+add_action('admin_menu', 'flexytalk_admin_actions');
+
+
+add_action('wp_footer', 'FT_Process');
+add_action( 'widgets_init', 'flexytalk_load_widgets' );
 add_filter( 'plugin_row_meta', 'flexytalk_register_plugin_links',10,2);
 
-/**
- * Register our widget.
- * 'FlexyTalk_Widget' is the widget class used below.
- *
- * 
- */
+
+function Enqueue_Scripts()
+{
+
+	
+ 	wp_enqueue_script('jquery');
+ 	wp_enqueue_script('jquery-ui-core');
+ 	wp_enqueue_script('jquery-ui-dialog');
+	wp_enqueue_script('flexytalk','https://app.flexytalk.com/js/flexytalk.js', array(), null, true ); 
+	
+}
+
 function flexytalk_register_plugin_links($links, $file) {
 	$base = plugin_basename(__FILE__);
 	if ($file == $base) {
@@ -31,50 +98,22 @@ function flexytalk_register_plugin_links($links, $file) {
 	return $links;
 }
 
-
 function flexytalk_load_widgets() {
 	register_widget( 'FlexyTalk_Widget' );
 }
-
-/**
- * FlexyTalk Widget class.
- * This class handles everything that needs to be handled with the widget:
- * the settings, form, display, and update. 
- *
- * 
- */
 class FlexyTalk_Widget extends WP_Widget {
 
-	/**
-	 * Widget setup.
-	 */
 	function FlexyTalk_Widget() {
-		/* Widget settings. */
-		$widget_ops = array( 'classname' => 'FlexyTalk', 'description' => __('Chat with your website visitors.', 'FlexyTalk') );
-add_action('wp_enqueue_scripts', 'Jquery');
-function Jquery()
-{
 
-	if(is_active_widget( '', '', 'flexytalk-widget')){
- wp_enqueue_script('jquery');
- wp_enqueue_script('jquery-ui-core');
- wp_enqueue_script('jquery-ui-dialog');
-wp_enqueue_script('flexytalk','https://app.flexytalk.com/js/flexytalk.js', array(), null, true ); 
-}
-}
-
-		/* Widget control settings. */
-		$control_ops = array( 'width' => 700, 'height' => 350, 'id_base' => 'flexytalk-widget' );
-
-		/* Create the widget. */
-		$this->WP_Widget( 'flexytalk-widget', __('FlexyTalk Free Live Chat Widget', 'FlexyTalk Free Live Chat Widget'), $widget_ops, $control_ops );
-
+	$widget_ops = array( 'classname' => 'FlexyTalk', 'description' => __('Chat with your website visitors.', 'FlexyTalk') );
+	$control_ops = array( 'width' => 700, 'height' => 350, 'id_base' => 'flexytalk-widget' );
+	$this->WP_Widget( 'flexytalk-widget', __('FlexyTalk Free Live Chat Widget', 'FlexyTalk Free Live Chat Widget'), 				$widget_ops, $control_ops );
 	}
 
-	/**
-	 * How to display the widget on the screen.
-	 */
-	function widget( $args, $instance ) {
+function widget( $args, $instance ) {
+if(is_active_widget( '', '', 'flexytalk-widget')){
+	Enqueue_Scripts();
+}
 		extract( $args );
 
 		/* Our variables from the widget settings. */
@@ -113,12 +152,6 @@ if($instance['btnPosition']=="1")
 		$widgetid=$instance['WidgetID'];
 	}
 	
-	
-	
-	
-
-	
-	
 		/* Display name from widget settings if one was input. */
 		$htmlCode="<link href='//app.flexytalk.com/btn/". $instance['btnLayout'].".css' rel='stylesheet' type='text/css' /><div class='flexytalk' style='z-index:2147483647;".$style."' data-flexytalk-title='".$instance['WindowTitle']."' data-flexytalk='".$widgetid."' data-flexytalk-ff='".$instance['ff']."' data-flexytalk-chatdirect='".$instance['cd']."' data-flexytalk-gvtr='".$instance['gvtr']."' ><a href='#' id='dialog_link' class='ft-button dialog-link'><span class='iconchat'></span>".$instance['btnText']."</a></div>";
 
@@ -131,10 +164,7 @@ if($instance['btnPosition']=="1")
 		echo $after_widget;
 	}
 
-	/**
-	 * Update the widget settings.
-	 */
-	function update( $new_instance, $old_instance ) {
+function update( $new_instance, $old_instance ) {
 		$instance = $old_instance;
 
 		
@@ -150,12 +180,7 @@ if($instance['btnPosition']=="1")
 		
 		return $instance;
 	}
-
-	/**
-	 * Displays the widget settings controls on the widget panel.
-	 
-	 */
-	function form( $instance ) {
+function form( $instance ) {
 
 /* Set up some default widget settings. */
 		$defaults = array( 'btnText' => __('CLICK TO CHAT', ''), 'btnLayout' => __('cupertino', ''), 'email' => __('', ''), 'cd'=>__("0",""), 'btnPosition'=>__("1",""), 'WindowTitle' => __('LIVE CHAT', ''), 'ff' => __('10', ''), 'WidgetID' => __('', ''), 'gvtr' =>__('0',''));
@@ -431,41 +456,7 @@ if($instance['btnPosition']=="1")
                 </tr>
 
 			</tbody>
-<thead>
-<tr>
-<th colspan="2">If you are unable to use widgets, use the following code to paste it as HTML in your theme source code.</th>
-</tr>
-<tr>
-<td colspan="2">
-<?php
-		
-		
-		$style="";
-		$widgetid="";
-if($instance['btnPosition']=="1")
-	$style="position:fixed;bottom:10px;right:10px";
-	if($instance['btnPosition']=="2")
-	$style="position:fixed;bottom:10px;left:10px";
-	if($instance['btnPosition']=="3")
-	$style="position:fixed;top:10px;right:10px";
-	if($instance['btnPosition']=="4")
-	$style="position:fixed;top:10px;left:10px";
-	if($instance['btnPosition']=="5")
-	$style="";
-	
-	if($instance['WidgetID']=="")
-	{
-		$widgetid="QUICKTRY__".$instance['email'];
-	}
-	else
-	{
-		$widgetid=$instance['WidgetID'];
-	}
 
-		$htmlCode="&lt;link href='//app.flexytalk.com/btn/". $instance['btnLayout'].".css' rel='stylesheet' type='text/css' /&gt;&lt;div class='flexytalk' style='z-index:2147483647;".$style."' data-flexytalk-title='".$instance['WindowTitle']."' data-flexytalk='".$widgetid."' data-flexytalk-ff='".$instance['ff']."' data-flexytalk-chatdirect='".$instance['cd']."' data-flexytalk-gvtr='".$instance['gvtr']."' &gt;&lt;a href='#' id='dialog_link' class='ft-button dialog-link'&gt;&lt;span class='iconchat'&gt;&lt;/span&gt;".$instance['btnText']."&lt;/a&gt;&lt;/div&gt;";
-?>
-
-<?php echo $htmlCode; ?> </td></tr></tbody>
 			
 		</table>
 
@@ -480,6 +471,9 @@ if($instance['btnPosition']=="1")
 </script>
 	<?php
 	}
+
+
+
 }
 
 ?>

@@ -4,7 +4,7 @@ Donate link:
 Tags: Live Chat, Live Support, Web Chat,  one to one chat, free live chat, gtalk, gmail, google, jabber, xmpp, sidebar chat, widget, website alive, support chat, sales chat, wordpress chat, live chat widget free, mobile chat, phone chat, chat operator
 Requires at least: 2.7
 Tested up to: 3.5
-Stable tag: 2.4.2
+Stable tag: 2.4.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -186,6 +186,11 @@ Please mail support@flexytalk.com if you are not able to integrate the widget on
 
 
 ==Changelog ==
+2.4.3
+
+* Widgetless option. Install FlexyTalk Live Chat Plugin on all pages of your website throught the new page settings 
+
+
 2.4.2
 
 * Widget Configuration now includes the HTML code needed to install the Live Chat on your WordPress theme if you are unable to use Widgets
