@@ -1,4 +1,9 @@
 <?php 
+// return tru if $str ends with $sub
+function endsWith( $str, $sub ) {
+    return ( substr( $str, strlen( $str ) - strlen( $sub ) ) == $sub );
+}
+	$message="";
 	if($_POST['flexytalk_hidden'] == 'Y') {
 		//Form data sent
 		$btn_text = $_POST['ft_btn_text'];
@@ -23,7 +28,28 @@
 		update_option('ft_window_title', $window_title);
 
 		$email = $_POST['ft_email'];
-		update_option('ft_email', $email);
+		$p_email=get_option(ft_email)=="";
+		if($email=="" or endsWith($email,"yahoo.com"))
+			$message="Please, enter a valid GMAIL OR JABBER address");
+		else
+		{
+			if(endsWith($email,"gmail.com"))
+			{
+				$message="Options Saved";
+			}
+			else
+			{
+				$message="Options saved. Please, verify that the IM acccount you entered is valid. If it is a GOOGLE APPS DOMAIN, the domain must be configured as explained in <a href='http://support.google.com/a/bin/answer.py?hl=en&answer=34143' target='_blank'>this tutorial</a><br/><br/>";
+				
+				
+			}
+			if(p_email!=$email)
+				$message=$message+"To continue with the setup process, navigate to your website and click the live chat button. A welcome message will be displayed, and a chat invite will be sent to your IM account which you have to accept. This chat invite can be found at GMAIL'S left sidebar near your chat contacts. ";
+				
+			update_option('ft_email', $email);
+			
+		}
+		
 		
 		$widget_id = $_POST['ft_widget_id'];
 		update_option('ft_widget_id', $widget_id);
@@ -31,7 +57,7 @@
 		$btn_position = $_POST['ft_btn_position'];
 		update_option('ft_btn_position', $btn_position);
 		?>
-		<div class="updated"><p><strong><?php _e('Options saved.' ); ?></strong></p></div>
+		<div class="updated"><p><strong><?php _e($message ); ?></strong></p></div>
 		<?php
 	} else {
 		//Normal page display
@@ -82,7 +108,7 @@ if(get_option('ft_installation_mode')=='')
 			<tbody>
                 <tr>
                     <td>GMail / JABBER Account</td>
-                    <td><input style="width:300px"  name="ft_email" value="<?php echo $email; ?>" style="width:100%;" /> <i>(username@gmail.com) </i> </td>
+                    <td><input style="width:300px"  name="ft_email" value="<?php echo $email; ?>" style="width:100%;" /> <i>(username@gmail.com) </i>- This is the INSTANT MESSAGING Account you will use to chat with your website visitors </td>
 					
                 </tr>
                 <tr>
