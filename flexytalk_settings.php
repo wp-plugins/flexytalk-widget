@@ -43,8 +43,9 @@ function endsWith( $str, $sub ) {
 				
 				
 			}
-			if($p_email != $email)
+			if($p_email != $email){
 				$message=$message."To continue with the setup process, navigate to your website and click the live chat button. A welcome message will be displayed, and a chat invite will be sent to your IM account which you have to accept. This chat invite can be found at GMAIL'S left sidebar near your chat contacts. ";
+				}
 				
 			update_option('ft_email', $email);
 			
