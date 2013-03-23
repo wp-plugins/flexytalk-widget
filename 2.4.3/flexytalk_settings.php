@@ -43,8 +43,8 @@ function endsWith( $str, $sub ) {
 				
 				
 			}
-			if($p_email!=$email)
-				$message=$message+"To continue with the setup process, navigate to your website and click the live chat button. A welcome message will be displayed, and a chat invite will be sent to your IM account which you have to accept. This chat invite can be found at GMAIL'S left sidebar near your chat contacts. ";
+			if($p_email != $email)
+				$message=$message."To continue with the setup process, navigate to your website and click the live chat button. A welcome message will be displayed, and a chat invite will be sent to your IM account which you have to accept. This chat invite can be found at GMAIL'S left sidebar near your chat contacts. ";
 				
 			update_option('ft_email', $email);
 			
@@ -57,7 +57,7 @@ function endsWith( $str, $sub ) {
 		$btn_position = $_POST['ft_btn_position'];
 		update_option('ft_btn_position', $btn_position);
 		?>
-		<div class="updated"><p><strong><?php _e($message ); ?></strong></p></div>
+		<div class="updated"><p><strong><?php echo($message ); ?></strong></p></div>
 		<?php
 	} else {
 		//Normal page display
