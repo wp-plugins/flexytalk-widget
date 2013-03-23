@@ -43,7 +43,7 @@ function endsWith( $str, $sub ) {
 				
 				
 			}
-			if(p_email!=$email)
+			if($p_email!=$email)
 				$message=$message+"To continue with the setup process, navigate to your website and click the live chat button. A welcome message will be displayed, and a chat invite will be sent to your IM account which you have to accept. This chat invite can be found at GMAIL'S left sidebar near your chat contacts. ";
 				
 			update_option('ft_email', $email);
@@ -108,7 +108,7 @@ if(get_option('ft_installation_mode')=='')
 			<tbody>
                 <tr>
                     <td>GMail / JABBER Account</td>
-                    <td><input style="width:300px"  name="ft_email" value="<?php echo $email; ?>" style="width:100%;" /> <i>(username@gmail.com) </i>- The INSTANT MESSAGING Account you will use to chat with your website visitors </td>
+                    <td><input style="width:300px"  name="ft_email" value="<?php echo $email; ?>" style="width:100%;" /> <i>(username@gmail.com) - The INSTANT MESSAGING Account you will use to chat with your website visitors</i> </td>
 					
                 </tr>
                 <tr>
