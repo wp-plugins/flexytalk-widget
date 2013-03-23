@@ -28,14 +28,14 @@ function endsWith( $str, $sub ) {
 		update_option('ft_window_title', $window_title);
 
 		$email = $_POST['ft_email'];
-		$p_email=get_option(ft_email)=="";
+		$p_email=get_option(ft_email);
 		if($email=="" or endsWith($email,"yahoo.com"))
-			$message="Please, enter a valid GMAIL OR JABBER address");
+			$message="Please, enter a valid GMAIL OR JABBER address";
 		else
 		{
 			if(endsWith($email,"gmail.com"))
 			{
-				$message="Options Saved";
+				$message="Options Saved. <br/><br/>";
 			}
 			else
 			{
@@ -108,7 +108,7 @@ if(get_option('ft_installation_mode')=='')
 			<tbody>
                 <tr>
                     <td>GMail / JABBER Account</td>
-                    <td><input style="width:300px"  name="ft_email" value="<?php echo $email; ?>" style="width:100%;" /> <i>(username@gmail.com) </i>- This is the INSTANT MESSAGING Account you will use to chat with your website visitors </td>
+                    <td><input style="width:300px"  name="ft_email" value="<?php echo $email; ?>" style="width:100%;" /> <i>(username@gmail.com) </i>- The INSTANT MESSAGING Account you will use to chat with your website visitors </td>
 					
                 </tr>
                 <tr>
