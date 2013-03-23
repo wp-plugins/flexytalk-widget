@@ -91,9 +91,9 @@ function Enqueue_Scripts()
 function flexytalk_register_plugin_links($links, $file) {
 	$base = plugin_basename(__FILE__);
 	if ($file == $base) {
-		$links[] = '<a href="widgets.php">' . __('GO TO WIDGETS','flexytalk_widget') . '</a>';
+		$links[] = '<a href="admin.php?page=flexytalk">' . __('Settings','flexytalk_widget') . '</a>';
 		$links[] = '<a href="http://wordpress.org/extend/plugins/flexytalk-widget/faq/" target="_blank">' . __('FAQ','flexytalk_widget') . '</a>';
-		$links[] = '<a href="Mailto:support@flexytalk.com">' . __('Support','flexytalk_widget') . '</a>';
+		$links[] = '<a href="Mailto:sebastian@flexytalk.com">' . __('Support','flexytalk_widget') . '</a>';
 	}
 	return $links;
 }
