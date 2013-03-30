@@ -272,7 +272,7 @@ if(get_option('ft_installation_mode')=='')
                     <td><input style="width:300px" name="ft_custom_image" value="<?php echo $custom_img; ?>" style="width:100%;" /> (https://mywebsite.com/img/myimage.png) </td>
                 </tr>
 				<tr>
-                     <td><input class="checkbox" value="1" type="checkbox" <?php checked( $hide_tb, '1'); ?> name="ft_hide_tb" /> <label for="ft_hide_tb"> Hide Toolbar when all agents are offline</label></td>
+                     <td colspan="2"><input class="checkbox" value="1" type="checkbox" <?php checked( $hide_tb, '1'); ?> name="ft_hide_tb" /> <label for="ft_hide_tb"> Hide chat toolbar when all agents are offline</label></td>
                    
                 </tr>
 				</tbody>
