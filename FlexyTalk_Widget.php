@@ -3,7 +3,7 @@
  * Plugin Name: FlexyTalk - Free Live Chat Widget
  * Plugin URI: http://bit.ly/VfHp3A
  * Description: FlexyTalk enables you to chat to your web visitors using your current gmail account. Free lifetime plan with unlimited chats.
- * Version: 2.4.3
+ * Version: 2.5.0
  * Author: FlexyTalk
  */
 
@@ -20,7 +20,7 @@ if($installation_mode=="1"){
 
 function Get_Code() {
 $widget_id=get_option(ft_widget_id);
-$btn_text=get_option(ft_btn_text);
+$btn_text=get_option(ft_btn_text_on);
 $btn_layout=get_option(ft_btn_layout);
 $gvtr=get_option(ft_gvtr);
 $cd=get_option(ft_cd);
@@ -28,6 +28,13 @@ $ff=get_option(ft_ff);
 $email=get_option(ft_email);
 $btn_position=get_option(ft_btn_position);
 $window_title=get_option(ft_window_title);
+$show_op=get_option(ft_show_op);
+$op_gender=get_option(ft_op_gender);
+$op_size=get_option(ft_op_size);
+$custom_image=get_option(ft_custom_img);
+$hide_tb=get_option(ft_hide_tb);
+$offmessage=get_option(ft_btn_text_off);
+
 $style="";
 $widgetid="";
 if($btn_position=="1")
@@ -50,7 +57,7 @@ if($btn_position=="1")
 		$widgetid=$widget_id;
 	}
 
-$htmlCode="<link href='//app.flexytalk.com/btn/". $btn_layout.".css' rel='stylesheet' type='text/css' /><div class='flexytalk' style='z-index:2147483647;".$style."' data-flexytalk-title='".$window_title."' data-flexytalk='".$widgetid."' data-flexytalk-ff='".$ff."' data-flexytalk-chatdirect='".$cd."' data-flexytalk-gvtr='".$gvtr."' ><a href='#' id='dialog_link' class='ft-button dialog-link'><span class='iconchat'></span>".$btn_text."</a></div>";
+$htmlCode="<link href='//app.flexytalk.com/btn/". $btn_layout.".css' rel='stylesheet' type='text/css' /><div class='flexytalk' style='z-index:2147483647;display:none;".$style."' data-flexytalk-title='".$window_title."' data-flexytalk='".$widgetid."' data-flexytalk-ff='".$ff."' data-flexytalk-chatdirect='".$cd."' data-flexytalk-gvtr='".$gvtr."' data-flexytalk-showop='".$show_op."' data-flexytalk-opgender='".$op_gender."' data-flexytalk-opsize='".$op_size."' data-flexytalk-hidetoolbar='".$hide_tb."' data-flexytalk-offlinemsg='".$offmessage."' data-flexytalk-opsrc='".$custom_image."'  ><img id='ft_opimg' style='cursor:pointer;'><br /><a href='#' id='dialog_link' class='ft-button dialog-link'><span class='iconchat'></span><span id='ft_sp_text'>".$btn_text."</span></a></div>";
 return $htmlCode;
 
  

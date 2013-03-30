@@ -6,8 +6,8 @@ function endsWith( $str, $sub ) {
 	$message="";
 	if($_POST['flexytalk_hidden'] == 'Y') {
 		//Form data sent
-		$btn_text = $_POST['ft_btn_text'];
-		update_option('ft_btn_text', $btn_text);
+		$btn_text_on = $_POST['ft_btn_text_on'];
+		update_option('ft_btn_text_on', $btn_text_on);
 
 		$installation_mode = $_POST['ft_installation_mode'];
 		update_option('ft_installation_mode', $installation_mode);		
@@ -20,6 +20,24 @@ function endsWith( $str, $sub ) {
 		
 		$ff = $_POST['ft_ff'];
 		update_option('ft_ff', $ff);
+		
+		$show_op = $_POST['ft_show_op'];
+		update_option('ft_show_op', $show_op);
+		
+		$btn_text_off = $_POST['ft_btn_text_off'];
+		update_option('ft_btn_text_off', $btn_text_off);
+		
+		$op_gender = $_POST['ft_op_gender'];
+		update_option('ft_op_gender', $op_gender);
+		
+		$custom_img = $_POST['ft_custom_img'];
+		update_option('ft_custom_img', $custom_img);
+		
+		$op_size = $_POST['ft_op_size'];
+		update_option('ft_op_size', $op_size);
+		
+		$hide_tb = $_POST['ft_hide_tb'];
+		update_option('ft_hide_tb', $hide_tb);
 
 		$cd = $_POST['ft_cd'];
 		update_option('ft_cd', $cd);
@@ -62,8 +80,24 @@ function endsWith( $str, $sub ) {
 		<?php
 	} else {
 		//Normal page display
-if(get_option('ft_btn_text')=='')
-	update_option('ft_btn_text', 'CLICK TO CHAT');
+if(get_option('ft_btn_text_on')=='')
+	update_option('ft_btn_text_on', 'CLICK TO CHAT');
+	
+	if(get_option('ft_btn_text_off')=='')
+	update_option('ft_btn_text_off', 'Offline - Leave a message');
+	
+	if(get_option('ft_show_op')=='')
+	update_option('ft_show_op', '1');
+	
+	if(get_option('ft_op_gender')=='')
+	update_option('ft_op_gender', 'm');
+	
+	if(get_option('ft_op_size')=='')
+	update_option('ft_op_size', 'm');
+	
+	if(get_option('ft_hide_tb')=='')
+	update_option('ft_hide_tb', '0');
+	
 if(get_option('ft_btn_layout')=='')
 	update_option('ft_btn_layout', 'sunny');
 if(get_option('ft_gvtr')=='')
@@ -80,7 +114,7 @@ if(get_option('ft_installation_mode')=='')
 	update_option('ft_installation_mode', '1');
 
 
-		$btn_text = get_option('ft_btn_text');
+		$btn_text_on = get_option('ft_btn_text_on');
 		$btn_layout = get_option('ft_btn_layout');
 		$gvtr = get_option('ft_gvtr');
 		$ff = get_option('ft_ff');
@@ -89,8 +123,15 @@ if(get_option('ft_installation_mode')=='')
 		$email = get_option('ft_email');
 		$widget_id = get_option('ft_widget_id');
 		$btn_position = get_option('ft_btn_position');
+		$op_gender = get_option('ft_op_gender');
+		$op_size = get_option('ft_op_size');
+		$show_op = get_option('ft_show_op');
+		$custom_image = get_option('ft_custom_image');
+		$hide_tb = get_option('ft_hide_tb');
+		$btn_text_off = get_option('ft_btn_text_off');
 		$installation_mode = get_option('ft_installation_mode');
-	}
+
+		}
 	
 	
 ?>
@@ -112,12 +153,7 @@ if(get_option('ft_installation_mode')=='')
                     <td><input style="width:300px"  name="ft_email" value="<?php echo $email; ?>" style="width:100%;" /> <i>(username@gmail.com) - The INSTANT MESSAGING Account you will use to chat with your website visitors</i> </td>
 					
                 </tr>
-                <tr>
-                    <td style="width:20%">Widget ID</td>
-                    <td><input style="width:300px" name="ft_widget_id" value="<?php echo $widget_id; ?>" style="width:100%;" /> <i>(Reserved for <a target="_blank" href="http://bit.ly/VfHp3A">Premium Users</a>)</i>
-					</td>
-				
-                </tr>
+               
              	
 			</tbody>
 <thead>
@@ -142,8 +178,13 @@ if(get_option('ft_installation_mode')=='')
 
 			<tbody>
                 <tr>
-                    <td>Chat Button Text</td>
-                    <td><input  name="ft_btn_text" value="<?php echo $btn_text; ?>" style="width:300px" /></td>
+                    <td>Online Toolbar Text</td>
+                    <td><input  name="ft_btn_text_on" value="<?php echo $btn_text_on; ?>" style="width:300px" /></td>
+				
+                </tr>
+				<tr>
+                    <td>Offline  Toolbar Text</td>
+                    <td><input  name="ft_btn_text_off" value="<?php echo $btn_text_off; ?>" style="width:300px" /></td>
 				
                 </tr>
                 <tr>
@@ -186,7 +227,56 @@ if(get_option('ft_installation_mode')=='')
 					
                 </tr>
 			</tbody>
-
+			<thead>
+				<tr>
+					<th colspan="2">Agent Image - <i>Displays a 3D image on top of the chat toolbar</i></th>
+				</tr>
+			</thead>
+			<tbody>
+                <tr>
+				 <td  colspan="2"><input class="checkbox" value="1" type="checkbox" <?php checked( $show_op, '1'); ?> name="ft_show_op" /> <label for="ft_show_op"> Display Agent Image</label></td>
+                  
+                </tr>
+				 <tr>
+                    <td>Agent Image Size</td>
+                   <td><select  name="ft_op_size">
+					<option value="s" <?php selected( $op_size, "s");?>>Small</option>
+					<option value="m" <?php selected( $op_size, "m");?>>Medium</option>
+					<option value="l" <?php selected( $op_size, "l");?>>Large</option>
+					</select>
+					</td>
+                </tr>
+				 <tr>
+                    <td>Agent Gender</td>
+                     <td><select  name="ft_op_gender">
+					<option value="m" <?php selected( $op_gender, "m");?>>Male</option>
+					<option value="f" <?php selected( $op_gender, "f");?>>Female</option>
+				
+					</select>
+					</td>
+                </tr>
+				</tbody>
+				<thead>
+				<tr>
+					<th colspan="2">Reserved for Premium Accounts</th>
+				</tr>
+				
+			</thead>
+			<tbody>
+                <tr>
+                     <td style="width:20%">Widget ID</td>
+                    <td><input style="width:300px" name="ft_widget_id" value="<?php echo $widget_id; ?>" style="width:100%;" /> </td>
+                </tr>
+				<tr>
+                     <td style="width:20%">Custom Bubble Image (Replaces the default 3D agent image)</td>
+                    <td><input style="width:300px" name="ft_custom_image" value="<?php echo $custom_img; ?>" style="width:100%;" /> (https://mywebsite.com/img/myimage.png) </td>
+                </tr>
+				<tr>
+                     <td><input class="checkbox" value="1" type="checkbox" <?php checked( $hide_tb, '1'); ?> name="ft_hide_tb" /> <label for="ft_hide_tb"> Hide Toolbar when all agents are offline</label></td>
+                   
+                </tr>
+				</tbody>
+				
 			<thead>
 				<tr>
 					<th colspan="2">Integration</th>

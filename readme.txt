@@ -4,7 +4,7 @@ Donate link:
 Tags: Live Chat, Live Support, Web Chat,  one to one chat, free live chat, gtalk, gmail, google, jabber, xmpp, sidebar chat, widget, website alive, support chat, sales chat, wordpress chat, live chat widget free, mobile chat, phone chat, chat operator
 Requires at least: 2.7
 Tested up to: 3.5
-Stable tag: 2.4.3
+Stable tag: 2.5.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -13,6 +13,10 @@ Start chatting to your site's visitors and FACEBOOK fans from Google Talk or mob
 == Description ==
 
 Impress your website visitors and convert them into loyal customers.[FlexyTalk](http://bit.ly/VfHp3A)  integrates with your current IM app and mobile phone. No software downloads nor complicated chat dashboards.
+
+* **New! 30/03/2013 Eye catching 3D agents on toolbar:** Display an agent image above the toolbar. Select gender and size of the agent image.
+
+* **New! 29/03/2013 Toggle OFFLINE-ONLINE Chat toolbar:** When a new visitor enters your site, FlexyTalk checks your availability status and show online/offline messages
 
 * **New! 16/01/2013 GRAVATAR Integration:** Let the visitors know who they are chatting with. Display your picture, current location and a brief text about you. Fill you profile at  <http://www.gravatar.com>
 
@@ -41,7 +45,7 @@ The free plan is activated automatically when you install our plugin and start c
 
 * Mobile phone compatible (use any free IM app on your phone to connect to your IM account)
 
-* Contact form when you're offline (retrieve messages from your IM app -[Tutorial](http://bit.ly/V87ts9) )
+* Contact form when you're offline (messages sent to your e-mail address)
 
 * Show your picture and profile from GRAVATAR ([Tutorial](http://bit.ly/W1gDum) )
 
@@ -57,6 +61,9 @@ The free plan is activated automatically when you install our plugin and start c
 
 * Customize "click to chat" button text and Live chat widget title
 
+* ONLINE/OFFLINE toggle button
+
+
 * Pre chat form. Ask the visitor to enter name, e-mail and message
 
 * Flashing widget header when visitor receives a message from operator
@@ -65,24 +72,13 @@ The free plan is activated automatically when you install our plugin and start c
 
 * E-mail Support: Only for installation issues
 
-**We are offering 2 paid plans:**
+**We are offering a premium membership with additional features and unlimited e-mail support at only **$4 /month (paid annualy)**
 
-* **PAY PER USE**
-
-* **SUBSCRIPTION**
-
-
-**PREMIUM PLAN I : PAY-PER-USE**
-The pay-per-use plan is unique. It lets you create unlimited operators at no charge. You only pay for each chat session. It's ideal for small teams with not so high traffic websites. 
  It includes all features from the free plan plus:
- 
-* Unlimited Operators (at no charge)
 
 * 3 concurrent chats 
 
 * Chat distributed among operators in round-robin fashion
-
-* Contact form when you're offline (messages sent to your e-mail address)
 
 * 24 chat widget themes (from [ JQUERY THEME ROLLER](http://bit.ly/Toatp0) )
 
@@ -90,22 +86,21 @@ The pay-per-use plan is unique. It lets you create unlimited operators at no cha
 
 * Customize all messages and text on the widget
 
-* White label
+* White label - No FlexyTalk logo on your chat widget
 
 * Layered or popup widget
 
 * Customize widget size and position on page
 
-* E-mail support: Full and unlimited
+* Display your own bubble image (replaces the default agent images)
 
-* [Pricing & Sign up](http://bit.ly/WVGgIT) 
+* Hide chat toolbar when all agents are offline
 
-**PREMIUM PLAN II: Annual subscription**
-Opposite to the pay per use plan, this plan comes with unlimited chat sessions, but you have to pay for each operator. It's ideal for high traffic websites, so you don't have to worry about spending money on each chat session. All features are the same as the pay-per use plan.
+* E-mail support: Full and unlimited priority support
 
-* Current pricing: $35 / year 
+* Current pricing: $48 / year 
 
-* Each  additional operator: $25 /year
+* Each  additional operator: $35 /year
 
 * [Pricing and Sign up](http://bit.ly/VfHp3A)
 
@@ -186,6 +181,12 @@ Please mail support@flexytalk.com if you are not able to integrate the widget on
 
 
 ==Changelog ==
+
+2.5.0
+
+* New Feature: Toggle ONLINE/OFFLINE button... Prefecth of your availability status
+* New Feature: Eye catching 3D agent image to invite the user to initiate a chat
+
 2.4.3
 
 * Widgetless option. Install FlexyTalk Live Chat Plugin on all pages of your website throught the new page settings 
