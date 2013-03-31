@@ -3,7 +3,7 @@
  * Plugin Name: FlexyTalk - Free Live Chat Widget
  * Plugin URI: http://bit.ly/VfHp3A
  * Description: FlexyTalk enables you to chat to your web visitors using your current gmail account. Free lifetime plan with unlimited chats.
- * Version: 2.5.0
+ * Version: 2.5.1
  * Author: FlexyTalk
  */
 
@@ -123,17 +123,6 @@ if(is_active_widget( '', '', 'flexytalk-widget')){
 }
 		extract( $args );
 
-		/* Our variables from the widget settings. */
-		$email=$instance['email'];
-		$btnLayout=$instance['btnLayout'];
-		$btnText=$instance['btnText'];
-		$btnPosition=$instance['btnPosition'];
-		$ff=$instance['ff'];
-		$gvtr=$instance['gvtr'];
-		
-		
-		
-
 		/* Before widget (defined by themes). */
 		echo $before_widget;
 
@@ -160,7 +149,7 @@ if($instance['btnPosition']=="1")
 	}
 	
 		/* Display name from widget settings if one was input. */
-		$htmlCode="<link href='//app.flexytalk.com/btn/". $instance['btnLayout'].".css' rel='stylesheet' type='text/css' /><div class='flexytalk' style='z-index:2147483647;".$style."' data-flexytalk-title='".$instance['WindowTitle']."' data-flexytalk='".$widgetid."' data-flexytalk-ff='".$instance['ff']."' data-flexytalk-chatdirect='".$instance['cd']."' data-flexytalk-gvtr='".$instance['gvtr']."' ><a href='#' id='dialog_link' class='ft-button dialog-link'><span class='iconchat'></span>".$instance['btnText']."</a></div>";
+		$htmlCode="<link href='//app.flexytalk.com/btn/". $instance['btnLayout'].".css' rel='stylesheet' type='text/css' /><div class='flexytalk' style='z-index:2147483647;".$style."' data-flexytalk-title='".$instance['WindowTitle']."' data-flexytalk='".$widgetid."' data-flexytalk-ff='".$instance['ff']."' data-flexytalk-chatdirect='".$instance['cd']."' data-flexytalk-gvtr='".$instance['gvtr']."' data-flexytalk-showop='".$instance['show_op']."' data-flexytalk-opgender='".$instance['op_gender']."' data-flexytalk-opsize='".$instance['op_size']."' data-flexytalk-hidetoolbar='".$instance['hide_tb']."' data-flexytalk-offlinemsg='".$instance['btnText_off']."' data-flexytalk-opsrc='".$instance['custom_img']."'  ><img id='ft_opimg' style='cursor:pointer;box-shadow:0px 0px 0px'><br /><a href='#' id='dialog_link' class='ft-button dialog-link'><span class='iconchat'></span><span id='ft_sp_text'>".$instance['btnText']."</span></a></div>";
 
 		if ( $htmlCode)
 			printf( $htmlCode);
@@ -185,12 +174,19 @@ function update( $new_instance, $old_instance ) {
 		$instance['cd'] = $new_instance['cd'];
 		$instance['gvtr'] = $new_instance['gvtr'];
 		
+		$instance['show_op'] = $new_instance['show_op'];
+		$instance['op_size'] = $new_instance['op_size'];
+		$instance['op_gender'] = $new_instance['op_gender'];
+		$instance['hide_tb'] = $new_instance['hide_tb'];
+		$instance['btnText_off'] = $new_instance['btnText_off'];
+		$instance['custom_img'] = $new_instance['custom_img'];
+		
 		return $instance;
 	}
 function form( $instance ) {
 
 /* Set up some default widget settings. */
-		$defaults = array( 'btnText' => __('CLICK TO CHAT', ''), 'btnLayout' => __('cupertino', ''), 'email' => __('', ''), 'cd'=>__("0",""), 'btnPosition'=>__("1",""), 'WindowTitle' => __('LIVE CHAT', ''), 'ff' => __('10', ''), 'WidgetID' => __('', ''), 'gvtr' =>__('0',''));
+		$defaults = array( 'btnText' => __('Need Help? Click to Chat', ''), 'btnLayout' => __('cupertino', ''), 'email' => __('', ''), 'cd'=>__("0",""), 'btnPosition'=>__("1",""), 'WindowTitle' => __('LIVE CHAT', ''), 'ff' => __('10', ''), 'WidgetID' => __('', ''), 'gvtr' =>__('0',''),'show_op' =>__('1',''), 'op_size' =>__('m',''), 'op_gender' =>__('m',''), 'btnText_off' =>__('Offline - Leave a message',''));
 		$instance = wp_parse_args( (array) $instance, $defaults ); ?>
 <table class="wc_status_table widefat" cellspacing="0">
 
@@ -206,12 +202,7 @@ function form( $instance ) {
                     <td><input style="width:300px" id="<?php echo $this->get_field_id( 'email' ); ?>" name="<?php echo $this->get_field_name( 'email' ); ?>" value="<?php echo $instance['email']; ?>" style="width:100%;" /> <i>(username@gmail.com) </i> </td>
 					
                 </tr>
-                <tr>
-                    <td style="width:20%">Widget ID</td>
-                    <td><input style="width:300px" id="<?php echo $this->get_field_id( 'WidgetID' ); ?>" name="<?php echo $this->get_field_name( 'WidgetID' ); ?>" value="<?php echo $instance['WidgetID']; ?>" style="width:100%;" /> <i>(Reserved for <a target="_blank" href="http://bit.ly/VfHp3A">Premium Users</a>)</i>
-					</td>
-				
-                </tr>
+               
              	
 			</tbody>
 
@@ -223,10 +214,16 @@ function form( $instance ) {
 
 			<tbody>
                 <tr>
-                    <td>Chat Button Text</td>
+                    <td>Button Text when available</td>
                     <td><input id="<?php echo $this->get_field_id( 'btnText' ); ?>" name="<?php echo $this->get_field_name( 'btnText' ); ?>" value="<?php echo $instance['btnText']; ?>" style="width:300px" /></td>
 				
                 </tr>
+				<tr>
+                    <td>Button Text when unavailable</td>
+                    <td><input id="<?php echo $this->get_field_id( 'btnText_off' ); ?>" name="<?php echo $this->get_field_name( 'btnText_off' ); ?>"  value="<?php echo $instance['btnText_off'];?> " style="width:300px" /></td>
+				
+                </tr>
+				
                 <tr>
                     <td>Chat Button Position</td>
                     <td><select id="<?php echo $this->get_field_id( 'btnPosition' ); ?>" name="<?php echo $this->get_field_name( 'btnPosition' ); ?>">
@@ -267,7 +264,56 @@ function form( $instance ) {
 					
                 </tr>
 			</tbody>
-
+			<thead>
+				<tr>
+					<th colspan="2">Agent Image - <i>Displays a 3D image on top of the chat toolbar</i></th>
+				</tr>
+			</thead>
+			<tbody>
+                <tr>
+				 <td  colspan="2"><input id="<?php echo $this->get_field_id( 'show_op' ); ?>" name="<?php echo $this->get_field_name( 'show_op' ); ?>" class="checkbox" value="1" type="checkbox" <?php checked($instance['show_op'], "1"); ?> />Display Agent Image</td>
+                  
+                </tr>
+				 <tr>
+                    <td>Agent Image Size</td>
+                   <td><select id="<?php echo $this->get_field_id( 'op_size' ); ?>" name="<?php echo $this->get_field_name( 'op_size' ); ?>">
+					<option value="s" <?php selected($instance["op_size"], "s");?>>Small</option>
+					<option value="m" <?php selected($instance["op_size"], "m");?>>Medium</option>
+					<option value="l" <?php selected($instance["op_size"], "l");?>>Large</option>
+					</select>
+					</td>
+                </tr>
+				 <tr>
+                    <td>Agent Gender</td>
+                     <td><select id="<?php echo $this->get_field_id( 'op_gender' ); ?>" name="<?php echo $this->get_field_name( 'op_gender' ); ?>">
+					<option value="m" <?php selected($instance["op_gender"], "m");?>>Male</option>
+					<option value="f" <?php selected( $instance["op_gender"], "f");?>>Female</option>
+				
+					</select>
+					</td>
+                </tr>
+				</tbody>
+				<thead>
+				<tr>
+					<th colspan="2">Reserved for Premium Accounts</th>
+				</tr>
+				
+			</thead>
+			<tbody>
+                <tr>
+                     <td style="width:20%">Widget ID</td>
+                    <td><input style="width:300px" id="<?php echo $this->get_field_id( 'WidgetID' ); ?>" name="<?php echo $this->get_field_name( 'WidgetID' ); ?>" value="<?php echo $instance['WidgetID']; ?>" style="width:100%;" /> 
+					</td>
+                </tr>
+				<tr>
+                     <td style="width:20%">Custom Bubble Image (Replaces the default 3D agent image)</td>
+                    <td><input style="width:300px"  id="<?php echo $this->get_field_id( 'custom_img' ); ?>" name="<?php echo $this->get_field_name( 'custom_img' ); ?>" value="<?php echo $instance['custom_img']; ?>" style="width:100%;" /> (https://mywebsite.com/img/myimage.png) </td>
+                </tr>
+				<tr>
+                     <td colspan="2"><input class="checkbox" value="1" type="checkbox" <?php checked( $instance["hide_tb"], '1'); ?> id="<?php echo $this->get_field_id( 'hide_tb' ); ?>" name="<?php echo $this->get_field_name( 'hide_tb' ); ?>" /> <label for="ft_hide_tb"> Hide chat toolbar when all agents are offline</label></td>
+                   
+                </tr>
+				</tbody>
 			<thead>
 				<tr>
 					<th colspan="2">Integration</th>
