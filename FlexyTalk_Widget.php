@@ -72,11 +72,11 @@ $htmlCode="<link href='//app.flexytalk.com/btn/". $btn_layout.".css' rel='styles
 			data-flexytalk-offlinemsg='".$offmessage."' 
 			data-flexytalk-opsrc='".$custom_image."'  >
 			<div>
-			<img id="ft_opimg" style="cursor:pointer;vertical-align:bottom">
+			<img id='ft_opimg' style='cursor:pointer;vertical-align:bottom'>
 			</div>
 			<a href='#' id='dialog_link' class='ft-button dialog-link'>
 			<span class='iconchat'></span>	
-			<span id="ft_sp_text">".$btn_text."</span></a></div>";	
+			<span id='ft_sp_text'>".$btn_text."</span></a></div>";	
 return $htmlCode;
 
  
