@@ -12,7 +12,7 @@ Start chatting to your site's visitors and FACEBOOK fans from Google Talk or mob
 
 == Description ==
 
-Impress your website visitors and convert them into loyal customers.[FlexyTalk](http://bit.ly/VfHp3A)  integrates with your current IM app and mobile phone. No software downloads nor complicated chat dashboards.
+Impress your website visitors and convert them into loyal customers.[FlexyTalk](http://bit.ly/WVGgIT)  integrates with your current IM app and mobile phone. No software downloads nor complicated chat dashboards.
 
 * **New! 30/03/2013 Eye catching 3D agents on toolbar:** Display an agent image above the toolbar. Select gender and size of the agent image.
 
@@ -72,11 +72,13 @@ The free plan is activated automatically when you install our plugin and start c
 
 * E-mail Support: Only for installation issues
 
-**We are offering a premium membership with additional features and unlimited e-mail support at only **$4 /month (paid annualy)**
+**We are offering a premium membership with additional features and unlimited e-mail support for 2 agents at only $2.- /mo. per agent(paid annualy)**
 
  It includes all features from the free plan plus:
+ 
+ * 2 Agents
 
-* 3 concurrent chats 
+* 3 concurrent chats p/agent
 
 * Chat distributed among operators in round-robin fashion
 
@@ -102,7 +104,7 @@ The free plan is activated automatically when you install our plugin and start c
 
 * Each  additional operator: $35 /year
 
-* [Pricing and Sign up](http://bit.ly/VfHp3A)
+* [Pricing and Sign up](http://bit.ly/WVGgIT)
 
 
 == Installation ==
