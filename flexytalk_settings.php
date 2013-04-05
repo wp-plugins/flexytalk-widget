@@ -30,8 +30,8 @@ function endsWith( $str, $sub ) {
 		$op_gender = $_POST['ft_op_gender'];
 		update_option('ft_op_gender', $op_gender);
 		
-		$custom_img = $_POST['ft_custom_img'];
-		update_option('ft_custom_img', $custom_img);
+		$custom_img = $_POST['ft_custom_image'];
+		update_option('ft_custom_image', $custom_img);
 		
 		$op_size = $_POST['ft_op_size'];
 		update_option('ft_op_size', $op_size);
