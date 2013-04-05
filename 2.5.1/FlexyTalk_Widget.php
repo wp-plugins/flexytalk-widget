@@ -31,7 +31,7 @@ $window_title=get_option(ft_window_title);
 $show_op=get_option(ft_show_op);
 $op_gender=get_option(ft_op_gender);
 $op_size=get_option(ft_op_size);
-$custom_image=get_option(ft_custom_img);
+$custom_image=get_option(ft_custom_image);
 $hide_tb=get_option(ft_hide_tb);
 $offmessage=get_option(ft_btn_text_off);
 
@@ -168,7 +168,7 @@ if($instance['btnPosition']=="1")
 	}
 	
 		/* Display name from widget settings if one was input. */
-		$htmlCode="<link href='//app.flexytalk.com/btn/". $instance['btnLayout'].".css' rel='stylesheet' type='text/css' /><div class='flexytalk' style='z-index:2147483647;display:none;".$style."' data-flexytalk-title='".$instance['WindowTitle']."' data-flexytalk='".$widgetid."' data-flexytalk-ff='".$instance['ff']."' data-flexytalk-chatdirect='".$instance['cd']."' data-flexytalk-gvtr='".$instance['gvtr']."' data-flexytalk-showop='".$instance['show_op']."' data-flexytalk-opgender='".$instance['op_gender']."' data-flexytalk-opsize='".$instance['op_size']."' data-flexytalk-hidetoolbar='".$instance['hide_tb']."' data-flexytalk-offlinemsg='".$instance['btnText_off']."' data-flexytalk-opsrc='".$instance['custom_img']."'  ><div><img id='ft_opimg' style='cursor:pointer;box-shadow:0px 0px 0px;vertical-align:bottom'></div><a href='#' id='dialog_link' class='ft-button dialog-link'><span class='iconchat'></span><span id='ft_sp_text'>".$instance['btnText']."</span></a></div>";
+		$htmlCode="<link href='//app.flexytalk.com/btn/". $instance['btnLayout'].".css' rel='stylesheet' type='text/css' /><div class='flexytalk' style='z-index:2147483647;".$style."' data-flexytalk-title='".$instance['WindowTitle']."' data-flexytalk='".$widgetid."' data-flexytalk-ff='".$instance['ff']."' data-flexytalk-chatdirect='".$instance['cd']."' data-flexytalk-gvtr='".$instance['gvtr']."' data-flexytalk-showop='".$instance['show_op']."' data-flexytalk-opgender='".$instance['op_gender']."' data-flexytalk-opsize='".$instance['op_size']."' data-flexytalk-hidetoolbar='".$instance['hide_tb']."' data-flexytalk-offlinemsg='".$instance['btnText_off']."' data-flexytalk-opsrc='".$instance['custom_img']."'  ><div><img id='ft_opimg' style='cursor:pointer;box-shadow:0px 0px 0px;vertical-align:bottom'></div><a href='#' id='dialog_link' class='ft-button dialog-link'><span class='iconchat'></span><span id='ft_sp_text'>".$instance['btnText']."</span></a></div>";
 
 		if ( $htmlCode)
 			printf( $htmlCode);

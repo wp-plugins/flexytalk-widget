@@ -72,7 +72,7 @@ The free plan is activated automatically when you install our plugin and start c
 
 * E-mail Support: Only for installation issues
 
-**We are offering a premium membership with additional features and unlimited e-mail support for 2 agents at only $2.- /mo. per agent(paid annualy)**
+**We are offering a premium membership with additional features and unlimited e-mail support for 2 agents at only $2.- /mo. per agent(paid annually)**
 
  It includes all features from the free plan plus:
  
