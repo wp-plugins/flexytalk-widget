@@ -507,7 +507,7 @@ function form( $instance ) {
                     
                 </tr>
                 <tr>
-                    <td colspan="2"><a target="_blank" href="http://bit.ly/VfHp3A">Customizations</a></td>
+                    <td colspan="2"><a target="_blank" href="http://bit.ly/WVGgIT">Customizations</a></td>
                    
 					
                 </tr>
