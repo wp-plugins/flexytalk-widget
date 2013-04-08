@@ -115,34 +115,28 @@ The free plan is activated automatically when you install our plugin and start c
 
 * Locate the plugin in the search results, click **INSTALL** and the click **ACTIVATE**
 
-The plugin creates a new widget on the **WIDGETS** section.
+The plugin creates a new entry on your Worpress main menu.
 
 
-**CONFIGURE THE WIDGET**
+**CONFIGURE THE LIVE CHAT WIDGET**
 
-* Locate the widget called "FlexyTalk Free Live Chat Widget" on the widget's list 
+* Enter the GMAIL/JABBER account you want to setup as your INSTANT MESSAGING account.
 
-* Drag the widget to the desire location in any sidebar you like.
+* Complete all the fields to customize the live chat widget
 
-* On the displayed configuration area, enter your **GMAIL** account, choose the button layout, enter a text for the button, and select button's position on page. Finally click SAVE.
 
-By now you should have your brand new button on your WordPress site. 
 
 **ACTIVATE YOUR ACCOUNT**
 
-* Click the "click to chat" button on your WP site. You will see an activation window displayed.
+* Once configured the IM ACCOUNT, navigate to your site and click on the chat toolbar. You will see an activation window displayed and an e-mail will be sent to you with further instructions.
 
-* If you entered a real gmail account, check your chat contacts. There´s a new invitation request from one of FlexyTalk's bots.
+* Open your IM client and check for a new chat subscription request. If you are on GMAIL web client, you will the chat request on the left sidebar, near your chat contacts.
 
 * Accept the invitation.
 
-By now, we've become chat buddies and next time you click the CHAT BUTTON, you will see the chat interface.
+By now, we've become chat buddies and next time you click the CHAT BUTTON, you will see the chat interface. You may need to refresh the browser.
 
-
-**OFFLINE MESSAGES**
-
-* Every time you want to retrieve your offline messages, open your IM app (GTALK, GMAIL or whatever app you use), start a chat session with the BOT and send the message **!off** .
-The bot will send you a response containing all the messages you received while you were offline. On Premium plans, offline messages are sent directly to your mail
+IMPORTANT: When you want to end a conversation, type the message *!end* to become available again for new conversation requests.
 
 
 Please mail support@flexytalk.com if you are not able to integrate the widget on your site.
