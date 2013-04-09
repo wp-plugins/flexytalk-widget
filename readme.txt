@@ -12,7 +12,6 @@ Start chatting to your site's visitors and FACEBOOK fans from Google Talk or mob
 
 == Description ==
 
-**IMPORTANT: Google is blocking new chat invites. We are not accepting new users until we recover from this issue. Other JABBER / XMPP accounts are working without problems**
 
 Impress your website visitors and convert them into loyal customers.[FlexyTalk](http://bit.ly/WVGgIT)  integrates with your current IM app and mobile phone. No software downloads nor complicated chat dashboards.
 
