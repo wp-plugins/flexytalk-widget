@@ -73,11 +73,10 @@ The free plan is activated automatically when you install our plugin and start c
 
 * E-mail Support: Only for installation issues
 
-**We are offering a premium membership with additional features and unlimited e-mail support for 2 agents at only $2.- /mo. per agent(paid annually)**
+**PREMIUM PLAN**
 
  It includes all features from the free plan plus:
  
- * 2 Agents
 
 * 3 concurrent chats p/agent
 
@@ -104,6 +103,10 @@ The free plan is activated automatically when you install our plugin and start c
 * Current pricing: $48 / year 
 
 * Each  additional operator: $35 /year
+
+* Transfer chats between agents 
+
+* Manage your availability - Lets you be OFFLINE when your IM  status is AWAY or BUSY
 
 * [Pricing and Sign up](http://bit.ly/WVGgIT)
 
