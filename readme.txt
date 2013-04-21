@@ -82,6 +82,12 @@ The free plan is activated automatically when you install our plugin and start c
 
 * Chat distributed among operators in round-robin fashion
 
+* Chat Transfer between agents 
+
+* Manage your availability - Lets you be OFFLINE when your IM  status is AWAY or BUSY
+
+* Rotates chat requests among agents until someone accept it.
+
 * 24 chat widget themes (from [ JQUERY THEME ROLLER](http://bit.ly/Toatp0) )
 
 * Build you custom JQUERY THEME ([Tutorial](http://bit.ly/146HMyO) )
@@ -103,10 +109,6 @@ The free plan is activated automatically when you install our plugin and start c
 * Current pricing: $48 / year 
 
 * Each  additional operator: $35 /year
-
-* Transfer chats between agents 
-
-* Manage your availability - Lets you be OFFLINE when your IM  status is AWAY or BUSY
 
 * [Pricing and Sign up](http://bit.ly/WVGgIT)
 
