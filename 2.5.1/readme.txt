@@ -15,13 +15,13 @@ Start chatting to your site's visitors and FACEBOOK fans from Google Talk or mob
 
 Impress your website visitors and convert them into loyal customers.[FlexyTalk](http://bit.ly/WVGgIT)  integrates with your current IM app and mobile phone. No software downloads nor complicated chat dashboards.
 
-* **New! 12/05/2013 ** Automatic pop up chat widget: The widget will popup after 15 seconds on a page showing a greeting message and inviting the user to chat
+* **New! 12/05/2013** Automatic pop up chat widget: The widget will popup after 15 seconds on a page showing a greeting message and inviting the user to chat
 
-* **New! 12/05/2013 ** Clickable links on widget: Just send a qualified URL as a chat message and the widget displays a clickable link
+* **New! 12/05/2013** Clickable links on widget: Just send a qualified URL as a chat message and the widget displays a clickable link
 
-* **New! 12/05/2013 ** Sound Alerts
+* **New! 12/05/2013** Sound Alerts
 
-* **New! 21/04/2013 ** Displays an apologize if the agent waits too long to accept a chat request
+* **New! 21/04/2013** Displays an apologize if the agent waits too long to accept a chat request
 
 * **New! 21/04/2013 Improved Chat Request:**FlexyTalk will ask you if you want to accept the chat request. The user will see a progress bar indicator
 
