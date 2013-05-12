@@ -15,6 +15,16 @@ Start chatting to your site's visitors and FACEBOOK fans from Google Talk or mob
 
 Impress your website visitors and convert them into loyal customers.[FlexyTalk](http://bit.ly/WVGgIT)  integrates with your current IM app and mobile phone. No software downloads nor complicated chat dashboards.
 
+* **New! 12/05/2013 **Automatic pop up chat widget: The widget will popup after 15 seconds on a page showing a greeting message and inviting the user to chat
+
+* **New! 12/05/2013 **Clickable links on widget: Just send a qualified URL as a chat message and the widget displays a clickable link
+
+* **New! 12/05/2013 **Sound Alerts
+
+* **New! 21/04/2013 **Displays an apologize if the agent waits too long to accept a chat request
+
+* **New! 21/04/2013 Improved Chat Request:**FlexyTalk will ask you if you want to accept the chat request. The user will see a progress bar indicator
+
 * **New! 30/03/2013 Eye catching 3D agents on toolbar:** Display an agent image above the toolbar. Select gender and size of the agent image.
 
 * **New! 29/03/2013 Toggle OFFLINE-ONLINE Chat toolbar:** When a new visitor enters your site, FlexyTalk checks your availability status and show online/offline messages
@@ -50,6 +60,14 @@ The free plan is activated automatically when you install our plugin and start c
 
 * Show your picture and profile from GRAVATAR ([Tutorial](http://bit.ly/W1gDum) )
 
+* Automatic pop up chat widget: The widget will popup after 15 seconds on a page showing a greeting message and inviting the user to chat
+
+* Clickable links on widget: Just send a qualified URL as a chat message and the widget displays a clickable link
+
+* Displays an apologize if the agent waits too long to accept a chat request
+
+* Sound alerts
+
 * Install your live chat widget on FACEBOOK business site ([Tutorial](http://bit.ly/Tob5ee) )
 
 * Layered chat widget (displays a layer on your website - no popup)
@@ -83,6 +101,10 @@ The free plan is activated automatically when you install our plugin and start c
 * Chat distributed among operators in round-robin fashion
 
 * Chat Transfer between agents 
+
+* Send chat transcript to visitor
+
+* Send chat transcript to admin
 
 * Manage your availability - Lets you be OFFLINE when your IM  status is AWAY or BUSY
 
