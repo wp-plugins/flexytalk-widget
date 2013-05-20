@@ -15,25 +15,25 @@ Start chatting to your site's visitors and FACEBOOK fans from Google Talk or mob
 
 Impress your website visitors and convert them into loyal customers.[FlexyTalk](http://bit.ly/WVGgIT)  integrates with your current IM app and mobile phone. No software downloads nor complicated chat dashboards.
 
-* **New! 20/05/2013** CDN Enabled: All content served by FlexyTalk is distributed around 23 datacenter around the world 
+* **New! 05/20/2013** CDN Enabled: All content served by FlexyTalk is distributed around 23 datacenter around the world 
 
-* **New! 12/05/2013** Automatic pop up chat widget: The widget will popup after 15 seconds on a page showing a greeting message and inviting the user to chat
+* **New! 05/12/2013** Automatic pop up chat widget: The widget will popup after 15 seconds on a page showing a greeting message and inviting the user to chat
 
-* **New! 12/05/2013** Clickable links on widget: Just send a qualified URL as a chat message and the widget displays a clickable link
+* **New! 05/12/2013** Clickable links on widget: Just send a qualified URL as a chat message and the widget displays a clickable link
 
-* **New! 12/05/2013** Sound Alerts
+* **New! 05/12/2013** Sound Alerts
 
-* **New! 21/04/2013** Displays an apologize if the agent waits too long to accept a chat request
+* **New! 04/21/2013** Displays an apologize if the agent waits too long to accept a chat request
 
-* **New! 21/04/2013 Improved Chat Request:**FlexyTalk will ask you if you want to accept the chat request. The user will see a progress bar indicator
+* **New! 04/21/2013 Improved Chat Request:**FlexyTalk will ask you if you want to accept the chat request. The user will see a progress bar indicator
 
-* **New! 30/03/2013 Eye catching 3D agents on toolbar:** Display an agent image above the toolbar. Select gender and size of the agent image.
+* **New! 03/30/2013 Eye catching 3D agents on toolbar:** Display an agent image above the toolbar. Select gender and size of the agent image.
 
-* **New! 29/03/2013 Toggle OFFLINE-ONLINE Chat toolbar:** When a new visitor enters your site, FlexyTalk checks your availability status and show online/offline messages
+* **New! 03/29/2013 Toggle OFFLINE-ONLINE Chat toolbar:** When a new visitor enters your site, FlexyTalk checks your availability status and show online/offline messages
 
-* **New! 16/01/2013 GRAVATAR Integration:** Let the visitors know who they are chatting with. Display your picture, current location and a brief text about you. Fill you profile at  <http://www.gravatar.com>
+* **New! 01/16/2013 GRAVATAR Integration:** Let the visitors know who they are chatting with. Display your picture, current location and a brief text about you. Fill you profile at  <http://www.gravatar.com>
 
-* **New!  05/01/2013 FACEBOOK Integration:** You are a few clicks away from bringing our live chat solution to your FACEBOOK fan page. Maximize Facebook's potential for new sales and leads.
+* **New!  01/05/2013 FACEBOOK Integration:** You are a few clicks away from bringing our live chat solution to your FACEBOOK fan page. Maximize Facebook's potential for new sales and leads.
 
 **FREE PLAN:**
 The free plan is activated automatically when you install our plugin and start chatting. You don't need to sign up on our site. Your free account never expires. It includes:
