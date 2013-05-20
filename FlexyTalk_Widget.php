@@ -57,7 +57,7 @@ if($btn_position=="1")
 		$widgetid=$widget_id;
 	}
 
-$htmlCode="<link href='//app.flexytalk.com/btn/". $btn_layout.".css' rel='stylesheet' type='text/css' />
+$htmlCode="<link href='//www.flexytalk.net/app/css/tb/". $btn_layout.".css' rel='stylesheet' type='text/css' />
 			<div class='flexytalk' 
 			style='z-index:2147483647;display:none;".$style."' 
 			data-flexytalk-title='".$window_title."' 
@@ -110,7 +110,7 @@ function Enqueue_Scripts()
  	wp_enqueue_script('jquery');
  	wp_enqueue_script('jquery-ui-core');
  	wp_enqueue_script('jquery-ui-dialog');
-	wp_enqueue_script('flexytalk','https://app.flexytalk.com/js/flexytalk.js', array(), null, true ); 
+	wp_enqueue_script('flexytalk','//www.flexytalk.net/app/js/flexytalk.js', array(), null, true ); 
 	
 }
 
@@ -168,7 +168,7 @@ if($instance['btnPosition']=="1")
 	}
 	
 		/* Display name from widget settings if one was input. */
-		$htmlCode="<link href='//app.flexytalk.com/btn/". $instance['btnLayout'].".css' rel='stylesheet' type='text/css' /><div class='flexytalk' style='z-index:2147483647;".$style."' data-flexytalk-title='".$instance['WindowTitle']."' data-flexytalk='".$widgetid."' data-flexytalk-ff='".$instance['ff']."' data-flexytalk-chatdirect='".$instance['cd']."' data-flexytalk-gvtr='".$instance['gvtr']."' data-flexytalk-showop='".$instance['show_op']."' data-flexytalk-opgender='".$instance['op_gender']."' data-flexytalk-opsize='".$instance['op_size']."' data-flexytalk-hidetoolbar='".$instance['hide_tb']."' data-flexytalk-offlinemsg='".$instance['btnText_off']."' data-flexytalk-opsrc='".$instance['custom_img']."'  ><div><img id='ft_opimg' style='cursor:pointer;box-shadow:0px 0px 0px;background:none;border:none;vertical-align:bottom'></div><a href='#' id='dialog_link' class='ft-button dialog-link'><span class='iconchat'></span><span id='ft_sp_text'>".$instance['btnText']."</span></a></div>";
+		$htmlCode="<link href='//www.flexytalk.net/app/css/tb/". $instance['btnLayout'].".css' rel='stylesheet' type='text/css' /><div class='flexytalk' style='z-index:2147483647;".$style."' data-flexytalk-title='".$instance['WindowTitle']."' data-flexytalk='".$widgetid."' data-flexytalk-ff='".$instance['ff']."' data-flexytalk-chatdirect='".$instance['cd']."' data-flexytalk-gvtr='".$instance['gvtr']."' data-flexytalk-showop='".$instance['show_op']."' data-flexytalk-opgender='".$instance['op_gender']."' data-flexytalk-opsize='".$instance['op_size']."' data-flexytalk-hidetoolbar='".$instance['hide_tb']."' data-flexytalk-offlinemsg='".$instance['btnText_off']."' data-flexytalk-opsrc='".$instance['custom_img']."'  ><div><img id='ft_opimg' style='cursor:pointer;box-shadow:0px 0px 0px;background:none;border:none;vertical-align:bottom'></div><a href='#' id='dialog_link' class='ft-button dialog-link'><span class='iconchat'></span><span id='ft_sp_text'>".$instance['btnText']."</span></a></div>";
 
 		if ( $htmlCode)
 			printf( $htmlCode);

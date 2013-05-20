@@ -14,6 +14,7 @@ Start chatting to your site's visitors and FACEBOOK fans from Google Talk or mob
 
 
 Impress your website visitors and convert them into loyal customers.[FlexyTalk](http://bit.ly/WVGgIT)  integrates with your current IM app and mobile phone. No software downloads nor complicated chat dashboards.
+* **New! 20/05/2013** CDN Enabled: All content served by FlexyTalk is distributed around 23 datacenter around the world 
 
 * **New! 12/05/2013** Automatic pop up chat widget: The widget will popup after 15 seconds on a page showing a greeting message and inviting the user to chat
 
@@ -201,6 +202,9 @@ Please mail support@flexytalk.com if you are not able to integrate the widget on
 
 
 ==Changelog ==
+2.5.2
+
+* Paths Change to CDN: All content served by FlexyTalk is distributed around 23 datacenter around the world 
 
 2.5.1
 * Bug Fix: Widget mode did not reflect changes from the previous release
