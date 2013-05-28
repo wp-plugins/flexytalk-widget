@@ -3,7 +3,7 @@
  * Plugin Name: FlexyTalk - Free Live Chat Widget
  * Plugin URI: http://bit.ly/VfHp3A
  * Description: FlexyTalk enables you to chat to your web visitors using your current gmail account. Free lifetime plan with unlimited chats.
- * Version: 2.5.2
+ * Version: 2.5.3
  * Author: FlexyTalk
  */
 
@@ -61,7 +61,7 @@ $htmlCode="<link href='//www.flexytalk.net/app/css/tb/". $btn_layout.".css' rel=
 			<div class='flexytalk' 
 			style='z-index:2147483647;display:none;".$style."' 
 			data-flexytalk-title='".$window_title."' 
-			data-flexytalk='".$widgetid."' 
+			data-flexytalk='".trim($widgetid)."' 
 			data-flexytalk-ff='".$ff."' 
 			data-flexytalk-chatdirect='".$cd."' 
 			data-flexytalk-gvtr='".$gvtr."' 
@@ -168,7 +168,7 @@ if($instance['btnPosition']=="1")
 	}
 	
 		/* Display name from widget settings if one was input. */
-		$htmlCode="<link href='//www.flexytalk.net/app/css/tb/". $instance['btnLayout'].".css' rel='stylesheet' type='text/css' /><div class='flexytalk' style='z-index:2147483647;".$style."' data-flexytalk-title='".$instance['WindowTitle']."' data-flexytalk='".$widgetid."' data-flexytalk-ff='".$instance['ff']."' data-flexytalk-chatdirect='".$instance['cd']."' data-flexytalk-gvtr='".$instance['gvtr']."' data-flexytalk-showop='".$instance['show_op']."' data-flexytalk-opgender='".$instance['op_gender']."' data-flexytalk-opsize='".$instance['op_size']."' data-flexytalk-hidetoolbar='".$instance['hide_tb']."' data-flexytalk-offlinemsg='".$instance['btnText_off']."' data-flexytalk-opsrc='".$instance['custom_img']."'  ><div><img id='ft_opimg' style='cursor:pointer;box-shadow:0px 0px 0px;background:none;border:none;vertical-align:bottom'></div><a href='#' id='dialog_link' class='ft-button dialog-link'><span class='iconchat'></span><span id='ft_sp_text'>".$instance['btnText']."</span></a></div>";
+		$htmlCode="<link href='//www.flexytalk.net/app/css/tb/". $instance['btnLayout'].".css' rel='stylesheet' type='text/css' /><div class='flexytalk' style='z-index:2147483647;".$style."' data-flexytalk-title='".$instance['WindowTitle']."' data-flexytalk='".trim($widgetid)."' data-flexytalk-ff='".$instance['ff']."' data-flexytalk-chatdirect='".$instance['cd']."' data-flexytalk-gvtr='".$instance['gvtr']."' data-flexytalk-showop='".$instance['show_op']."' data-flexytalk-opgender='".$instance['op_gender']."' data-flexytalk-opsize='".$instance['op_size']."' data-flexytalk-hidetoolbar='".$instance['hide_tb']."' data-flexytalk-offlinemsg='".$instance['btnText_off']."' data-flexytalk-opsrc='".$instance['custom_img']."'  ><div><img id='ft_opimg' style='cursor:pointer;box-shadow:0px 0px 0px;background:none;border:none;vertical-align:bottom'></div><a href='#' id='dialog_link' class='ft-button dialog-link'><span class='iconchat'></span><span id='ft_sp_text'>".$instance['btnText']."</span></a></div>";
 
 		if ( $htmlCode)
 			printf( $htmlCode);
@@ -207,6 +207,7 @@ function form( $instance ) {
 /* Set up some default widget settings. */
 		$defaults = array( 'btnText' => __('Need Help? Click to Chat', ''), 'btnLayout' => __('cupertino', ''), 'email' => __('', ''), 'cd'=>__("0",""), 'btnPosition'=>__("1",""), 'WindowTitle' => __('LIVE CHAT', ''), 'ff' => __('10', ''), 'WidgetID' => __('', ''), 'gvtr' =>__('0',''),'show_op' =>__('1',''), 'op_size' =>__('m',''), 'op_gender' =>__('m',''), 'btnText_off' =>__('Offline - Leave a message',''));
 		$instance = wp_parse_args( (array) $instance, $defaults ); ?>
+<a target='_blank' title="Visit FlexyTalk' href='http://www.flexytalk.com'><img title='Visit FlexyTalk' src='https://groovechatstorage.blob.core.windows.net/general/logo130x42.png' alt='Visit FlexyTalk' /></a>
 <table class="wc_status_table widefat" cellspacing="0">
 
 			<thead>
@@ -217,11 +218,16 @@ function form( $instance ) {
 
 			<tbody>
                 <tr>
-                    <td>GMail / JABBER Account</td>
-                    <td><input style="width:300px" id="<?php echo $this->get_field_id( 'email' ); ?>" name="<?php echo $this->get_field_name( 'email' ); ?>" value="<?php echo $instance['email']; ?>" style="width:100%;" /> <i>(username@gmail.com) </i> </td>
+                    <td><input  class="button button-primary" name="Submit" value="Create a Free Account" onclick="javascript:window.open('http://panel.flexytalk.com/account/signup','_blank');"> </td>
+                    <td><i> When signing up you will get a full Team Plan for a Free Trial period of 14 days. No credit cards required. When the Free Trial period expires your account will be automatically downgraded to a Free Plan account, or to the account you decide to pay for. </i></td>
+					
 					
                 </tr>
-               
+                  <tr>
+                     <td style="width:20%">FlexyID</td>
+                    <td><input style="width:300px" id="<?php echo $this->get_field_id( 'WidgetID' ); ?>" name="<?php echo $this->get_field_name( 'WidgetID' ); ?>" value="<?php echo $instance['WidgetID']; ?>" style="width:100%;" />  <i>Find it at <a href='http://panel.flexytalk.com' target='_blank'>FlexyTalk Control Panel </a>
+					</td>
+                </tr>
              	
 			</tbody>
 
@@ -319,11 +325,7 @@ function form( $instance ) {
 				
 			</thead>
 			<tbody>
-                <tr>
-                     <td style="width:20%">Widget ID</td>
-                    <td><input style="width:300px" id="<?php echo $this->get_field_id( 'WidgetID' ); ?>" name="<?php echo $this->get_field_name( 'WidgetID' ); ?>" value="<?php echo $instance['WidgetID']; ?>" style="width:100%;" /> 
-					</td>
-                </tr>
+             
 				<tr>
                      <td style="width:20%">Custom Bubble Image (Replaces the default 3D agent image)</td>
                     <td><input style="width:300px"  id="<?php echo $this->get_field_id( 'custom_img' ); ?>" name="<?php echo $this->get_field_name( 'custom_img' ); ?>" value="<?php echo $instance['custom_img']; ?>" style="width:100%;" /> (https://mywebsite.com/img/myimage.png) </td>
@@ -525,6 +527,11 @@ function form( $instance ) {
   <td colspan="2"><strong>Please</strong>, <a href="http://wordpress.org/support/view/plugin-reviews/flexytalk-widget" target="_blank">take a moment to rate this plugin</a>, <strong>thank you!</strong></td>
 					
                     
+                </tr>
+ <tr>
+                    <td>Legacy / GTalk-GMail</td>
+                    <td><input style="width:300px" id="<?php echo $this->get_field_id( 'email' ); ?>" name="<?php echo $this->get_field_name( 'email' ); ?>" value="<?php echo $instance['email']; ?>" style="width:100%;" /><br/> <i>(username@gmail.com) - ONLY for legacy users without FlexyID</i> </td>
+					
                 </tr>
 
 			</tbody>

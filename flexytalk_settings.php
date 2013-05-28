@@ -46,30 +46,9 @@ function endsWith( $str, $sub ) {
 		update_option('ft_window_title', $window_title);
 
 		$email = $_POST['ft_email'];
-		$p_email=get_option(ft_email);
-		if($email=="" or endsWith($email,"yahoo.com"))
-			$message="Please, enter a valid GMAIL OR JABBER address";
-		else
-		{
-			if(endsWith($email,"gmail.com"))
-			{
-				$message="Options Saved. <br/><br/>";
-			}
-			else
-			{
-				$message="Options saved. Please, verify that the IM acccount you entered is valid. If it is a GOOGLE APPS DOMAIN, the domain must be configured as explained in <a href='http://support.google.com/a/bin/answer.py?hl=en&answer=34143' target='_blank'>this tutorial</a><br/><br/>";
-				
-				
-			}
-			if($p_email != $email){
-				$message=$message."To continue with the setup process, navigate to your website and click the live chat button. A welcome message will be displayed, and a chat invite will be sent to your IM account which you have to accept. This chat invite can be found at GMAIL'S left sidebar near your chat contacts. ";
-				}
-				
-			update_option('ft_email', $email);
-			
-		}
-		
-		
+		update_option('ft_email', $email);
+		$message="Options Saved. <br/><br/>";
+	
 		$widget_id = $_POST['ft_widget_id'];
 		update_option('ft_widget_id', $widget_id);
 		
@@ -136,9 +115,12 @@ if(get_option('ft_installation_mode')=='')
 	
 ?>
 <div class="wrap">
-<?php    echo "<h2>" . __( 'FlexyTalk Settings', 'flextalk_trdom' ) . "</h2>"; ?>
+<?php    echo "<h2>" . __( 'FlexyTalk Settings', 'flextalk_trdom' ) . " <a target='_blank' href='http://flexytalk.com'><img src='https://groovechatstorage.blob.core.windows.net/general/logo130x42.png'/></a></h2>"; ?>
 <form name="flexytalk_form" method="post" action="<?php echo str_replace( '%7E', '~', $_SERVER['REQUEST_URI']); ?>">
 	<input type="hidden" name="flexytalk_hidden" value="Y">
+<p class="submit">
+	<input type="submit" class="button button-primary" name="Submit" value="<?php _e('Update Options', 'flexytalk_trdom' ) ?>" />
+	</p>
 	<table class="wc_status_table widefat" cellspacing="0">
 
 			<thead>
@@ -149,9 +131,13 @@ if(get_option('ft_installation_mode')=='')
 
 			<tbody>
                 <tr>
-                    <td>GMail / JABBER Account</td>
-                    <td><input style="width:300px"  name="ft_email" value="<?php echo $email; ?>" style="width:100%;" /> <i>(username@gmail.com) - The INSTANT MESSAGING Account you will use to chat with your website visitors</i> </td>
+                    <td><input  class="button button-primary" name="Submit" value="Create a Free Account" onclick="javascript:window.open('http://panel.flexytalk.com/account/signup','_blank');"> </td>
+                    <td><i> When signing up you will get a full Team Plan for a Free Trial period of 14 days. No credit cards required. When the Free Trial period expires your account will be automatically downgraded to a Free Plan account, or to the account you decide to pay for. </i></td>
 					
+                </tr>
+<tr>
+                     <td style="width:20%">FlexyID</td>
+                    <td><input style="width:300px" name="ft_widget_id" value="<?php echo $widget_id; ?>" style="width:100%;" /> <i> Find your FlexyID at <a href='http://panel.flexytalk.com' target='_blank'>FlexyTalk Control Panel</a></i></td>
                 </tr>
                
              	
@@ -263,10 +249,7 @@ if(get_option('ft_installation_mode')=='')
 				
 			</thead>
 			<tbody>
-                <tr>
-                     <td style="width:20%">Widget ID</td>
-                    <td><input style="width:300px" name="ft_widget_id" value="<?php echo $widget_id; ?>" style="width:100%;" /> </td>
-                </tr>
+                
 				<tr>
                      <td style="width:20%">Custom Bubble Image (Replaces the default 3D agent image)</td>
                     <td><input style="width:300px" name="ft_custom_image" value="<?php echo $custom_img; ?>" style="width:100%;" /> (https://mywebsite.com/img/myimage.png) </td>
@@ -470,7 +453,12 @@ if(get_option('ft_installation_mode')=='')
 					
                     
                 </tr>
-
+                <tr>
+                    <td>Legacy</td>
+                    <td><input style="width:300px"  name="ft_email" value="<?php echo $email; ?>" style="width:100%;" /> <i>(username@gmail.com) - ONLY for legacy users without FlexyID</i> </td>
+					
+                </tr>
+               
 			</tbody>
 
 			
