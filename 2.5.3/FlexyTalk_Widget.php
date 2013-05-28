@@ -207,7 +207,7 @@ function form( $instance ) {
 /* Set up some default widget settings. */
 		$defaults = array( 'btnText' => __('Need Help? Click to Chat', ''), 'btnLayout' => __('cupertino', ''), 'email' => __('', ''), 'cd'=>__("0",""), 'btnPosition'=>__("1",""), 'WindowTitle' => __('LIVE CHAT', ''), 'ff' => __('10', ''), 'WidgetID' => __('', ''), 'gvtr' =>__('0',''),'show_op' =>__('1',''), 'op_size' =>__('m',''), 'op_gender' =>__('m',''), 'btnText_off' =>__('Offline - Leave a message',''));
 		$instance = wp_parse_args( (array) $instance, $defaults ); ?>
-<a target='_blank' title="Visit FlexyTalk' href='http://www.flexytalk.com'><img title='Visit FlexyTalk' src='https://groovechatstorage.blob.core.windows.net/general/logo130x42.png' alt='Visit FlexyTalk' /></a>
+<a target='_blank' title='Visit FlexyTalk' href='http://www.flexytalk.com'><img  src='https://groovechatstorage.blob.core.windows.net/general/logo130x42.png' alt='Visit FlexyTalk' /></a>
 <table class="wc_status_table widefat" cellspacing="0">
 
 			<thead>
