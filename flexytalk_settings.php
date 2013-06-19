@@ -131,7 +131,7 @@ if(get_option('ft_installation_mode')=='')
 
 			<tbody>
                 <tr>
-                    <td><input  class="button button-primary" name="Submit" value="Create a Free Account" onclick="javascript:window.open('https://my.blancopage.com/manager/billmgr?func=register&project=2','_blank');"> </td>
+                    <td><input  class="button button-primary" name="Submit" value="Create a Free Account" onclick="javascript:window.open('https://my.blancopage.com/manager/billmgr?func=register&welcomfunc=flexytalk.order.datacenter&project=2','_blank');"> </td>
                     <td><i> When signing up you will get a full Team Plan for a Free Trial period of 14 days. No credit cards required. When the Free Trial period expires your account will be automatically downgraded to a Free Plan account, or to the account you decide to pay for. </i></td>
 					
                 </tr>
