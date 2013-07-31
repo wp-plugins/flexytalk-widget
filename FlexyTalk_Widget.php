@@ -3,7 +3,7 @@
  * Plugin Name: FlexyTalk - Free Live Chat Widget
  * Plugin URI: http://bit.ly/VfHp3A
  * Description: FlexyTalk enables you to chat to your web visitors using your current gmail account. Free lifetime plan with unlimited chats.
- * Version: 2.5.3
+ * Version: 2.5.4
  * Author: FlexyTalk
  */
 
@@ -207,7 +207,7 @@ function form( $instance ) {
 /* Set up some default widget settings. */
 		$defaults = array( 'btnText' => __('Need Help? Click to Chat', ''), 'btnLayout' => __('cupertino', ''), 'email' => __('', ''), 'cd'=>__("0",""), 'btnPosition'=>__("1",""), 'WindowTitle' => __('LIVE CHAT', ''), 'ff' => __('10', ''), 'WidgetID' => __('', ''), 'gvtr' =>__('0',''),'show_op' =>__('1',''), 'op_size' =>__('m',''), 'op_gender' =>__('m',''), 'btnText_off' =>__('Offline - Leave a message',''));
 		$instance = wp_parse_args( (array) $instance, $defaults ); ?>
-<a target='_blank' title='Visit FlexyTalk' href='http://www.flexytalk.com'><img  src='https://groovechatstorage.blob.core.windows.net/general/logo130x42.png' alt='Visit FlexyTalk' /></a>
+<a target='_blank' title='Visit FlexyTalk' href='http://www.flexytalk.com/category/news/'><img  src='http://www.flexytalk.net/news/settings-top-banner.png' alt='Visit FlexyTalk' /></a>
 <table class="wc_status_table widefat" cellspacing="0">
 
 			<thead>
@@ -218,8 +218,8 @@ function form( $instance ) {
 
 			<tbody>
                 <tr>
-                    <td><input  class="button button-primary" name="Submit" value="Create a FlexyTalk Account" onclick="javascript:window.open('http://www.flexytalk.com/pricing/','_blank');"> </td>
-                    <td><i> When signing up you will get a full Team Plan for a Free Trial period of 14 days. No credit cards required. When the Free Trial period expires your account will be automatically downgraded to a Free Plan account, or to the account you decide to pay for. </i></td>
+                    <td><input  class="button button-primary"  style="width:250px"  name="Submit" value="Create a FlexyTalk Account" onclick="javascript:window.open('http://www.flexytalk.com/pricing/','_blank');"> </td>
+                    <td><i> You can signup for a FREE 14-days trial on our Solo or Team Plan. No credit cards required for signing up. After the trial you can renew your plan with a monthly or annual payment (discount). You can also signup for our Free plan, which doesn’t require any payment at all. <a target="_blank" href="http://www.flexytalk.com/support/faq/">Read our F.A.Q. for more information</a></i></td>
 					
 					
                 </tr>
@@ -291,16 +291,16 @@ function form( $instance ) {
 			</tbody>
 			<thead>
 				<tr>
-					<th colspan="2">Agent Image - <i>Displays a 3D image on top of the chat toolbar</i></th>
+					<th colspan="2">Eye Catcher - <i>Displays a 3D agent image on top of the chat toolbar</i></th>
 				</tr>
 			</thead>
 			<tbody>
                 <tr>
-				 <td  colspan="2"><input id="<?php echo $this->get_field_id( 'show_op' ); ?>" name="<?php echo $this->get_field_name( 'show_op' ); ?>" class="checkbox" value="1" type="checkbox" <?php checked($instance['show_op'], "1"); ?> />Display Agent Image</td>
+				 <td  colspan="2"><input id="<?php echo $this->get_field_id( 'show_op' ); ?>" name="<?php echo $this->get_field_name( 'show_op' ); ?>" class="checkbox" value="1" type="checkbox" <?php checked($instance['show_op'], "1"); ?> />Display Eye Catcher Image</td>
                   
                 </tr>
 				 <tr>
-                    <td>Agent Image Size</td>
+                    <td>Eye Catcher Size</td>
                    <td><select id="<?php echo $this->get_field_id( 'op_size' ); ?>" name="<?php echo $this->get_field_name( 'op_size' ); ?>">
 					<option value="s" <?php selected($instance["op_size"], "s");?>>Small</option>
 					<option value="m" <?php selected($instance["op_size"], "m");?>>Medium</option>
@@ -309,7 +309,7 @@ function form( $instance ) {
 					</td>
                 </tr>
 				 <tr>
-                    <td>Agent Gender</td>
+                    <td>>Eye Catcher - Gender</td>
                      <td><select id="<?php echo $this->get_field_id( 'op_gender' ); ?>" name="<?php echo $this->get_field_name( 'op_gender' ); ?>">
 					<option value="m" <?php selected($instance["op_gender"], "m");?>>Male</option>
 					<option value="f" <?php selected( $instance["op_gender"], "f");?>>Female</option>
@@ -320,7 +320,7 @@ function form( $instance ) {
 				</tbody>
 				<thead>
 				<tr>
-					<th colspan="2">Reserved for Premium Accounts</th>
+					<th colspan="2">Reserved for Paid Plans</th>
 				</tr>
 				
 			</thead>
@@ -346,16 +346,12 @@ function form( $instance ) {
                     <td><a href="http://www.facebook.com/dialog/pagetab?app_id=262700000525594&redirect_uri=http://www.flexytalk.com/home/tabadded" target="_blank">Setup</a> <i>(Installs a live chat widget on your FaceBook business site)</i></td>
 					
                 </tr>
-                <tr>
-                    <td>Gravatar</td>
-                    <td><input class="checkbox" value="1" type="checkbox" <?php checked( $instance['gvtr'], '1'); ?> id="<?php echo $this->get_field_id( 'gvtr' ); ?>" name="<?php echo $this->get_field_name( 'gvtr' ); ?>" /> <label for="<?php echo $this->get_field_id( 'gvtr' ); ?>">Show my GRAVATAR profile</label> <i>(Your Gravatar e-mail account must be the same as GMail Account entered above)</i></td>
-					
-                </tr>
+                
 			</tbody>
 			
 			<thead>
 				<tr>
-					<th colspan="2">Chat Button Gallery</th>
+					<th colspan="2">Chat Toolbar Gallery</th>
 				</tr>
 			</thead>
 
@@ -497,23 +493,7 @@ function form( $instance ) {
 				</table>
 				</td></tr>
 			</tbody>
-			<thead>
-				<tr>
-					<th colspan="2">Help</th>
-				</tr>
-			</thead>
-			<tbody>
-                <tr>
-                    <td colspan="2"><a href="javascript:UserVoice.showPopupWidget();">Support & Tutorials</a></td>
-					
-                    
-                </tr>
-                <tr>
-                    <td colspan="2"><a target="_blank" href="http://bit.ly/WVGgIT">Customizations</a></td>
-                   
-					
-                </tr>
-			</tbody>
+			
 <thead>
 				<tr>
 					<th colspan="2"></th>
@@ -528,26 +508,14 @@ function form( $instance ) {
 					
                     
                 </tr>
- <tr>
-                    <td>Legacy / GTalk-GMail</td>
-                    <td><input style="width:300px" id="<?php echo $this->get_field_id( 'email' ); ?>" name="<?php echo $this->get_field_name( 'email' ); ?>" value="<?php echo $instance['email']; ?>" style="width:100%;" /><br/> <i>(username@gmail.com) - ONLY for legacy users without FlexyID</i> </td>
-					
-                </tr>
+ 
 
 			</tbody>
 
 			
 		</table>
 
-<script type="text/javascript">
 
-  var uvOptions = {};
-  (function() {
-    var uv = document.createElement('script'); uv.type = 'text/javascript'; uv.async = true;
-    uv.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'widget.uservoice.com/thrGSHsPjpbbbLJtWTvw.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(uv, s);
-  })();
-</script>
 	<?php
 	}
 
