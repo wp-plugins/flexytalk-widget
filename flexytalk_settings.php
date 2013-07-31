@@ -115,7 +115,7 @@ if(get_option('ft_installation_mode')=='')
 	
 ?>
 <div class="wrap">
-<?php    echo "<h2>" . __( 'FlexyTalk Settings', 'flextalk_trdom' ) . "<br /><br /> <a target='_blank' href='http://www.flexytalk.com/category/news/'><img src='http://www.flexytalk.net/news/settings-top-banner.png'/></a></h2>"; ?>
+<?php    echo "<h2>" . __( 'FlexyTalk Settings', 'flextalk_trdom' ) . "<a target='_blank' href='http://www.flexytalk.com/category/news/'><img src='http://www.flexytalk.net/news/settings-top-banner.png'/></a></h2>"; ?>
 <form name="flexytalk_form" method="post" action="<?php echo str_replace( '%7E', '~', $_SERVER['REQUEST_URI']); ?>">
 	<input type="hidden" name="flexytalk_hidden" value="Y">
 <p class="submit">
