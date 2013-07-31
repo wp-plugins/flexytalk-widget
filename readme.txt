@@ -29,7 +29,7 @@ Start chatting to your site's visitors and FACEBOOK fans from any device includi
 
 Impress your website visitors and convert them into happy and loyal customers.[FlexyTalk](http://bit.ly/WVGgIT)  integrates with your current IM app and mobile phone. Start generating those sales now!
 
-* **Latest News!** Over 25.000 WordPress plugin downloads! To celebrate, we offer a 25% discount on all FlexyTalk Plans during August 2013. Use promocode: **25KFTWPTHX**  [Reade more](http://www.flexytalk.com/category/news/)
+* **Over 25.000 WordPress plugin downloads!**  We like to thank the WordPress community for this, and offer a 25% discount on all FlexyTalk Plans during August 2013. Use promocode: **25KFTWPTHX**  [More news](http://www.flexytalk.com/category/news/)
 
 * **New! 05/20/2013 CDN Enabled:** All content served by FlexyTalk is distributed around 23 datacenters around the world 
 
