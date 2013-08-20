@@ -6,8 +6,7 @@ Tags: Live Chat, Live Support, Web Chat, one to one chat, free live chat, flexyi
 
 Requires at least: 2.7
 
-Tested up to: 3.5
-
+Tested up to: 3.6
 
 Stable tag: 2.5.4
 
@@ -416,6 +415,10 @@ Please mail support@flexytalk.com if you are not able to integrate the widget on
 
 
 ==Changelog ==
+
+2.5.4
+
+* Minor updates and enhancements for speed and update to WP 3.6
 
 2.5.3
 
