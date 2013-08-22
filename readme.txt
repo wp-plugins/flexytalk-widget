@@ -72,7 +72,7 @@ Impress your website visitors and convert them into happy and loyal customers.[F
 
 **FREE PLAN:**
 
-After registering for a free trial account, you can enjoy all the functions of FlexyTalk within minutes. No credit card or any payment information needed to signup for the Free Plan. It includes:
+After registering for a Free Plan account, you can enjoy all the functions of FlexyTalk within minutes. No credit card or any payment information needed to signup! It includes:
 
 
 
@@ -180,8 +180,7 @@ After registering for a free trial account, you can enjoy all the functions of F
 
 
 
-* E-mail Support: Only for installation issues
-
+* Paid technical support per incident.
 
 
 
@@ -192,7 +191,7 @@ After registering for a free trial account, you can enjoy all the functions of F
 
 
 
-Free 14 day Trial! FlexyTalk currently offers two premium plans, Solo and Teams. We tailored the Solo plan for the small business/website owner, that need more professionalism and premium options, but for a small and affordable price. Full support, customization/localization, themes and all the bells and whistles for just $3.50 a month!
+FlexyTalk currently offers two premium plans, Solo and Teams. We tailored the Solo plan for the small business/website owner, that need more professionalism and premium options, but for a small and affordable price. Full support, customization/localization, themes and all the bells and whistles for just $3.50 a month!
 
 
 
@@ -264,7 +263,7 @@ The Premium Plans includes all features from the free plan plus:
 
 
 
-* E-mail support: Full and unlimited priority support
+* Full and unlimited priority support included in package
 
 
 
