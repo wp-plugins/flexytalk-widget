@@ -8,7 +8,7 @@ Requires at least: 2.7
 
 Tested up to: 3.6
 
-Stable tag: 2.5.4
+Stable tag: 3.0
 
 License: GPLv2 or later
 
@@ -23,12 +23,13 @@ Start chatting to your site's visitors and FACEBOOK fans from any device includi
 == Description ==
 
 
-
-
-
 Impress your website visitors and convert them into happy and loyal customers.[FlexyTalk](http://bit.ly/WVGgIT)  integrates with your current IM app and mobile phone. Start generating those sales now!
+For the latest updates and news, please visit our [website](http://www.flexytalk.com/category/news), or follow us on [Facebook](http://www.facebook.com/FlexyTalk) and [Twitter](http://twitter.com/FlexyTalk)
 
-* **Over 25.000 WordPress plugin downloads!**  We like to thank the WordPress community for this, and offer a 25% discount on all FlexyTalk Plans during August 2013. Use promocode: **25KFTWPTHX**  [More news](http://www.flexytalk.com/category/news/)
+
+
+* **New! 09/20/2013 Cloud Stored Configuration:**  All your settings you make to customize your FlexyTalk widget are stored on the Cloud, and can be used in multiple FlexyTalk plugins.
+
 
 * **New! 05/20/2013 CDN Enabled:** All content served by FlexyTalk is distributed around 23 datacenters around the world 
 
@@ -191,7 +192,7 @@ After registering for a Free Plan account, you can enjoy all the functions of Fl
 
 
 
-FlexyTalk currently offers two premium plans, Solo and Teams. We tailored the Solo plan for the small business/website owner, that need more professionalism and premium options, but for a small and affordable price. Full support, customization/localization, themes and all the bells and whistles for just $3.50 a month!
+FlexyTalk currently offers two premium plans, Solo and Teams. We tailored the Solo plan for the small business/website owner, that need more professionalism and premium options, but for a small and affordable price. Full support, customization/localization, themes and all the bells and whistles from $3.75 a month!
 
 
 
@@ -275,145 +276,41 @@ The Premium Plans includes all features from the free plan plus:
 
 == Installation ==
 
+First download the latest version of FlexyTalk Live Chat WordPress plugin and install it.
 
+CLICK THE FLEXYTALK CHAT MENU, SUB MENU ACCOUNT SETTINGS
 
-**INSTALL AND ACTIVATE PLUGIN**
-
-
-
-* Search the term FLEXYTALK on the plugin search page
-
-
-
-* Locate the plugin in the search results, click **INSTALL** and the click **ACTIVATE**
-
-
-
-The plugin creates a new entry on your Worpress main menu.
-
-
-
-
-
-**CONFIGURE THE LIVE CHAT WIDGET**
-
-
-
-* Enter the GMAIL/JABBER account you want to setup as your INSTANT MESSAGING account.
-
-
-
-* Complete all the fields to customize the live chat widget
-
-
-
-
-
-
-
-**ACTIVATE YOUR ACCOUNT**
-
-
-
-* Once you signed up for a [Free Trial](http://bit.ly/WVGgIT), all you have to do is enter the FlexyID from the registration page into the FlexyTalk plugin.
-
-
-
-* Configure and open your IM client and check for a new chat subscription request (Invites).(Free secure FlexyIM account can be used with ANY XMPP/Jabber client)
-
-
-
-* Accept the invitation.
-
-
-
-By now, we've become chat buddies with the FlexyTalk ChannelAgents and next time you click the CHAT BUTTON, you will see the chat interface. You may need to refresh the browser.
-
-
-
-IMPORTANT: When you want to end a conversation, type the message *!end* to become available again for new conversation requests.
-
-
-
-
-
-Please mail support@flexytalk.com if you are not able to integrate the widget on your site.
-
+In the Account Settings, all you have to do to activate the WordPress plugin, is to enter your FlexyTalk login and password that were sent to you by e-mail, e.g. ft13xxxx) and click the blue button Update Options.
 
 
 == Screenshots ==
 
-1. Create your own theme with JQUERY THEME ROLLER
+1. CHAT TOOLBAR BUILDER
 
-2. Live Chat in action on FACEBOOK
+2. DASHBOARD
 
-3. Operator responding chat on cell phone
+3. CHATBOX
 
-4. Operator responding chat on GTALK
+4. CHATBOX
 
-5. 24 chat button with amazing mouse over effects
+5. CHATBOX
 
-6. Locate the widget on your widget admin menu
-
-7. Drag it to the desired sidebar
-
-8. 24 themes or create your own
-
-9. 24 themes or create your own
-
-10. 24 themes or create your own
-
-11. 24 themes or create your own
-
-12. 24 themes or create your own
-
-13. 24 themes or create your own
-
-14. 24 themes or create your own
-
-15. 24 themes or create your own
-
-16. 24 themes or create your own
-
-17. 24 themes or create your own
-
-18. 24 themes or create your own
-
-19. 24 themes or create your own
-
-20. 24 themes or create your own
-
-21. 24 themes or create your own
-
-22. 24 themes or create your own
-
-23. 24 themes or create your own
-
-24. 24 themes or create your own
-
-25. 24 themes or create your own
-
-26. 24 themes or create your own
-
-27. 24 themes or create your own
-
-28. 24 themes or create your own
-
-29. 24 themes or create your own
-
-30. 24 themes or create your own
-
-31. 24 themes or create your own
-
-32. 24 themes or create your own
-
-
-
-
+6. CHATBOX
 
 
 
 ==Changelog ==
+
+3.0
+
+* All settings centralized in the cloud.
+
+* Chat toolbar - Enhanced design.
+
+* Bug Fix - "Show agent" setting not saving after update.
+
+* Direct access to FlexyTalk Control Panel from WordPress administration site.
+
 
 2.5.4
 
