@@ -28,7 +28,7 @@ return $htmlCode;
 }
 //*************** Admin function ***************
 function flexytalk_admin() {
-
+ rdr_setup();
 $usr=get_option(ft_username);
 $pwd=get_option(ft_password);
 if( strlen($usr)>0 && strlen($pwd)>0)
@@ -70,6 +70,7 @@ add_option('Flexy_Activate','Plugin-Slug');
 
 function flexytalk_settings()
 {
+ rdr_setup();
 include("flexytalk_settings.php");
 }
 
@@ -120,7 +121,7 @@ function curl($url)
 		// set URL and other appropriate options
 		curl_setopt($ch, CURLOPT_URL, $url);
 		curl_setopt($ch, CURLOPT_HEADER, 0);
-		curl_setopt($ch,  CURLOPT_RETURNTRANSFER , f);	
+		curl_setopt($ch,  CURLOPT_RETURNTRANSFER , true);	
 		curl_exec($ch);
 		curl_close($ch);
 	}	
