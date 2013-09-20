@@ -28,7 +28,7 @@ return $htmlCode;
 }
 //*************** Admin function ***************
 function flexytalk_admin() {
- rdr_setup();
+ MigrateSettings();
 $usr=get_option(ft_username);
 $pwd=get_option(ft_password);
 if( strlen($usr)>0 && strlen($pwd)>0)
@@ -70,7 +70,7 @@ add_option('Flexy_Activate','Plugin-Slug');
 
 function flexytalk_settings()
 {
- rdr_setup();
+ MigrateSettings();
 include("flexytalk_settings.php");
 }
 
@@ -86,7 +86,7 @@ if (get_option('Flexy_Activate')=='Plugin-Slug') {
 
 function MigrateSettings()
 {
-
+if (get_option('Flexy_migrated')!='Plugin-migrated') {
 $flexyid=get_option(ft_widget_id);
 if(isset($flexyid) && strlen($flexyid)>0)
 	{
@@ -109,6 +109,8 @@ $offmessage=get_option(ft_btn_text_off);
 $url="http://panel.flexytalk.com/plugin/migrate?flexyid=".urlencode($widget_id)."&btntext=".urlencode($btn_text)."&btn_layout=".urlencode($btn_layout)."&cd=".urlencode($cd)."&ff=".urlencode($ff)."&btn_position=".urlencode($btn_position)."&window=".urlencode($window_title)."&show_op=".urlencode($show_op)."&op_gender=".urlencode($op_gender)."&op_size=".urlencode($op_size)."&custom_image=".urlencode($custom_image)."&hide=".urlencode($hide)."&off=".urlencode($offmessage);
 
 curl($url);
+add_option('Flexy_migrated','Plugin-migrated');
+}
 }
 }
 
