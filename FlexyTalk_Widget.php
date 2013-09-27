@@ -106,9 +106,12 @@ $op_size=get_option(ft_op_size);
 $custom_image=get_option(ft_custom_image);
 $hide_tb=get_option(ft_hide_tb);
 $offmessage=get_option(ft_btn_text_off);
+if(strlen($btn_text)>0 && strlen($window_title)>0)
+{
 $url="http://panel.flexytalk.com/plugin/migrate?flexyid=".urlencode($widget_id)."&btntext=".urlencode($btn_text)."&btn_layout=".urlencode($btn_layout)."&cd=".urlencode($cd)."&ff=".urlencode($ff)."&btn_position=".urlencode($btn_position)."&window=".urlencode($window_title)."&show_op=".urlencode($show_op)."&op_gender=".urlencode($op_gender)."&op_size=".urlencode($op_size)."&custom_image=".urlencode($custom_image)."&hide=".urlencode($hide)."&off=".urlencode($offmessage);
 
 curl($url);
+}
 add_option('Flexy_migrated','Plugin-migrated');
 }
 }
