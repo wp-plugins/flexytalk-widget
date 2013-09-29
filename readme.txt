@@ -8,7 +8,7 @@ Requires at least: 2.7
 
 Tested up to: 3.6
 
-Stable tag: 3.0
+Stable tag: 3.0.1
 
 License: GPLv2 or later
 
@@ -300,6 +300,10 @@ In the Account Settings, all you have to do to activate the WordPress plugin, is
 
 
 ==Changelog ==
+3.01
+
+* Bug fix: The chat toolbar was showing without text under certain conditions
+
 
 3.0
 

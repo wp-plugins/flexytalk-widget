@@ -3,7 +3,7 @@
  * Plugin Name: FlexyTalk - Free Live Chat Widget
  * Plugin URI: http://bit.ly/VfHp3A
  * Description: FlexTalk - Intuitive, simple but powerful Live Chat solution. Connect from any mobile device or PC  - Free plan available
- * Version: 3.0
+ * Version: 3.0.1
  * Author: FlexyTalk
  */
 
