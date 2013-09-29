@@ -300,7 +300,7 @@ In the Account Settings, all you have to do to activate the WordPress plugin, is
 
 
 ==Changelog ==
-3.01
+3.0.1
 
 * Bug fix: The chat toolbar was showing without text under certain conditions
 
