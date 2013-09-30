@@ -278,10 +278,27 @@ The Premium Plans includes all features from the free plan plus:
 
 First download the latest version of FlexyTalk Live Chat WordPress plugin and install it.
 
-CLICK THE FLEXYTALK CHAT MENU, SUB MENU ACCOUNT SETTINGS
+Click the FlexyTalk Menu in WordPress, sub menu ACCOUNT SETTINGS
 
-In the Account Settings, all you have to do to activate the WordPress plugin, is to enter your FlexyTalk login and password that were sent to you by e-mail, e.g. ft13xxxx) and click the blue button Update Options.
+Click the blue button Create a FlexyTalk Account. 
 
+Create your account and check your e-mail. In the 2nd e-mail you will find your username (ft13xxxx) and password. 
+
+Paste them in the fields in the Account Settings of your WordPress plugin and click Update Options.
+
+When you navigate to the frontend of your WordPress website you will see the FlexyTalk chat bar in Offline mode.
+
+Click the FlexyTalk Menu in WordPress, sub menu FLEXYTALK CHAT
+
+In the FlexyTalk control panel that is shown, go to Account > Setup Wizard.
+
+In the Wizard you will see several IM clients to choose from. Add an XMPP account to your preferred IM client using the FlexyTalk username and password. If you need to enter a server, enter flexytalk.im
+
+Login to your IM client with the FlexyTalk username and password. You are online now and the chat widget on the frontend of your website will show you online.
+
+Make a test chat from the frontend of your website. You will receive the chat request in your IM client. Accept by typing y. You can end the chat by typing !end.
+
+More info about installation, settings and use of FlexyTalk on our [HowTo pages](http://www.flexytalk.com/support/howto-index/) 
 
 == Screenshots ==
 
