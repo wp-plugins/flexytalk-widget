@@ -30,6 +30,7 @@ return $result;
 	if($_POST['flexytalk_hidden'] == 'Y') {
 		$username=$_POST['ft_username'];
 		$password=$_POST['ft_password'];
+		$installation_mode=$_POST['ft_installation_mode'];
 		 $response= curl2("http://panel.flexytalk.com/plugin/FlexyID?usr=".$username ."&psw=".$password);
 		 log_me($response);
 		if($response !="\"0\"")
@@ -37,6 +38,7 @@ return $result;
 			update_option('ft_username', $username);
 			update_option('ft_password', $password);
 			update_option('ft_widget_id', $response);
+			update_option('ft_installation_mode', $installation_mode);
 			$message="account settings updated";
 			$divclass="updated";
 			
@@ -52,14 +54,14 @@ return $result;
 		<?php
 	}
 	else {
-		//Normal page display
 
-	
+	if(get_option('ft_installation_mode')=='')
+	update_option('ft_installation_mode', '1');
 
-	
 		$widget_id = get_option('ft_widget_id');
 		$username = get_option('ft_username');
 		$password = get_option('ft_password');
+	    $installation_mode = get_option('ft_installation_mode');
 		
 		}
 	
@@ -97,12 +99,24 @@ return $result;
 
 </td>
                 </tr>
-				
-                </tr>
+				<thead>
+				<tr>
+					<th colspan="2">Installation Mode</th>
+				</tr>
+			</thead>
+			<tbody>
+                <tr>
+				<td colspan="2"><input class="radio" value="1" type="radio" <?php checked( $installation_mode, '1'); ?> name="ft_installation_mode" /> <label for="ft_installation_mode">Activate FlexyTalk Live Chat on all the website pages</td>
+				</tr>
+				<tr>
+				<td colspan="2"><input class="radio" value="0" type="radio" <?php checked( $installation_mode, '0');  ?> name="ft_installation_mode" /> <label for="ft_installation_mode">Don't activate the plugin. I'll use <a href="widgets.php">FlexyTalk widget</a> instead </td>
+				</tr>
+				</tbody>
+                
                
                
              	
-			</tbody>
+			
 
 		
 <thead>

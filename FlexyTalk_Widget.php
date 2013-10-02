@@ -10,7 +10,11 @@
 
 function FT_Process()
 {
+$installation_mode=get_option(ft_installation_mode);
+
+if($installation_mode=="1"){
 	echo Get_Code();
+	}
 }
 
 function Get_Code() {
@@ -159,7 +163,7 @@ class FlexyTalk_Widget extends WP_Widget {
 function widget( $args, $instance ) {
 if(is_active_widget( '', '', 'flexytalk-widget')){
 
-}
+
 		extract( $args );
 
 		/* Before widget (defined by themes). */
@@ -167,16 +171,27 @@ if(is_active_widget( '', '', 'flexytalk-widget')){
 
 
 		$htmlCode="<div class='ft_widget_container'/>";
+		$installation_mode=get_option(ft_installation_mode);
 
-		if ( $htmlCode)
-			printf( $htmlCode);
+		if($installation_mode=="0"){
+		$widget_id=get_option(ft_widget_id);
+		$htmlCode=$htmlCode. "<script id='ftcontent' data-flexytalk=".$widget_id.">
+         var script = document.createElement('script');
+         script.src = ('https' == document.location.protocol ? 'https:' : 'http:') + '//www.flexytalk.net/app/v3/js/flexytalk.js';
+         document.getElementsByTagName('head')[0].appendChild(script);
+   </script>";
+}
+
+	printf( $htmlCode);
 
 	
 
 		/* After widget (defined by themes). */
 		echo $after_widget;
 	}
+	
 
 
+}
 }
 ?>
