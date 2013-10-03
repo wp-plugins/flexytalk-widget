@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: FlexyTalk - Free Live Chat Widget
- * Plugin URI: http://bit.ly/VfHp3A
+ * Plugin URI: http://www.flexytalk.com
  * Description: FlexTalk - Intuitive, simple but powerful Live Chat solution. Connect from any mobile device or PC  - Free plan available
  * Version: 3.0.1
  * Author: FlexyTalk
@@ -142,8 +142,8 @@ function flexytalk_register_plugin_links($links, $file) {
 	$base = plugin_basename(__FILE__);
 	if ($file == $base) {
 		$links[] = '<a href="admin.php?page=flexytalk">' . __('Settings','flexytalk_widget') . '</a>';
-		$links[] = '<a href="http://www.flexytalk.com" target="_blank">' . __('FAQ','flexytalk_widget') . '</a>';
-		$links[] = '<a href="Mailto:sales@flexytalk.com">' . __('Support','flexytalk_widget') . '</a>';
+		$links[] = '<a href="http://www.flexytalk.com/support/faq/" target="_blank">' . __('FAQ','flexytalk_widget') . '</a>';
+		$links[] = '<a href="http://www.flexytalk.com/support/" target="_blank">' . __('Support','flexytalk_widget') . '</a>';
 	}
 	return $links;
 }
