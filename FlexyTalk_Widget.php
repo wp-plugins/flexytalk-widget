@@ -189,7 +189,7 @@ if(is_active_widget( '', '', 'flexytalk-widget')){
 		$widget_id=get_option(ft_widget_id);
 		$htmlCode=$htmlCode. "<script id='ftcontent' data-flexytalk=".$widget_id.">
          var script = document.createElement('script');
-         script.src = ('https' == document.location.protocol ? 'https:' : 'http:') + '//www.flexytalk.net/app/v3/js/flexytalk.js';
+         script.src = ('https:' == document.location.protocol ? 'https:' : 'http:') + '//www.flexytalk.net/app/v3/js/flexytalk.js';
          document.getElementsByTagName('head')[0].appendChild(script);
    </script>";
 }
