@@ -3,7 +3,7 @@
  * Plugin Name: FlexyTalk - Free Live Chat Widget
  * Plugin URI: http://www.flexytalk.com
  * Description: FlexTalk - Intuitive, simple but powerful Live Chat solution. Connect from any mobile device or PC  - Free plan available
- * Version: 3.0.1
+ * Version: 3.1
  * Author: FlexyTalk
  */
 
@@ -51,11 +51,13 @@ function log_me($message) {
     
 }
 
+
 function flexytalk_admin_actions() {
 
  add_menu_page('FlexyTalk Control Panel', 'FlexyTalk Chat', 'administrator','flexytalk', 'flexytalk_admin', plugins_url( 'img/logo_icon.png', __FILE__ ));
-
+ add_submenu_page( 'flexytalk', 'Get Online now!', 'Get Online now!', 'administrator', 'flexytalk_im', 'flexytalk_im' );
    add_submenu_page( 'flexytalk', 'Account Settings', 'Account Settings', 'administrator', 'flexytalk_settings', 'flexytalk_settings' );
+
 
 
  
@@ -75,6 +77,16 @@ add_option('Flexy_Activate','Plugin-Slug');
 function flexytalk_settings()
 {
  MigrateSettings();
+include("flexytalk_settings.php");
+}
+
+function flexytalk_im() {
+ MigrateSettings();
+$usr=get_option(ft_username);
+$pwd=get_option(ft_password);
+if( strlen($usr)>0 && strlen($pwd)>0)
+	include("flexytalk_im.php");
+else
 include("flexytalk_settings.php");
 }
 

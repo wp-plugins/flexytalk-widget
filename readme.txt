@@ -8,7 +8,7 @@ Requires at least: 2.7
 
 Tested up to: 3.6
 
-Stable tag: 3.0.1
+Stable tag: 3.1
 
 License: GPLv2 or later
 
@@ -27,48 +27,33 @@ Impress your website visitors and convert them into happy and loyal customers.[F
 For the latest updates and news, please visit our [website](http://www.flexytalk.com/category/news), or follow us on [Facebook](http://www.facebook.com/FlexyTalk) and [Twitter](http://twitter.com/FlexyTalk)
 
 
+* **New! 10/11/2013  Integrated login to FlexyIM Web Client: **  Now you can start going online and chat with you customers with one click straight from your WP plugin.
+
+* **New! 10/03/2013  Widget-only installation: **  Disable the site-wide installation and use FlexyTalk WP widget where you want FlexyTalk chat bar to be visible
+
+* **New! 10/01/2013  Avatar Upload: **  We have added customer Avatar upload, so you can upload your own Avatar without having a Gravatar account.
 
 * **New! 09/20/2013 Cloud Stored Configuration:**  All your settings you make to customize your FlexyTalk widget are stored on the Cloud, and can be used in multiple FlexyTalk plugins.
 
-
 * **New! 05/20/2013 CDN Enabled:** All content served by FlexyTalk is distributed around 23 datacenters around the world 
-
-
 
 * **New! 05/12/2013 Automatic pop up chat widget:** The widget will popup after 15 seconds on a page showing a greeting message and inviting the user to chat
 
-
-
 * **New! 05/12/2013 Clickable links on widget:** Just send a qualified URL as a chat message and the widget displays a clickable link
-
-
 
 * **New! 05/12/2013** Sound Alerts
 
-
-
 * **New! 04/21/2013** Displays an apologize if the agent waits too long to accept a chat request
-
-
 
 * **New! 04/21/2013 Improved Chat Request:** FlexyTalk will ask you if you want to accept the chat request. The user will see a progress bar indicator
 
-
-
 * **New! 03/30/2013 Eye catching 3D agents on toolbar:** Display an agent image above the toolbar. Select gender and size of the agent image.
-
-
 
 * **New! 03/29/2013 Toggle OFFLINE-ONLINE Chat toolbar:** When a new visitor enters your site, FlexyTalk checks your availability status and show online/offline messages
 
-
-
 * **New! 01/16/2013 GRAVATAR Integration:** Let the visitors know who they are chatting with. Display your picture, current location and a brief text about you. Fill you profile at  <http://www.gravatar.com>
 
-
-
 * **New!  01/05/2013 FACEBOOK Integration:** You are a few clicks away from bringing our live chat solution to your FACEBOOK fan page. Maximize Facebook's potential for new sales and leads.
-
 
 
 **FREE PLAN:**
@@ -317,6 +302,17 @@ More info about installation, settings and use of FlexyTalk on our [HowTo pages]
 
 
 ==Changelog ==
+
+
+3.1
+
+* New Feature: Unified login to FlexyIM from the plugin admin section.
+
+* New Feature: Own avatars can be uploaded straight to the FlexyTalk system, no gravatar account needed, but can still be used.
+
+* New Feature: Disable the site-wide installation and use FlexyTalk Widget where you want FlexyTalk chat bar to be visible
+
+
 3.0.1
 
 * Bug fix: The chat toolbar was showing without text under certain conditions
