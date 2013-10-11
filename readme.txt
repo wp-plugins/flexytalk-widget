@@ -27,11 +27,11 @@ Impress your website visitors and convert them into happy and loyal customers.[F
 For the latest updates and news, please visit our [website](http://www.flexytalk.com/category/news), or follow us on [Facebook](http://www.facebook.com/FlexyTalk) and [Twitter](http://twitter.com/FlexyTalk)
 
 
-* **New! 10/11/2013  Integrated login to FlexyIM Web Client: **  Now you can start going online and chat with you customers with one click straight from your WP plugin.
+* **New! 10/11/2013  Integrated login to FlexyIM Web Client:**  Now you can start going online and chat with you customers with one click straight from your WP plugin.
 
-* **New! 10/03/2013  Widget-only installation: **  Disable the site-wide installation and use FlexyTalk WP widget where you want FlexyTalk chat bar to be visible
+* **New! 10/03/2013  Widget-only installation:**  Disable the site-wide installation and use FlexyTalk WP widget where you want FlexyTalk chat bar to be visible
 
-* **New! 10/01/2013  Avatar Upload: **  We have added customer Avatar upload, so you can upload your own Avatar without having a Gravatar account.
+* **New! 10/01/2013  Avatar Upload:**  We have added customer Avatar upload, so you can upload your own Avatar without having a Gravatar account.
 
 * **New! 09/20/2013 Cloud Stored Configuration:**  All your settings you make to customize your FlexyTalk widget are stored on the Cloud, and can be used in multiple FlexyTalk plugins.
 
