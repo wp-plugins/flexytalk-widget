@@ -8,7 +8,7 @@ Requires at least: 2.7
 
 Tested up to: 3.6
 
-Stable tag: 3.1
+Stable tag: 3.1.2
 
 License: GPLv2 or later
 
@@ -302,6 +302,12 @@ More info about installation, settings and use of FlexyTalk on our [HowTo pages]
 
 
 ==Changelog ==
+
+3.1.2
+
+* Restyled FlexyTalk Panel for use with Tablets and better integration in WordPress Admin section. 
+
+* Bug Fix: Websites under HTTPS protocol were having issues displaying the chat toolbar.
 
 
 3.1
