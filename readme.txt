@@ -6,7 +6,7 @@ Tags: Live Chat, Live Support, Web Chat, one to one chat, free live chat, flexyi
 
 Requires at least: 2.7
 
-Tested up to: 3.6
+Tested up to: 3.7
 
 Stable tag: 3.1.2
 
