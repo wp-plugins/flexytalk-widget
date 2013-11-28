@@ -30,7 +30,7 @@ For the latest updates and news, please visit our [website](http://www.flexytalk
 
 * **New! 11/28/2013  IP Blocking:**  Block abusive users with a simple command
 
-* **New! 11/28/2013  Google Analytics Integration:**  Track FlexyTalk Page Views and Events your Google Analytics account
+* **New! 11/28/2013  Google Analytics Integration:**  Track FlexyTalk Page Views and Events in your Google Analytics account
 
 * **New! 11/28/2013  Trigger Rules:**  Decide on which pages you send custom invites to your visitors
 
