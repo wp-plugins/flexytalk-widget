@@ -90,12 +90,12 @@ return $result;
                 </tr>
 <tr>
                      <td style="width:20%">Username</td>
-                    <td><input style="width:150px" name="ft_username" value="<?php echo $username; ?>" style="width:100%;" /><i>&nbsp;&nbsp;&nbsp;Use the login credentials for the FlexyTalk control panel (ie. ft13xxxx)</i></td>
+                    <td><input style="width:150px" name="ft_username" value="<?php echo $username; ?>" style="width:100%;" id="ftpassword" placeholder="Enter your username" autocomplete="off" /><i>&nbsp;&nbsp;&nbsp;Use the login credentials for the FlexyTalk control panel (ie. ft13xxxx)</i></td>
                 </tr>
 
 <tr>
                      <td style="width:20%">Password</td>
-                    <td><input style="width:150px" name="ft_password" value="<?php echo $password; ?>" style="width:100%;" type="password" /> <i>&nbsp;&nbsp;These login credentials are mailed to you after the Plan was created.</i>
+                    <td><input style="width:150px" name="ft_password" value="<?php echo $password; ?>" style="width:100%;" type="password" id="ftpassword" placeholder="Enter your password" autocomplete="off" /> <i>&nbsp;&nbsp;These login credentials are mailed to you after the Plan was created.</i>
 
 </td>
                 </tr>

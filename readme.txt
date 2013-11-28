@@ -8,7 +8,7 @@ Requires at least: 2.7
 
 Tested up to: 3.7
 
-Stable tag: 3.1.2
+Stable tag: 3.1.3
 
 License: GPLv2 or later
 
@@ -26,6 +26,13 @@ Start chatting to your site's visitors and FACEBOOK fans from any device includi
 Impress your website visitors and convert them into happy and loyal customers.[FlexyTalk](http://bit.ly/WVGgIT)  integrates with your current IM app and mobile phone. Start generating those sales now!
 For the latest updates and news, please visit our [website](http://www.flexytalk.com/category/news), or follow us on [Facebook](http://www.facebook.com/FlexyTalk) and [Twitter](http://twitter.com/FlexyTalk)
 
+* **New! 11/28/2013  View Chat History:**  View past chats from the visitor you are chatting with
+
+* **New! 11/28/2013  IP Blocking:**  Block abusive users with a simple command
+
+* **New! 11/28/2013  Google Analytics Integration:**  Track FlexyTalk Page Views and Events your Google Analytics account
+
+* **New! 11/28/2013  Trigger Rules:**  Decide on which pages you send custom invites to your visitors
 
 * **New! 10/11/2013  Integrated login to FlexyIM Web Client:**  Now you can start going online and chat with you customers with one click straight from your WP plugin.
 
@@ -302,6 +309,22 @@ More info about installation, settings and use of FlexyTalk on our [HowTo pages]
 
 
 ==Changelog ==
+
+3.1.3
+
+* View Chat History:  View past chats from the visitor you are chatting with
+
+* IP Blocking:  Block abusive users with a simple command
+
+* Google Analytics Integration:  Track FlexyTalk Page Views and Events on your Google Analytics account
+
+* Trigger Rules:  Decide on which pages you send custom invites to your visitors
+
+
+
+* Restyled FlexyTalk Panel for use with Tablets and better integration in WordPress Admin section. 
+
+* Bug Fix: Websites under HTTPS protocol were having issues displaying the chat toolbar.
 
 3.1.2
 
