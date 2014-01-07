@@ -8,7 +8,7 @@ Requires at least: 2.7
 
 Tested up to: 3.8
 
-Stable tag: 3.1.3
+Stable tag: 3.1.4
 
 License: GPLv2 or later
 
@@ -309,6 +309,10 @@ More info about installation, settings and use of FlexyTalk on our [HowTo pages]
 
 
 ==Changelog ==
+
+3.1.4
+
+*  New Control Panel:We’re happy to announce that there’s a NEW FlexyTalk Control Panel! The next time you login to the FlexyTalk Control Panel, you will see a new user interface. Not only does the new control panel have a more modern look and feel, but what’s even more important, we have added new features and made existing procedures easier in the development of this control panel.
 
 3.1.3
 
