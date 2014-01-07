@@ -36,7 +36,8 @@ function flexytalk_admin() {
 $usr=get_option(ft_username);
 $pwd=get_option(ft_password);
 if( strlen($usr)>0 && strlen($pwd)>0)
-	echo '<iframe src="http://panel.flexytalk.com/account/pluginlogin/'.$usr.'/'.$pwd .'/1" width="100%" height="100%" style="min-height:850px; width:100%" frameborder=0 ></iframe>';
+	echo '<div style="margin-top:10px"><input class="button button-primary" style="width:80px;height:20px;vertical-align:top;" value="Rate us!" onclick="javascript:window.open(\'http://wordpress.org/support/view/plugin-reviews/flexytalk-widget\',\'_blank\');" />  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <a href="https://twitter.com/flexytalk" class="twitter-follow-button" data-show-count="false" data-lang="en">Follow @@flexytalk</a>
+<script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = "//platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } }(document, "script", "twitter-wjs");</script> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Ffacebook.com%2Fflexytalk&amp;send=false&amp;layout=standard&amp;width=350&amp;show_faces=false&amp;font&amp;colorscheme=light&amp;action=like" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:500px;height:20px " allowTransparency="true"></iframe></div><iframe src="http://panel.flexytalk.com/account/pluginlogin/'.$usr.'/'.$pwd .'/1" width="100%" height="100%" style="min-height:850px; width:100%" frameborder=0 ></iframe>';
 else
 include("flexytalk_settings.php");
 }
