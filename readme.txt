@@ -16,7 +16,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 
 
-Boost your leads and conversions installing our top rated Live Chat Solution. Free plan includes unlimited chats, mobile apps and Facbook integration. Bring Back the Human Touch to your website!
+Bring Back the Human Touch! Install our top rated Live Chat Solution. Free plan includes unlimited chats, mobile apps and Facebook integration. 
 
 
 
