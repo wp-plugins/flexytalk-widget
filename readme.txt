@@ -16,7 +16,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 
 
-Start chatting to your site's visitors and FACEBOOK fans from any device including mobile phone . FREE account with unlimited chats.
+Boost your leads and conversions installing our top rated Live Chat Solution. Free plan includes unlimited chats, mobile apps and Facbook integration
 
 
 
