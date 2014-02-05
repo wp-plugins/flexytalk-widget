@@ -23,246 +23,67 @@ Bring Back the Human Touch! Install our top rated Live Chat Solution. Free plan 
 == Description ==
 
 
-Impress your website visitors and convert them into happy and loyal customers.[FlexyTalk](http://bit.ly/WVGgIT)  integrates with your current IM app and mobile phone. Start generating those sales now!
+Boost your leads and conversions installing [FlexyTalk Live Chat](http://www.flexytalk.com). 100% cloud based, FlexyTalk integrates with your current IM app.
 For the latest updates and news, please visit our [website](http://www.flexytalk.com/category/news), or follow us on [Facebook](http://www.facebook.com/FlexyTalk) and [Twitter](http://twitter.com/FlexyTalk)
 
-* **New! 11/28/2013  View Chat History:**  View past chats from the visitor you are chatting with
 
-* **New! 11/28/2013  IP Blocking:**  Block abusive users with a simple command
-
-* **New! 11/28/2013  Google Analytics Integration:**  Track FlexyTalk Page Views and Events in your Google Analytics account
-
-* **New! 11/28/2013  Trigger Rules:**  Decide on which pages you send custom invites to your visitors
-
-* **New! 10/11/2013  Integrated login to FlexyIM Web Client:**  Now you can start going online and chat with you customers with one click straight from your WP plugin.
-
-* **New! 10/03/2013  Widget-only installation:**  Disable the site-wide installation and use FlexyTalk WP widget where you want FlexyTalk chat bar to be visible
-
-* **New! 10/01/2013  Avatar Upload:**  We have added customer Avatar upload, so you can upload your own Avatar without having a Gravatar account.
-
-* **New! 09/20/2013 Cloud Stored Configuration:**  All your settings you make to customize your FlexyTalk widget are stored on the Cloud, and can be used in multiple FlexyTalk plugins.
-
-* **New! 05/20/2013 CDN Enabled:** All content served by FlexyTalk is distributed around 23 datacenters around the world 
-
-* **New! 05/12/2013 Automatic pop up chat widget:** The widget will popup after 15 seconds on a page showing a greeting message and inviting the user to chat
-
-* **New! 05/12/2013 Clickable links on widget:** Just send a qualified URL as a chat message and the widget displays a clickable link
-
-* **New! 05/12/2013** Sound Alerts
-
-* **New! 04/21/2013** Displays an apologize if the agent waits too long to accept a chat request
-
-* **New! 04/21/2013 Improved Chat Request:** FlexyTalk will ask you if you want to accept the chat request. The user will see a progress bar indicator
-
-* **New! 03/30/2013 Eye catching 3D agents on toolbar:** Display an agent image above the toolbar. Select gender and size of the agent image.
-
-* **New! 03/29/2013 Toggle OFFLINE-ONLINE Chat toolbar:** When a new visitor enters your site, FlexyTalk checks your availability status and show online/offline messages
-
-* **New! 01/16/2013 GRAVATAR Integration:** Let the visitors know who they are chatting with. Display your picture, current location and a brief text about you. Fill you profile at  <http://www.gravatar.com>
-
-* **New!  01/05/2013 FACEBOOK Integration:** You are a few clicks away from bringing our live chat solution to your FACEBOOK fan page. Maximize Facebook's potential for new sales and leads.
-
-
-**FREE PLAN:**
-
-After registering for a Free Plan account, you can enjoy all the functions of FlexyTalk within minutes. No credit card or any payment information needed to signup! It includes:
-
-
-
-* 1 operator
-
-
-
-* 1 concurrent chat
-
-
-
-* Unlimited Chats
-
-
-
-* Optional free FlexyIM account
-
-
-
-* Cloud based - Distributed network over 23 data centers around the world
-
-
-
-* No chat dashboards needed - You chat right on any IM app.
-
-
-
-* GMAIL/GTALK compatible (chat within gtalk /gmail - Beware, Google Hangouts does NOT work)
-
-
-
-* JABBER/XMPP compatible (user your current jabber account with any IM client to chat)
-
-
-
-* GOOGLE APPS Domains compatible (needs some DNS configuration) ([Tutorial](http://support.google.com/a/bin/answer.py?hl=en&answer=34143))
-
-
-
-* Mobile phone compatible (use any free IM app on your phone to connect to your IM account)
-
-
-
-* Contact form when you're offline (messages sent to your e-mail address)
-
-
-
-* Show your picture and profile from GRAVATAR ([Tutorial](http://bit.ly/W1gDum) )
-
-
-
-* Automatic pop up chat widget: The widget will popup after 15 seconds on a page showing a greeting message and inviting the user to chat
-
-
-
-* Clickable links on widget: Just send a qualified URL as a chat message and the widget displays a clickable link
-
-
-
-* Displays an apologize if the agent waits too long to accept a chat request
-
-
-
-* Sound alerts
-
-
-
-* Install your live chat widget on FACEBOOK fan page or business site ([Tutorial](http://bit.ly/Tob5ee) )
-
-
-
-* Layered chat widget (displays a layer on your website - no popup)
-
-
-
-* Customize Widget Form Factor (all elements on the chat widget change size proportionally)
-
-
-
-* "Click to Chat" buttons gallery (24 elegant buttons with amazing CSS mouse over effects)
-
-
-
-* View all information about the visitor like Country, city and URL where they are requesting help (if available)
-
-
-
-* Customize "click to chat" button text and Live chat widget title
-
-
-
-* ONLINE/OFFLINE toggle button
-
-
-
-* Pre chat form. Ask the visitor to enter name, e-mail and message
-
-
-
-* Flashing widget header when visitor receives a message from operator
-
-
-
-* Persists chat session across website navigation
-
-
-
-* Paid technical support per incident.
-
-
-
-
-
-
-**PREMIUM PLANS**
-
-
-
-FlexyTalk currently offers two premium plans, Solo and Teams. We tailored the Solo plan for the small business/website owner, that need more professionalism and premium options, but for a small and affordable price. Full support, customization/localization, themes and all the bells and whistles from $3.75 a month!
-
-
-
-
-
-The Premium Plans includes all features from the free plan plus:
-
- 
-
-
-
-* up to 5 concurrent chats p/agent (2 for Solo Plan)
-
-
-
-* Chat distributed among operators in round-robin fashion (Team Plan)
-
-
-
-* Chat Transfer between agents (Team Plan)
-
-
-
-* Send chat transcript to visitor
-
-
-
-* Send chat transcript to admin
-
-
-
-* Manage your availability - Lets you be OFFLINE when your IM  status is AWAY or BUSY
-
-
-
-* Rotates chat requests among agents until someone accept it.  (Team Plan)
-
-
-
-* 24 chat widget themes (from [ JQUERY THEME ROLLER](http://bit.ly/Toatp0) )
-
-
-
-* Build you custom JQUERY THEME ([Tutorial](http://bit.ly/146HMyO) )
-
-
-
-* Customize all messages and text on the widget
-
-
-
-* White label - No FlexyTalk logo on your chat widget
-
-
-
-* Layered or popup widget
-
-
-
-* Customize widget size and position on page
-
-
-
-* Display your own bubble image (replaces the default agent images)
-
-
-
-* Hide chat toolbar when all agents are offline
-
-
-
-* Full and unlimited priority support included in package
-
-
-
-* [SIGN UP FOR A 14 DAYS FREE TRIAL](http://bit.ly/WVGgIT)
-
-
+Some of our features:
+
+Please refer to [FlexyTalk Live Chat](http://www.flexytalk.com) to compare plans.
+
+	* **Use with any IM / Jabber ready app** on Desktop or Mobile like Pidgin, Adium, Apple Messages / iChat, IM+, Gibberbot, etc. [read more](http://www.flexytalk.com/using-flexytalk-with-flexyim-and-other-clients/)
+	
+	* **Cloud based** - Distributed network over 23 data centers around the world
+	
+	* **Multiple concurrent chats** (based on your plan)
+	
+	* **Transfer chats between agents** [read more](http://www.flexytalk.com/transferring-a-chat-from-one-agent-to-another/)
+	
+	* **Agent to agent chat** [read more](http://www.flexytalk.com/agent-to-agent-chat/)
+	
+	* **Trigger Rules:**  Decide on which pages you send custom invites to your visitors [read more](http://www.flexytalk.com/trigger-rules/)
+	
+	* **Queues:** Visitors waiting to chat.  [read more](http://www.flexytalk.com/queues-visitors-waiting-chat/)
+	
+	* **Offline Messages:** If no agent is online, visitor can leave a message.  [read more](http://www.flexytalk.com/manage-the-e-mail-address-for-offline-messages/)
+	
+	* **Send chat transcript to visitor's email**  
+	
+	* **Chat transcript to account owner**   [read more](http://www.flexytalk.com/manage-the-e-mail-address-for-offline-messages/)
+	
+	* **Facebook integration:** Install FlexyTalk Live Chat on your Facebook business page  [read more](http://www.flexytalk.com/facebook-integration/)
+	
+	* **View Chat History:**  View past chats from the visitor you are chatting with  [read more](http://www.flexytalk.com/chat-history/)
+	
+	* **Search chat archive:**  Search, view and export all your chat sessions  [read more](http://www.flexytalk.com/searching-chat-archive/)
+	
+	* **Google Analytics integration**: Track FlexyTalk Page Views and Events in your Google Analytics account 
+	
+	* **Integrate social media channels**:  invite your visitors to like your Facebook page, follow you on Twitter and add your Google+ page to their circles.  [read more](http://www.flexytalk.com/social-media-in-chat-box/)
+	
+    * **IP Blocking:** Block the visitor’s IP to keep this person from starting a new chat again.  [read more](http://www.flexytalk.com/block-the-ip/)
+	
+	* **Avatar and agent information** [read more](http://www.flexytalk.com/adding-picture-avatar-agents-now-even-easier/)
+	
+	* **Mutliple chatbox themes** to choose from  [read more](http://www.flexytalk.com/themes/)
+	
+	* **Chat bar** styles and customization  [read more](http://www.flexytalk.com/styles-themes/)
+	
+	* **Full translation and localization:** You may customize and translate every text displayed on the chatbox   [read more](http://www.flexytalk.com/changing-the-texts-in-your-flexytalk-chat-widget/)
+	
+	* **Automatic online / offline status**: Set your status directly on your IM app and choose if you want to be online when your status is away or busy
+	
+	* **Custom online / offline images**: If you dont want to use the default chatbar, you can set your own images [read more](http://www.flexytalk.com/custom-onlineoffline-image-instead-default-chat-bar/)
+	
+	* **Customize mobile behavior:** FlexyTalk detects when the visitor is on a mobile device and optimizes its behavior. Several options to customize[read more](http://www.flexytalk.com/chat-bar-behaviour-mobile/)
+	
+	* **Customize mobile behavior:** FlexyTalk detects when the visitor is on a mobile device and optimizes its behavior. Several options to customize[read more](http://www.flexytalk.com/chat-bar-behaviour-mobile/)
+	
+	* **Jabber compatible***: Use your current Jabber IM account
+	
+	
+	
+	
 
 
 
