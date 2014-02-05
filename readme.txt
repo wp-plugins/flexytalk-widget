@@ -29,6 +29,7 @@ For the latest updates and news, please visit our [website](http://www.flexytalk
 
 Some of our features:
 
+Please visit [FlexyTalk Live Chat Website](http://www.flexytalk.com) to compare plans and sign up
 
 * **Use with any IM / Jabber ready app** on Desktop or Mobile like Pidgin, Adium, Apple Messages / iChat, IM+, Gibberbot, etc. [read more](http://www.flexytalk.com/using-flexytalk-with-flexyim-and-other-clients/)
 * **Cloud based** - Distributed network over 23 data centers around the world
@@ -52,9 +53,11 @@ Some of our features:
 * **Full translation and localization:** You may customize and translate every text displayed on the chatbox   [read more](http://www.flexytalk.com/changing-the-texts-in-your-flexytalk-chat-widget/)
 * **Automatic online / offline status**: Set your status directly on your IM app and choose if you want to be online when your status is away or busy
 * **Custom online / offline images**: If you dont want to use the default chatbar, you can set your own images [read more](http://www.flexytalk.com/custom-onlineoffline-image-instead-default-chat-bar/)
-* **Customize mobile behavior:** FlexyTalk detects when the visitor is on a mobile device and optimizes its behavior. Several options to customize[read more](http://www.flexytalk.com/chat-bar-behaviour-mobile/)
-* **Customize mobile behavior:** FlexyTalk detects when the visitor is on a mobile device and optimizes its behavior. Several options to customize[read more](http://www.flexytalk.com/chat-bar-behaviour-mobile/)
-* **Jabber compatible***: Use your current Jabber IM account
+* **Customize mobile behavior:** FlexyTalk detects when the visitor is on a mobile device and optimizes its behavior. Several options to customize [read more](http://www.flexytalk.com/chat-bar-behaviour-mobile/)
+
+* **Jabber compatible**: Use your current Jabber IM account
+
+
 	
 
 
