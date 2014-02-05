@@ -29,7 +29,7 @@ For the latest updates and news, please visit our [website](http://www.flexytalk
 
 Some of our features:
 
-Please refer to [FlexyTalk Live Chat](http://www.flexytalk.com) to compare plans.
+
 
 	* **Use with any IM / Jabber ready app** on Desktop or Mobile like Pidgin, Adium, Apple Messages / iChat, IM+, Gibberbot, etc. [read more](http://www.flexytalk.com/using-flexytalk-with-flexyim-and-other-clients/)
 	
