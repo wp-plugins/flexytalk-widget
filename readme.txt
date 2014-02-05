@@ -79,7 +79,7 @@ Please refer to [FlexyTalk Live Chat](http://www.flexytalk.com) to compare plans
 	
 	* **Customize mobile behavior:** FlexyTalk detects when the visitor is on a mobile device and optimizes its behavior. Several options to customize[read more](http://www.flexytalk.com/chat-bar-behaviour-mobile/)
 	
-	* **Jabber compatible***: Use your current Jabber IM account
+	* **Jabber compatible**: Use your current Jabber IM account
 	
 	
 	
