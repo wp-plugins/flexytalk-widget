@@ -30,11 +30,31 @@ For the latest updates and news, please visit our [website](http://www.flexytalk
 Some of our features:
 
 
-	* **Use with any IM / Jabber ready app** on Desktop or Mobile like Pidgin, Adium, Apple Messages / iChat, IM+, Gibberbot, etc. [read more](http://www.flexytalk.com/using-flexytalk-with-flexyim-and-other-clients/)
-	* **Cloud based** - Distributed network over 23 data centers around the world
-	* **Multiple concurrent chats** (based on your plan)
-	* **Transfer chats between agents** [read more](http://www.flexytalk.com/transferring-a-chat-from-one-agent-to-another/)
-
+* **Use with any IM / Jabber ready app** on Desktop or Mobile like Pidgin, Adium, Apple Messages / iChat, IM+, Gibberbot, etc. [read more](http://www.flexytalk.com/using-flexytalk-with-flexyim-and-other-clients/)
+* **Cloud based** - Distributed network over 23 data centers around the world
+* **Multiple concurrent chats** (based on your plan)
+* **Transfer chats between agents** [read more](http://www.flexytalk.com/transferring-a-chat-from-one-agent-to-another/)
+* **Agent to agent chat** [read more](http://www.flexytalk.com/agent-to-agent-chat/)
+* **Trigger Rules:**  Decide on which pages you send custom invites to your visitors [read more](http://www.flexytalk.com/trigger-rules/)
+* **Queues:** Visitors waiting to chat.  [read more](http://www.flexytalk.com/queues-visitors-waiting-chat/)
+* **Offline Messages:** If no agent is online, visitor can leave a message.  [read more](http://www.flexytalk.com/manage-the-e-mail-address-for-offline-messages/)
+* **Send chat transcript to visitor's email**  
+* **Chat transcript to account owner**   [read more](http://www.flexytalk.com/manage-the-e-mail-address-for-offline-messages/)
+* **Facebook integration:** Install FlexyTalk Live Chat on your Facebook business page  [read more](http://www.flexytalk.com/facebook-integration/)
+* **View Chat History:**  View past chats from the visitor you are chatting with  [read more](http://www.flexytalk.com/chat-history/)
+* **Search chat archive:**  Search, view and export all your chat sessions [read more](http://www.flexytalk.com/searching-chat-archive/)
+* **Google Analytics integration**: Track FlexyTalk Page Views and Events in your Google Analytics account 
+* **Integrate social media channels**:  invite your visitors to like your Facebook page, follow you on Twitter and add your Google+ page to their circles.  [read more](http://www.flexytalk.com/social-media-in-chat-box/)
+* **IP Blocking:** Block the visitor’s IP to keep this person from starting a new chat again.  [read more](http://www.flexytalk.com/block-the-ip/)
+* **Avatar and agent information** [read more](http://www.flexytalk.com/adding-picture-avatar-agents-now-even-easier/)
+* **Mutliple chatbox themes** to choose from  [read more](http://www.flexytalk.com/themes/)
+* **Chat bar** styles and customization  [read more](http://www.flexytalk.com/styles-themes/)
+* **Full translation and localization:** You may customize and translate every text displayed on the chatbox   [read more](http://www.flexytalk.com/changing-the-texts-in-your-flexytalk-chat-widget/)
+* **Automatic online / offline status**: Set your status directly on your IM app and choose if you want to be online when your status is away or busy
+* **Custom online / offline images**: If you dont want to use the default chatbar, you can set your own images [read more](http://www.flexytalk.com/custom-onlineoffline-image-instead-default-chat-bar/)
+* **Customize mobile behavior:** FlexyTalk detects when the visitor is on a mobile device and optimizes its behavior. Several options to customize[read more](http://www.flexytalk.com/chat-bar-behaviour-mobile/)
+* **Customize mobile behavior:** FlexyTalk detects when the visitor is on a mobile device and optimizes its behavior. Several options to customize[read more](http://www.flexytalk.com/chat-bar-behaviour-mobile/)
+* **Jabber compatible***: Use your current Jabber IM account
 	
 	
 	
