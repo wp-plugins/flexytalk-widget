@@ -23,13 +23,12 @@ Bring Back the Human Touch! Install our top rated Live Chat Solution. Free plan 
 == Description ==
 
 
-Boost your leads and conversions installing [FlexyTalk](http://www.flexytalk.com) Live Chat. 100% cloud based, FlexyTalk Live Chatintegrates with your current IM app.
+Boost your leads and conversions installing [FlexyTalk](http://www.flexytalk.com) Live Chat. 100% cloud based, FlexyTalk Live Chat integrates with your current IM app.
 For the latest updates and news, please visit our [website](http://www.flexytalk.com/category/news), or follow us on [Facebook](http://www.facebook.com/FlexyTalk) and [Twitter](http://twitter.com/FlexyTalk)
 
 
 Some of our features:
 
-Please visit [FlexyTalk Live Chat](http://www.flexytalk.com) to compare live chat plans and sign up
 
 * **Use with any IM / Jabber ready app** on Desktop or Mobile like Pidgin, Adium, Apple Messages / iChat, IM+, Gibberbot, etc. [read more](http://www.flexytalk.com/using-flexytalk-with-flexyim-and-other-clients/)
 * **Cloud based** - Distributed network over 23 data centers around the world
@@ -56,33 +55,14 @@ Please visit [FlexyTalk Live Chat](http://www.flexytalk.com) to compare live cha
 * **Customize mobile behavior:** FlexyTalk detects when the visitor is on a mobile device and optimizes its behavior. Several options to customize [read more](http://www.flexytalk.com/chat-bar-behaviour-mobile/)
 * **Jabber compatible**: Use your current Jabber IM account
 
+* Please visit [FlexyTalk Live Chat](http://www.flexytalk.com) to compare live chat plans and sign up
+* [Wordpress Installation Guide] http://www.flexytalk.com/activating-your-wordpress-plugin/
 
 	
 
 
 == Installation ==
-
-First download the latest version of FlexyTalk Live Chat WordPress plugin and install it.
-
-Click the FlexyTalk Menu in WordPress, sub menu ACCOUNT SETTINGS
-
-Click the blue button Create a FlexyTalk Account. 
-
-Create your account and check your e-mail. In the 2nd e-mail you will find your username (ft13xxxx) and password. 
-
-Paste them in the fields in the Account Settings of your WordPress plugin and click Update Options.
-
-When you navigate to the frontend of your WordPress website you will see the FlexyTalk chat bar in Offline mode.
-
-Click the FlexyTalk Menu in WordPress, sub menu FLEXYTALK CHAT
-
-In the FlexyTalk control panel that is shown, go to Account > Setup Wizard.
-
-In the Wizard you will see several IM clients to choose from. Add an XMPP account to your preferred IM client using the FlexyTalk username and password. If you need to enter a server, enter flexytalk.im
-
-Login to your IM client with the FlexyTalk username and password. You are online now and the chat widget on the frontend of your website will show you online.
-
-Make a test chat from the frontend of your website. You will receive the chat request in your IM client. Accept by typing y. You can end the chat by typing !end.
+ Please visit [Wordpress Installation Guide] http://www.flexytalk.com/activating-your-wordpress-plugin/  to get a step by step installation tutorial.
 
 More info about installation, settings and use of FlexyTalk on our [HowTo pages](http://www.flexytalk.com/support/howto-index/) 
 
