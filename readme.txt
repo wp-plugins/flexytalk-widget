@@ -16,14 +16,14 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 
 
-Bring Back the Human Touch! Install our top rated Live Chat Solution. Free plan includes unlimited chats, mobile apps and Facebook integration. 
+Bring Back the Human Touch! Install our top rated Live Chat Solution. Free live chat plan includes unlimited chats, mobile apps and Facebook integration. 
 
 
 
 == Description ==
 
 
-Boost your leads and conversions installing [FlexyTalk](http://www.flexytalk.com) Live Chat. 100% cloud based, FlexyTalk integrates with your current IM app.
+Boost your leads and conversions installing [FlexyTalk](http://www.flexytalk.com) Live Chat. 100% cloud based, FlexyTalk Live Chatintegrates with your current IM app.
 For the latest updates and news, please visit our [website](http://www.flexytalk.com/category/news), or follow us on [Facebook](http://www.facebook.com/FlexyTalk) and [Twitter](http://twitter.com/FlexyTalk)
 
 
