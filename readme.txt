@@ -64,7 +64,7 @@ Some of our features:
 == Installation ==
  Please visit [Wordpress Installation Guide] (http://www.flexytalk.com/activating-your-wordpress-plugin/) to get a step by step installation tutorial.
 
-More info about installation, settings and use of FlexyTalk on our [HowTo pages](http://www.flexytalk.com/support/howto-index/) 
+More info about installation, settings and use of FlexyTalk on our [HowTo pages.](http://www.flexytalk.com/support/howto-index/) 
 
 == Screenshots ==
 
