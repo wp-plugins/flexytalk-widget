@@ -16,7 +16,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 
 
-Bring Back the Human Touch! Install our top rated Live Chat Solution. Free live chat plan includes unlimited chats, mobile apps and Facebook integration. 
+Bring Back the Human Touch! Install our top rated Live Chat Solution. Free plan includes unlimited chats, mobile apps and Facebook integration. 
 
 
 
@@ -29,7 +29,7 @@ For the latest updates and news, please visit our [website](http://www.flexytalk
 
 Some of our features:
 
-Please visit [FlexyTalk](http://www.flexytalk.com) to compare live chat plans and sign up
+Please visit [FlexyTalk Live Chat](http://www.flexytalk.com) to compare live chat plans and sign up
 
 * **Use with any IM / Jabber ready app** on Desktop or Mobile like Pidgin, Adium, Apple Messages / iChat, IM+, Gibberbot, etc. [read more](http://www.flexytalk.com/using-flexytalk-with-flexyim-and-other-clients/)
 * **Cloud based** - Distributed network over 23 data centers around the world
