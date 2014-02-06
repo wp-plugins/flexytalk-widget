@@ -56,7 +56,7 @@ Some of our features:
 * **Jabber compatible**: Use your current Jabber IM account
 
 * Please visit [FlexyTalk Live Chat](http://www.flexytalk.com) to compare live chat plans and sign up.
-* [Wordpress Installation Guide]http://www.flexytalk.com/activating-your-wordpress-plugin/
+* [Wordpress Installation Guide](http://www.flexytalk.com/activating-your-wordpress-plugin/)
 
 	
 
