@@ -55,7 +55,7 @@ Some of our features:
 * **Customize mobile behavior:** FlexyTalk detects when the visitor is on a mobile device and optimizes its behavior. Several options to customize [read more](http://www.flexytalk.com/chat-bar-behaviour-mobile/)
 * **Jabber compatible**: Use your current Jabber IM account
 
-* Please visit [FlexyTalk Live Chat](http://www.flexytalk.com) to compare live chat plans and sign up
+* Please visit [FlexyTalk Live Chat](http://www.flexytalk.com) to compare live chat plans and sign up.
 * [Wordpress Installation Guide] http://www.flexytalk.com/activating-your-wordpress-plugin/
 
 	
