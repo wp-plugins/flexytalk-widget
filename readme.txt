@@ -60,7 +60,7 @@ Some of our features:
 * **Jabber compatible**: Use your current Jabber IM account
 * **Stay connected from multiple devices** and manage device priorities [read more](http://www.flexytalk.com/priorities-for-delivering-messages-on-multiple-devices/)
 * **Manager multiple accounts from a centralized control panel:**  [read more](http://www.flexytalk.com/one-account/)
-* **Use the same IM account across multiple FlexyTalk accounts:**  [read more]( http://www.flexytalk.com/multilanguage-websites/)
+* **Use the same IM account across multiple FlexyTalk accounts:**  [read more](http://www.flexytalk.com/use-1-im-account-for-2-websites/)
 
 
 	
