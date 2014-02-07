@@ -27,6 +27,9 @@ Boost your leads and conversions installing [FlexyTalk](http://www.flexytalk.com
 For the latest updates and news, please visit our [website](http://www.flexytalk.com/category/news), or follow us on [Facebook](http://www.facebook.com/FlexyTalk) and [Twitter](http://twitter.com/FlexyTalk)
 
 
+* Please visit [FlexyTalk Live Chat](http://www.flexytalk.com) to compare live chat plans and sign up.
+* [Wordpress Installation Guide](http://www.flexytalk.com/activating-your-wordpress-plugin/)
+
 Some of our features:
 
 
@@ -50,13 +53,15 @@ Some of our features:
 * **Mutliple chatbox themes** to choose from  [read more](http://www.flexytalk.com/themes/)
 * **Chat bar** styles and customization  [read more](http://www.flexytalk.com/styles-themes/)
 * **Full translation and localization:** You may customize and translate every text displayed on the chatbox   [read more](http://www.flexytalk.com/changing-the-texts-in-your-flexytalk-chat-widget/)
-* **Automatic online / offline status**: Set your status directly on your IM app and choose if you want to be online when your status is away or busy
+* **Automatic online / offline status**: Set your status directly on your IM app and choose if you want to be online when your status is away or busy. 
 * **Custom online / offline images**: If you dont want to use the default chatbar, you can set your own images [read more](http://www.flexytalk.com/custom-onlineoffline-image-instead-default-chat-bar/)
+* **Use FlexyTalk Widget**: You can install FlexyTalk chatbar in a static position (default behavior) or use the included widget on any selected widget area. [read more](http://www.flexytalk.com/wordpress-flexytalk-widget-positions/)
 * **Customize mobile behavior:** FlexyTalk detects when the visitor is on a mobile device and optimizes its behavior. Several options to customize [read more](http://www.flexytalk.com/chat-bar-behaviour-mobile/)
 * **Jabber compatible**: Use your current Jabber IM account
+* **Stay connected from multiple devices** and manage device priorities [read more](http://www.flexytalk.com/priorities-for-delivering-messages-on-multiple-devices/)
+* **Manager multiple accounts from a centralized control panel:**  [read more](http://www.flexytalk.com/one-account/)
+* **Use the same IM account across multiple FlexyTalk accounts:**  [read more]( http://www.flexytalk.com/multilanguage-websites/)
 
-* Please visit [FlexyTalk Live Chat](http://www.flexytalk.com) to compare live chat plans and sign up.
-* [Wordpress Installation Guide](http://www.flexytalk.com/activating-your-wordpress-plugin/)
 
 	
 
