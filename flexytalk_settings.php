@@ -1,6 +1,6 @@
 <?php 
 // return tru if $str ends with $sub
-function endsWith( $str, $sub ) {
+function endsWithFT( $str, $sub ) {
     return ( substr( $str, strlen( $str ) - strlen( $sub ) ) == $sub );
 }
 
