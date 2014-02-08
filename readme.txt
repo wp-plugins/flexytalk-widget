@@ -44,8 +44,8 @@ Some of our features:
 * **Send live chat transcript to visitor's email**  
 * **Live Chat transcript to account owner**   [read more](http://www.flexytalk.com/manage-the-e-mail-address-for-offline-messages/)
 * **Facebook integration:** Install FlexyTalk Live Chat on your Facebook business page as a tab  [read more](http://www.flexytalk.com/facebook-integration/)
-* **Smart chat routing**: Chat requests are sent to the least occupied agent. If he doesn't reply in time, the request is sent to the next available agent. Never loose a chat sessions!
-* **View live chat History:**  View past chats from the visitor you are chatting with  [read more](http://www.flexytalk.com/chat-history/)
+* **Smart chat routing**: Chat requests are sent to the least occupied agent. If he doesn't reply in time, the request is sent to the next available agent. Never loose a live chat sessions!
+* **View live chat History:**  View past live chat sessions from the visitor you are chatting with  [read more](http://www.flexytalk.com/chat-history/)
 * **Search live chat archive:**  Search, view and export all your live chat sessions [read more](http://www.flexytalk.com/searching-chat-archive/)
 * **Google Analytics integration**: Track FlexyTalk Page Views and Events in your Google Analytics account 
 * **Integrate social media channels**:  invite your visitors to like your Facebook page, follow you on Twitter and add your Google+ page to their circles.  [read more](http://www.flexytalk.com/social-media-in-chat-box/)
