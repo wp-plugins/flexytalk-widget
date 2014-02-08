@@ -39,17 +39,20 @@ Some of our features:
 * **Transfer live chats between agents** [read more](http://www.flexytalk.com/transferring-a-chat-from-one-agent-to-another/)
 * **Agent to agent chat** [read more](http://www.flexytalk.com/agent-to-agent-chat/)
 * **Trigger Rules:**  Decide on which pages you send custom invites to your visitors [read more](http://www.flexytalk.com/trigger-rules/)
-* **Queues:** Visitors waiting to chat.  [read more](http://www.flexytalk.com/queues-visitors-waiting-chat/)
+* **Queues:** When all agents are busy, visitors enter a queue and they are updated on their position in the line.  [read more](http://www.flexytalk.com/queues-visitors-waiting-chat/)
 * **Offline Messages:** If no agent is online, visitor can leave a message.  [read more](http://www.flexytalk.com/manage-the-e-mail-address-for-offline-messages/)
 * **Send live chat transcript to visitor's email**  
 * **Live Chat transcript to account owner**   [read more](http://www.flexytalk.com/manage-the-e-mail-address-for-offline-messages/)
-* **Facebook integration:** Install FlexyTalk Live Chat on your Facebook business page  [read more](http://www.flexytalk.com/facebook-integration/)
+* **Facebook integration:** Install FlexyTalk Live Chat on your Facebook business page as a tab  [read more](http://www.flexytalk.com/facebook-integration/)
+* **Smart chat routing**: Chat requests are sent to the least occupied agent. If he doesn't reply in time, the request is sent to the next available agent. Never loose a chat sessions!
 * **View live chat History:**  View past chats from the visitor you are chatting with  [read more](http://www.flexytalk.com/chat-history/)
 * **Search live chat archive:**  Search, view and export all your live chat sessions [read more](http://www.flexytalk.com/searching-chat-archive/)
 * **Google Analytics integration**: Track FlexyTalk Page Views and Events in your Google Analytics account 
 * **Integrate social media channels**:  invite your visitors to like your Facebook page, follow you on Twitter and add your Google+ page to their circles.  [read more](http://www.flexytalk.com/social-media-in-chat-box/)
 * **IP Blocking:** Block the visitor’s IP to keep this person from starting a new chat again.  [read more](http://www.flexytalk.com/block-the-ip/)
 * **Avatar and agent information** [read more](http://www.flexytalk.com/adding-picture-avatar-agents-now-even-easier/)
+* **Gravatar.com integration:** Use your current Gravatar Profile [read more](http://www.flexytalk.com/adding-picture-avatar-agents-now-even-easier/)
+* **Eye Catcher Image:** Use our default eye cacther images or upload your owns** 
 * **Mutliple chatbox themes** to choose from  [read more](http://www.flexytalk.com/themes/)
 * **Chat bar** styles and customization  [read more](http://www.flexytalk.com/styles-themes/)
 * **Full translation and localization:** You may customize and translate every text displayed on the chatbox   [read more](http://www.flexytalk.com/changing-the-texts-in-your-flexytalk-chat-widget/)
@@ -59,8 +62,10 @@ Some of our features:
 * **Customize mobile behavior:** FlexyTalk detects when the visitor is on a mobile device and optimizes its behavior. Several options to customize [read more](http://www.flexytalk.com/chat-bar-behaviour-mobile/)
 * **Jabber compatible**: Use your current Jabber IM account
 * **Stay connected from multiple devices** and manage device priorities [read more](http://www.flexytalk.com/priorities-for-delivering-messages-on-multiple-devices/)
-* **Manager multiple accounts from a centralized control panel:**  [read more](http://www.flexytalk.com/one-account/)
+* **Manage multiple accounts from a centralized control panel:**  [read more](http://www.flexytalk.com/one-account/)
 * **Use the same IM account across multiple FlexyTalk accounts:**  [read more](http://www.flexytalk.com/use-1-im-account-for-2-websites/)
+* **Customize Timeouts:** 
+* **Sound Alerts - Persistent chatbox across website navigation - Open Chatbox in new browser window - Draggable chatbox - Customizable chatbox size - 
 
 
 	
