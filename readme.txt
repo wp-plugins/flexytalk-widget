@@ -65,7 +65,7 @@ Some of our features:
 * **Manage multiple accounts from a centralized control panel:**  [read more](http://www.flexytalk.com/one-account/)
 * **Use the same IM account across multiple FlexyTalk accounts:**  [read more](http://www.flexytalk.com/use-1-im-account-for-2-websites/)
 * **Customize Timeouts:** 
-* **Sound Alerts - Persistent chatbox across website navigation - Open Chatbox in new browser window - Draggable chatbox - Customizable chatbox size - 
+* Sound Alerts - Persistent chatbox across website navigation - Open Chatbox in new browser window - Draggable chatbox - Customizable chatbox size
 
 
 	
