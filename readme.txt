@@ -52,7 +52,7 @@ Some of our features:
 * **IP Blocking:** Block the visitor’s IP to keep this person from starting a new chat again.  [read more](http://www.flexytalk.com/block-the-ip/)
 * **Avatar and agent information** [read more](http://www.flexytalk.com/adding-picture-avatar-agents-now-even-easier/)
 * **Gravatar.com integration:** Use your current Gravatar Profile [read more](http://www.flexytalk.com/adding-picture-avatar-agents-now-even-easier/)
-* **Eye Catcher Image:** Use our default eye cacther images or upload your owns** 
+* **Eye Catcher Image:** Use our default eye cacther images or upload your owns 
 * **Mutliple chatbox themes** to choose from  [read more](http://www.flexytalk.com/themes/)
 * **Chat bar** styles and customization  [read more](http://www.flexytalk.com/styles-themes/)
 * **Full translation and localization:** You may customize and translate every text displayed on the chatbox   [read more](http://www.flexytalk.com/changing-the-texts-in-your-flexytalk-chat-widget/)
@@ -65,7 +65,8 @@ Some of our features:
 * **Manage multiple accounts from a centralized control panel:**  [read more](http://www.flexytalk.com/one-account/)
 * **Use the same IM account across multiple FlexyTalk accounts:**  [read more](http://www.flexytalk.com/use-1-im-account-for-2-websites/)
 * **Customize Timeouts:** 
-* Sound Alerts - Persistent chatbox across website navigation - Open Chatbox in new browser window - Draggable chatbox - Customizable chatbox size
+* Sound Alerts - Persistent chatbox across website navigation - Open Chatbox in new browser window - Draggable chatbox - Customizable chatbox size -Hide chatbar when offline
+
 
 
 	
