@@ -51,7 +51,7 @@ Some of our features:
 * **Integrate social media channels**:  invite your visitors to like your Facebook page, follow you on Twitter and add your Google+ page to their circles.  [read more](http://www.flexytalk.com/social-media-in-chat-box/)
 * **IP Blocking:** Block the visitor’s IP to keep this person from starting a new chat again.  [read more](http://www.flexytalk.com/block-the-ip/)
 * **Avatar and agent information** [read more](http://www.flexytalk.com/adding-picture-avatar-agents-now-even-easier/)
-* **Gravatar.com integration:** Use your current Gravatar Profile [read more](http://www.flexytalk.com/adding-picture-avatar-agents-now-even-easier/)
+* **Gravatar.com integration:** Use your current Gravatar Profile [read more](http://www.flexytalk.com/gravatar-integration-2/)
 * **Eye Catcher Image:** Use our default eye cacther images or upload your owns 
 * **Mutliple chatbox themes** to choose from  [read more](http://www.flexytalk.com/themes/)
 * **Chat bar** styles and customization  [read more](http://www.flexytalk.com/styles-themes/)
