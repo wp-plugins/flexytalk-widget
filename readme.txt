@@ -93,6 +93,7 @@ More info about installation, settings and use of FlexyTalk on our [HowTo pages.
 
 
 ==Changelog ==
+
 3.1.5
 
 **FlexyIM Web Client release**
