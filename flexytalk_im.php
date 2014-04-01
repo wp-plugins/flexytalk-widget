@@ -33,6 +33,15 @@ function submitform()
 </tbody>
 <thead>
 				<tr>
+					<th><form id="flexyim" action="http://flexyim.flexytalk.im/" method="post" target="_blank" >
+<input type="hidden" name="username" value="<?php echo $username ?>"> <input type="hidden" name="password" value="<?php echo $password ?>">
+ <input type="submit" class="button button-primary"  value="Get Online Now!">
+</form>
+</th>
+				</tr>
+			</thead>
+<thead>
+				<tr>
 					<th><h2>Get online simply by using any XMPP/Jabber compatible Client</h2></th>
 				</tr>
 			</thead>
@@ -62,13 +71,4 @@ function submitform()
 </tbody>
 
 
-<thead>
-				<tr>
-					<th><form id="flexyim" action="http://flexyim.flexytalk.im/" method="post" target="_blank" >
-<input type="hidden" name="username" value="<?php echo $username ?>"> <input type="hidden" name="password" value="<?php echo $password ?>">
- <input type="submit" class="button button-primary"  value="Get Online Now!">
-</form>
-</th>
-				</tr>
-			</thead>
 </table>
