@@ -94,21 +94,6 @@ More info about installation, settings and use of FlexyTalk on our [HowTo pages.
 
 ==Changelog ==
 
-3.1.5
-
-**FlexyIM Web Client release**
-
-* Information about visitor on chatbox header (name, city, country, URL and history link)
-
-* Buttons to accept or reject a chat request
-
-* Actions menu to end chat / block IP/ transfer chat to another agent
-
-* Improved desktop notifications now includes the message sent by the visitor
-
-* Actions menu to end chat / block IP/ transfer chat to another agent
-
-* Improved desktop notifications now includes the message sent by the visitor
 
 3.1.4
 
