@@ -104,9 +104,12 @@ More info about installation, settings and use of FlexyTalk on our [HowTo pages.
 
 * Actions menu to end chat / block IP/ transfer chat to another agent
 
-* Actions menu to end chat / block IP/ transfer chat to another agent
-
 * Improved desktop notifications now includes the message sent by the visitor
+
+* Send chatstate "stop typing" after 5 seconds of inactivity
+
+* Soft flashing header on message arrived
+
 
 3.1.4
 
