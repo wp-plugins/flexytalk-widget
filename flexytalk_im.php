@@ -13,15 +13,6 @@ function submitform()
 <table class="wc_status_table widefat" cellspacing="0">
 <thead>
 				<tr>
-					<th><form id="flexyim" action="http://flexyim.flexytalk.im/" method="post" target="_blank" >
-<input type="hidden" name="username" value="<?php echo $username ?>"> <input type="hidden" name="password" value="<?php echo $password ?>">
- <input type="submit" class="button button-primary"  value="Get Online Now!">
-</form>
-</th>
-				</tr>
-			</thead>
-<thead>
-				<tr>
 					<th><h2>Get online simply by using any XMPP/Jabber compatible Client</h2></th>
 				</tr>
 			</thead>
@@ -70,5 +61,13 @@ function submitform()
                     <td style="font-size:1.2em;padding-bottom:1.5em">Chrome, Safari and Maxthon support the Desktop Notification option as tested by us. This option can only be enabled with users permission. After login in to  the FlexyIM web client using the button below, click the “Enable Notifications” button in the header to grant your browser permission to send you Desktop Notifications. You only have to do this once per browser. When your Notifications are already enabled, you will receive a 'Notification Enabled' message when clicking the button, to test the functionality. </td>
 </tr>
 </tbody>
-
+<thead>
+				<tr>
+					<th><form id="flexyim" action="http://flexyim.flexytalk.im/" method="post" target="_blank" >
+<input type="hidden" name="username" value="<?php echo $username ?>"> <input type="hidden" name="password" value="<?php echo $password ?>">
+ <input type="submit" class="button button-primary"  value="Get Online Now!">
+</form>
+</th>
+				</tr>
+			</thead>
 </table>
