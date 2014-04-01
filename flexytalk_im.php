@@ -18,7 +18,7 @@ function submitform()
 			</thead>
 <tbody>
                 <tr>
-                    <td style="font-size:1.2em;padding-bottom:1.5em"> FlexyIM Web is easy to use, and you can start with it right away by clicking the button Get Online Now! In some cases it might be needed to ‘Reload/Reconnect’ (Button on top of the page) the FlexyIM Web Client after first login, due HTML caching and proxy policies set by your ISP. Once connected, it will stay connected until you close the browser, click the button ‘Logoff’, or when your computer enters sleep mode or power-off. FlexyIM Web works with modern web browsers: Chrome, Safari, Firefox and Internet Explorer 10, but also on iPad, iPhone, BlackBerry 10, Android and other modern mobile devices.</td>
+                    <td style="font-size:1.2em;padding-bottom:1.5em"> FlexyIM Web is easy to use, and you can start with it right away by clicking the button Get Online Now!  Once connected, it will stay connected until you close the browser, click the button ‘Logoff’, or when your computer enters sleep mode or power-off. FlexyIM Web works with modern web browsers: Chrome, Safari, Firefox and Internet Explorer 10, but also on iPad, iPhone, BlackBerry 10, Android and other modern mobile devices.</td>
 </tr>
 </tbody>
 <thead>
