@@ -13,6 +13,26 @@ function submitform()
 <table class="wc_status_table widefat" cellspacing="0">
 <thead>
 				<tr>
+					<th><h2>FlexyTalk Web Client</h2></th>
+				</tr>
+			</thead>
+<tbody>
+                <tr>
+                    <td style="font-size:1.2em;padding-bottom:1.5em"> FlexyIM Web is easy to use, and you can start with it right away by clicking the button Get Online Now! In some cases it might be needed to ‘Reload/Reconnect’ (Button on top of the page) the FlexyIM Web Client after first login, due HTML caching and proxy policies set by your ISP. Once connected, it will stay connected until you close the browser, click the button ‘Logoff’, or when your computer enters sleep mode or power-off. FlexyIM Web works with modern web browsers: Chrome, Safari, Firefox and Internet Explorer 10, but also on iPad, iPhone, BlackBerry 10, Android and other modern mobile devices.</td>
+</tr>
+</tbody>
+<thead>
+				<tr>
+					<th>Desktop Notifications</th>
+				</tr>
+			</thead>
+<tbody>
+                <tr>
+                    <td style="font-size:1.2em;padding-bottom:1.5em">Chrome, Safari and Maxthon support the Desktop Notification option as tested by us. This option can only be enabled with users permission. After login in to  the FlexyIM web client using the button below, click the “Enable Notifications” button in the header to grant your browser permission to send you Desktop Notifications. You only have to do this once per browser. When your Notifications are already enabled, you will receive a 'Notification Enabled' message when clicking the button, to test the functionality. </td>
+</tr>
+</tbody>
+<thead>
+				<tr>
 					<th><h2>Get online simply by using any XMPP/Jabber compatible Client</h2></th>
 				</tr>
 			</thead>
@@ -41,26 +61,7 @@ function submitform()
 </tr>
 </tbody>
 
-<thead>
-				<tr>
-					<th><h2>FlexyTalk Web Client</h2></th>
-				</tr>
-			</thead>
-<tbody>
-                <tr>
-                    <td style="font-size:1.2em;padding-bottom:1.5em"> FlexyIM Web is easy to use, and you can start with it right away by clicking the button Get Online Now! In some cases it might be needed to ‘Reload/Reconnect’ (Button on top of the page) the FlexyIM Web Client after first login, due HTML caching and proxy policies set by your ISP. Once connected, it will stay connected until you close the browser, click the button ‘Logoff’, or when your computer enters sleep mode or power-off. FlexyIM Web works with modern web browsers: Chrome, Safari, Firefox and Internet Explorer 10, but also on iPad, iPhone, BlackBerry 10, Android and other modern mobile devices.</td>
-</tr>
-</tbody>
-<thead>
-				<tr>
-					<th>Desktop Notifications</th>
-				</tr>
-			</thead>
-<tbody>
-                <tr>
-                    <td style="font-size:1.2em;padding-bottom:1.5em">Chrome, Safari and Maxthon support the Desktop Notification option as tested by us. This option can only be enabled with users permission. After login in to  the FlexyIM web client using the button below, click the “Enable Notifications” button in the header to grant your browser permission to send you Desktop Notifications. You only have to do this once per browser. When your Notifications are already enabled, you will receive a 'Notification Enabled' message when clicking the button, to test the functionality. </td>
-</tr>
-</tbody>
+
 <thead>
 				<tr>
 					<th><form id="flexyim" action="http://flexyim.flexytalk.im/" method="post" target="_blank" >
