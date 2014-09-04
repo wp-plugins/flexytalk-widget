@@ -39,6 +39,7 @@ Some of our features:
 * **Transfer live chats between agents** [read more](http://www.flexytalk.com/transferring-a-chat-from-one-agent-to-another/)
 * **Agent to agent chat** [read more](http://www.flexytalk.com/agent-to-agent-chat/)
 * **Trigger Rules:**  Decide on which pages you send custom invites to your visitors [read more](http://www.flexytalk.com/trigger-rules/)
+* **Departments:**  Group agents into departments [read more](http://www.flexytalk.com/departments/)
 * **Queues:** When all agents are busy, visitors enter a queue and they are updated on their position in the line.  [read more](http://www.flexytalk.com/queues-visitors-waiting-chat/)
 * **Offline Messages:** If no agent is online, visitor can leave a message.  [read more](http://www.flexytalk.com/manage-the-e-mail-address-for-offline-messages/)
 * **Send live chat transcript to visitor's email**  
