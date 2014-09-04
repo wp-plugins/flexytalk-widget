@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: FlexyTalk - Full Featured and Affordable Live Chat
+ * Plugin Name: FlexyTalk Live Chat
  * Plugin URI: http://www.flexytalk.com
  * Description: FlexTalk - Intuitive, simple but powerful Live Chat solution. Connect from any mobile device or PC  - Free plan available
  * Version: 3.1.6
