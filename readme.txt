@@ -95,6 +95,10 @@ More info about installation, settings and use of FlexyTalk on our [HowTo pages.
 
 ==Changelog ==
 
+3.1.7
+
+* Fixes a wrong path on release 3.1.6
+
 3.1.6
 
 * Point website to a department
