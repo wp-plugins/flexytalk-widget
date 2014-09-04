@@ -311,5 +311,3 @@ More info about installation, settings and use of FlexyTalk on our [HowTo pages.
 
 
 * Includes new field to add Widget Title
-
-
