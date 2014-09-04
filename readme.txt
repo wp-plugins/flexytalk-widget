@@ -1,4 +1,4 @@
-﻿  === FlexyTalk - Live Chat ===
+﻿=== FlexyTalk - Live Chat ===
 Contributors: sodena
 Tags: Live Chat, Live Support, Web Chat, one to one chat, free live chat, flexyim, flexytalk.im, google talk, google, jabber, xmpp, sidebar chat, widget, website alive, support chat, sales chat, wordpress chat, live chat widget free, mobile chat, phone chat, chat operator, flexytalk, 
 Requires at least: 2.7
@@ -57,7 +57,7 @@ Some of our features:
 
 == Installation ==
 
- Please visit [Wordpress Installation Guide](http://www.flexytalk.com/activating-your-wordpress-plugin/) to get a step by step installation tutorial.
+Please visit [Wordpress Installation Guide](http://www.flexytalk.com/activating-your-wordpress-plugin/) to get a step by step installation tutorial.
 
 More info about installation, settings and use of FlexyTalk on our [HowTo pages.](http://www.flexytalk.com/support/howto-index/) 
 
