@@ -79,17 +79,21 @@ More info about installation, settings and use of FlexyTalk on our [HowTo pages.
 
 == Screenshots ==
 
-1. Flexytalk Live Chat - Chatbox with social media
+1. Flexytalk Live Chat 
 
-2. Flexytalk Live Chat - DASHBOARD
+2. Flexytalk Live Chat
 
-3. Flexytalk Live Chat - CHATBOX Example
+3. Flexytalk Live Chat
 
-4. Flexytalk Live Chat - CHATBOX Example
+4. Flexytalk Live Chat
 
-5. Flexytalk Live Chat - CHATBOX -Example
+5. Flexytalk Live Chat
 
-6. Flexytalk Live Chat - CHATBOX -Example
+6. Flexytalk Live Chat 
+
+7. Flexytalk Live Chat
+
+8. Flexytalk Live Chat
 
 
 
