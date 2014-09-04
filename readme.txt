@@ -16,7 +16,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 
 
-Bring Back the Human Touch! Install our top rated Live Chat Solution. Free plan includes unlimited chats, mobile apps and Facebook integration. 
+Powerful, affordable and most loved Live Chat solution for everyone. Free plan includes unlimited chats, mobile apps and Facebook integration. 
 
 
 
@@ -39,6 +39,7 @@ Some of our features:
 * **Transfer live chats between agents** [read more](http://www.flexytalk.com/transferring-a-chat-from-one-agent-to-another/)
 * **Agent to agent chat** [read more](http://www.flexytalk.com/agent-to-agent-chat/)
 * **Trigger Rules:**  Decide on which pages you send custom invites to your visitors [read more](http://www.flexytalk.com/trigger-rules/)
+* **Departments:**  Group agents into departments [read more](http://www.flexytalk.com/departments/)
 * **Queues:** When all agents are busy, visitors enter a queue and they are updated on their position in the line.  [read more](http://www.flexytalk.com/queues-visitors-waiting-chat/)
 * **Offline Messages:** If no agent is online, visitor can leave a message.  [read more](http://www.flexytalk.com/manage-the-e-mail-address-for-offline-messages/)
 * **Send live chat transcript to visitor's email**  
@@ -78,21 +79,33 @@ More info about installation, settings and use of FlexyTalk on our [HowTo pages.
 
 == Screenshots ==
 
-1. Flexytalk Live Chat - Chatbox with social media
+1. Flexytalk Live Chat 
 
-2. Flexytalk Live Chat - DASHBOARD
+2. Flexytalk Live Chat
 
-3. Flexytalk Live Chat - CHATBOX Example
+3. Flexytalk Live Chat
 
-4. Flexytalk Live Chat - CHATBOX Example
+4. Flexytalk Live Chat
 
-5. Flexytalk Live Chat - CHATBOX -Example
+5. Flexytalk Live Chat
 
-6. Flexytalk Live Chat - CHATBOX -Example
+6. Flexytalk Live Chat 
+
+7. Flexytalk Live Chat
+
+8. Flexytalk Live Chat
 
 
 
 ==Changelog ==
+
+3.1.7
+
+* Fixes a wrong path on release 3.1.6
+
+3.1.6
+
+* Point website to a department
 
 3.1.5
 
@@ -104,12 +117,9 @@ More info about installation, settings and use of FlexyTalk on our [HowTo pages.
 
 * Actions menu to end chat / block IP/ transfer chat to another agent
 
+* Actions menu to end chat / block IP/ transfer chat to another agent
+
 * Improved desktop notifications now includes the message sent by the visitor
-
-* Send chatstate "stop typing" after 5 seconds of inactivity
-
-* Soft flashing header on message arrived
-
 
 3.1.4
 
