@@ -29,16 +29,18 @@ return $result;
 	$message="Account Settings Updated";
 	if($_POST['flexytalk_hidden'] == 'Y') {
 		$username=$_POST['ft_username'];
+		$ft_dept=$_POST['ft_dept'];
 		$password=$_POST['ft_password'];
 		$installation_mode=$_POST['ft_installation_mode'];
 		 $response= curl2("http://panel.flexytalk.com/plugin/FlexyID?usr=".$username ."&psw=".$password);
-		 log_me($response);
+		
 		if($response !="\"0\"")
 		{
 			update_option('ft_username', $username);
 			update_option('ft_password', $password);
 			update_option('ft_widget_id', $response);
 			update_option('ft_installation_mode', $installation_mode);
+			update_option('ft_dept', $ft_dept);
 			$message="account settings updated";
 			$divclass="updated";
 			
@@ -59,6 +61,7 @@ return $result;
 	update_option('ft_installation_mode', '1');
 
 		$widget_id = get_option('ft_widget_id');
+		$ft_dept = get_option('ft_dept');
 		$username = get_option('ft_username');
 		$password = get_option('ft_password');
 	    $installation_mode = get_option('ft_installation_mode');
@@ -85,7 +88,7 @@ return $result;
 			<tbody>
                 <tr>
                     <td><input  class="button button-primary" style="width:250px" name="Submit" value="Create a FlexyTalk Account" onclick="javascript:window.open('http://www.flexytalk.com/pricing/','_blank');"> </td>
-                    <td><i> You can signup for a FREE 14-days trial on our Solo or Team Plan. No credit cards required for signing up. After the trial you can renew your plan with a monthly or annual payment (discount). You can also signup for our Free plan, which doesnâ€™t require any payment at all. <a target="_blank" href="http://www.flexytalk.com/support/faq/">Read our F.A.Q. for more information</a> </i></td>
+                    <td><i> You can signup for a FREE 14-days trial on our Solo or Team Plan. No credit cards required for signing up. After the trial you can renew your plan with a monthly or annual payment (discount). You can also signup for our Free plan, which doesn’t require any payment at all. <a target="_blank" href="http://www.flexytalk.com/support/faq/">Read our F.A.Q. for more information</a> </i></td>
 					
                 </tr>
 <tr>
@@ -95,10 +98,22 @@ return $result;
 
 <tr>
                      <td style="width:20%">Password</td>
-                    <td><input style="width:150px" name="ft_password" value="<?php echo $password; ?>" style="width:100%;" type="password" id="ftpassword" placeholder="Enter your password" autocomplete="off" /> <i>&nbsp;&nbsp;These login credentials are mailed to you after the Plan was created.</i>
+                    <td><input style="width:150px" name="ft_password" value="<?php echo $password; ?>" style="width:100%;" type="password" id="ftpassword" placeholder="Enter your password" autocomplete="off" /> <i>&nbsp;&nbsp;These login credentials are mailed to you after the Plan was created.</i><br><br><br><br>
 
 </td>
                 </tr>
+<thead>
+				<tr>
+					<th colspan="2">Point this website to one of your existing departments</th>
+				</tr>
+			</thead>
+			<tbody>
+                <tr>
+				<td style="width:20%">Department Code:</td>
+                    <td><input style="width:150px" name="ft_dept" value="<?php echo $ft_dept; ?>" style="width:100%;" id="ft_dept" placeholder="Department Code" autocomplete="off" /><i> (optional) Find the department code on FlexyTalk Control Panel</i><br><br><br><br></td>
+				</tr>
+				
+				</tbody>
 				<thead>
 				<tr>
 					<th colspan="2">Installation Mode</th>

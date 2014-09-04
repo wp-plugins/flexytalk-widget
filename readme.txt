@@ -1,4 +1,4 @@
-  === FlexyTalk - Live Chat ===
+﻿  === FlexyTalk - Live Chat ===
 
 Contributors: sodena
 
@@ -8,7 +8,7 @@ Requires at least: 2.7
 
 Tested up to: 3.9.1
 
-Stable tag: 3.1.5
+Stable tag: 3.1.6
 
 License: GPLv2 or later
 
@@ -94,6 +94,10 @@ More info about installation, settings and use of FlexyTalk on our [HowTo pages.
 
 ==Changelog ==
 
+3.1.6
+
+* Point website to a department
+
 3.1.5
 
 **FlexyIM Web Client release**
@@ -103,8 +107,6 @@ More info about installation, settings and use of FlexyTalk on our [HowTo pages.
 * Buttons to accept or reject a chat request
 
 * Actions menu to end chat / block IP/ transfer chat to another agent
-
-* Improved desktop notifications now includes the message sent by the visitor
 
 * Actions menu to end chat / block IP/ transfer chat to another agent
 

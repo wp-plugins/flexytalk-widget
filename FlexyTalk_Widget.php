@@ -1,9 +1,9 @@
 <?php
 /**
- * Plugin Name: FlexyTalk - Free Live Chat Widget
+ * Plugin Name: FlexyTalk - Full Featured and Affordable Live Chat
  * Plugin URI: http://www.flexytalk.com
  * Description: FlexTalk - Intuitive, simple but powerful Live Chat solution. Connect from any mobile device or PC  - Free plan available
- * Version: 3.1.5
+ * Version: 3.1.6
  * Author: FlexyTalk
  */
 
@@ -18,71 +18,58 @@ if($installation_mode=="1"){
 }
 
 function Get_Code() {
-
+$datadept=ft_get_dept();
 $widget_id=get_option(ft_widget_id);
-$htmlCode="<script id='ftcontent' data-flexytalk=".$widget_id.">
-         var script = document.createElement('script');
-         script.src = ('https:' == document.location.protocol ? 'https:' : 'http:') + '//www.flexytalk.net/app/v3/js/flexytalk.js';
-      
-         document.getElementsByTagName('head')[0].appendChild(script);
+$htmlCode="<script id='ftcontent' data-flexytalk=".$widget_id." ".$datadept. ">var script = document.createElement('script');script.src = ('https:' == document.location.protocol ? 'https:' : 'http:') + '//www.flexytalk.net/dev/tt/flexytalk.js';document.getElementsByTagName('head')[0].appendChild(script);
    </script>";
 return $htmlCode;
+}
+function ft_get_dept()
+{
+$dept_code=get_option(ft_dept);
+$deptcodeStr="";
 
- 
+if($dept_code!="" ){
+	$deptcodeStr=" data-flexytalk-dept='".$dept_code."' ";
+}
+return $deptcodeStr;
 }
 //*************** Admin function ***************
 function flexytalk_admin() {
- MigrateSettings();
 $usr=get_option(ft_username);
 $pwd=get_option(ft_password);
 if( strlen($usr)>0 && strlen($pwd)>0)
-	echo '<div style="margin-top:10px"><input class="button button-primary" style="width:80px;height:20px;vertical-align:top;" value="Rate us!" onclick="javascript:window.open(\'http://wordpress.org/support/view/plugin-reviews/flexytalk-widget\',\'_blank\');" />  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <a href="https://twitter.com/flexytalk" class="twitter-follow-button" data-show-count="false" data-lang="en">Follow @@flexytalk</a>
-<script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = "//platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } }(document, "script", "twitter-wjs");</script> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Ffacebook.com%2Fflexytalk&amp;send=false&amp;layout=standard&amp;width=350&amp;show_faces=false&amp;font&amp;colorscheme=light&amp;action=like" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:500px;height:20px " allowTransparency="true"></iframe></div><iframe src="http://panel.flexytalk.com/account/pluginlogin/'.$usr.'/'.$pwd .'/1" width="100%" height="100%" style="min-height:850px; width:100%" frameborder=0 ></iframe>';
+	echo '<iframe src="http://panel.flexytalk.com/account/pluginlogin/'.$usr.'/'.$pwd .'/1" width="100%" height="100%" style="min-height:850px; width:100%" frameborder=0 ></iframe>';
 else
 include("flexytalk_settings.php");
 }
 
-function log_me($message) {
-  
-        if (is_array($message) || is_object($message)) {
-            error_log(print_r($message, true));
-        } else {
-            error_log($message);
-        }
-    
-}
+
 
 
 function flexytalk_admin_actions() {
 
- add_menu_page('FlexyTalk Control Panel', 'FlexyTalk Chat', 'administrator','flexytalk', 'flexytalk_admin', plugins_url( 'img/logo_icon.png', __FILE__ ));
+ add_menu_page('FlexyTalk', 'FlexyTalk', 'administrator','flexytalk', 'flexytalk_admin', plugins_url( 'img/logo_icon.png', __FILE__ ));
+ add_submenu_page('flexytalk', 'Control Panel','Control Panel', 'administrator','flexytalk', 'flexytalk_admin');
  add_submenu_page( 'flexytalk', 'Get Online now!', 'Get Online now!', 'administrator', 'flexytalk_im', 'flexytalk_im' );
-   add_submenu_page( 'flexytalk', 'Account Settings', 'Account Settings', 'administrator', 'flexytalk_settings', 'flexytalk_settings' );
+ add_submenu_page( 'flexytalk', 'Account Settings', 'Account Settings', 'administrator', 'flexytalk_settings', 'flexytalk_settings' );
 
-
-
- 
 }
 add_action('admin_menu', 'flexytalk_admin_actions');
 add_action('wp_footer', 'FT_Process');
-register_activation_hook( __FILE__, 'flexytalk_activate' );
 add_action( 'widgets_init', 'flexytalk_load_widgets' );
 add_filter( 'plugin_row_meta', 'flexytalk_register_plugin_links',10,2);
-rdr_setup();
 
-function flexytalk_activate()
-{
-add_option('Flexy_Activate','Plugin-Slug');
-}
+
 
 function flexytalk_settings()
 {
- MigrateSettings();
+ 
 include("flexytalk_settings.php");
 }
 
 function flexytalk_im() {
- MigrateSettings();
+
 $usr=get_option(ft_username);
 $pwd=get_option(ft_password);
 if( strlen($usr)>0 && strlen($pwd)>0)
@@ -91,48 +78,9 @@ else
 include("flexytalk_settings.php");
 }
 
-function rdr_setup(){
-if (get_option('Flexy_Activate')=='Plugin-Slug') {
-	delete_option('Flexy_Activate');
-	MigrateSettings();
-	
-	}
-	// header('location: admin.php?page=flexytalk');
-	// exit;
-}
 
-function MigrateSettings()
-{
-if (get_option('Flexy_migrated')!='Plugin-migrated') {
-$flexyid=get_option(ft_widget_id);
-if(isset($flexyid) && strlen($flexyid)>0)
-	{
 
-$widget_id=str_replace("\"","",get_option(ft_widget_id));
-$btn_text=get_option(ft_btn_text_on);
-$btn_layout=get_option(ft_btn_layout);
-$gvtr=get_option(ft_gvtr);
-$cd=get_option(ft_cd);
-$ff=get_option(ft_ff);
-$email=get_option(ft_email);
-$btn_position=get_option(ft_btn_position);
-$window_title=get_option(ft_window_title);
-$show_op=get_option(ft_show_op);
-$op_gender=get_option(ft_op_gender);
-$op_size=get_option(ft_op_size);
-$custom_image=get_option(ft_custom_image);
-$hide_tb=get_option(ft_hide_tb);
-$offmessage=get_option(ft_btn_text_off);
-if(strlen($btn_text)>0 && strlen($window_title)>0)
-{
-$url="http://panel.flexytalk.com/plugin/migrate?flexyid=".urlencode($widget_id)."&btntext=".urlencode($btn_text)."&btn_layout=".urlencode($btn_layout)."&cd=".urlencode($cd)."&ff=".urlencode($ff)."&btn_position=".urlencode($btn_position)."&window=".urlencode($window_title)."&show_op=".urlencode($show_op)."&op_gender=".urlencode($op_gender)."&op_size=".urlencode($op_size)."&custom_image=".urlencode($custom_image)."&hide=".urlencode($hide)."&off=".urlencode($offmessage);
 
-curl($url);
-}
-add_option('Flexy_migrated','Plugin-migrated');
-}
-}
-}
 
 function curl($url)
 {
@@ -170,7 +118,7 @@ class FlexyTalk_Widget extends WP_Widget {
 
 	$widget_ops = array( 'classname' => 'FlexyTalk', 'description' => __('Chat with your website visitors.', 'FlexyTalk') );
 	$control_ops = array( 'width' => 700, 'height' => 350, 'id_base' => 'flexytalk-widget' );
-	$this->WP_Widget( 'flexytalk-widget', __('FlexyTalk Free Live Chat Widget', 'FlexyTalk Free Live Chat Widget'), 				$widget_ops, $control_ops );
+	$this->WP_Widget( 'flexytalk-widget', __('FlexyTalk Free Live Chat Widget', 'FlexyTalk Free Live Chat Widget'), $widget_ops, $control_ops );
 	}
 
 function widget( $args, $instance ) {
@@ -188,7 +136,7 @@ if(is_active_widget( '', '', 'flexytalk-widget')){
 
 		if($installation_mode=="0"){
 		$widget_id=get_option(ft_widget_id);
-		$htmlCode=$htmlCode. "<script id='ftcontent' data-flexytalk=".$widget_id.">
+		$htmlCode=$htmlCode. "<script id='ftcontent' data-flexytalk=".$widget_id. ft_get_dept().">
          var script = document.createElement('script');
          script.src = ('https:' == document.location.protocol ? 'https:' : 'http:') + '//www.flexytalk.net/app/v3/js/flexytalk.js';
          document.getElementsByTagName('head')[0].appendChild(script);
