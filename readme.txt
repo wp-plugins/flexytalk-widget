@@ -4,7 +4,7 @@ Tags: Live Chat, Live Support, Web Chat, one to one chat, free live chat, flexyi
 Requires at least: 2.7
 Tested up to: 3.9.1
 Stable tag: 3.1.7
-License: GPLv2 or later
+License: GPLv2 or later 
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Powerful, affordable and most loved Live Chat solution for everyone. Free plan includes unlimited chats, mobile apps and Facebook integration. 
