@@ -19,7 +19,7 @@ if($installation_mode=="1"){
 
 function Get_Code() {
 $datadept=ft_get_dept();
-$widget_id=get_option(ft_widget_id);
+$widget_id=trim(str_replace('"','',get_option('ft_widget_id'))); 
 $htmlCode="<script id='fresco_script' data-frescochat='".$widget_id."' ".$datadept. ">var script = document.createElement('script');script.src = ('https:' == document.location.protocol ? 'https:' : 'http:') + '//frescochat.blob.core.windows.net/app/v3/js/frescochat.js';document.getElementsByTagName('head')[0].appendChild(script);
    </script>";
 return $htmlCode;
