@@ -47,10 +47,9 @@ function flexytalk_admin() {
 
 function flexytalk_admin_actions() {
 
- add_menu_page('FrescoChat', 'FrescoChat', 'administrator','FrescoChat', 'flexytalk_admin', plugins_url( 'img/logo_icon.png', __FILE__ ));
- add_submenu_page('FrescoChat', 'Control Panel','Control Panel', 'administrator','FrescoChat', 'flexytalk_admin');
- //add_submenu_page( 'FrescoChat', 'Get Online now!', 'Get Online now!', 'administrator', 'flexytalk_im', 'flexytalk_im' );
- add_submenu_page( 'FrescoChat', 'Account Settings', 'Account Settings', 'administrator', 'flexytalk_settings', 'flexytalk_settings' );
+ add_menu_page('FrescoChat', 'FrescoChat', 'manage_options','frescochat', 'flexytalk_admin', plugins_url( 'img/logo_icon.png', __FILE__ ));
+add_submenu_page( 'frescochat', 'Control Panel', 'Control Panel','manage_options', 'frescochat', 'flexytalk_settings' );
+ add_submenu_page( 'frescochat', 'Account Settings', 'Account Settings','manage_options', 'frescochat_settings', 'flexytalk_settings' );
 
 }
 add_action('admin_menu', 'flexytalk_admin_actions');
