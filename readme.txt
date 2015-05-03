@@ -3,7 +3,7 @@ Contributors: sodena
 Tags: Live Chat, Live Support, Web Chat, one to one chat, free live chat, jabber, xmpp, sidebar chat, widget, website alive, support chat, sales chat, wordpress chat, live chat widget free, mobile chat, phone chat, chat operator, FrescoChat, 
 Requires at least: 2.7
 Tested up to: 4.2.1
-Stable tag: 3.1.8
+Stable tag: 3.1.9
 License: GPLv2 or later 
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
