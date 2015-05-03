@@ -79,6 +79,11 @@ More info about installation, settings and use of FrescoChat on our [HowTo pages
 
 ==Changelog ==
 
+3.1.9
+
+* Fixes bug "You don't have sufficient permissons"
+
+
 3.1.8
 
 * IMPORTANT INFORMATION:  All IM accounts change to xyz@chat.frescochat.com (instead of xyz@flexytalk.im)
