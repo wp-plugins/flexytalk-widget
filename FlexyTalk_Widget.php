@@ -3,7 +3,7 @@
  * Plugin Name: FrescoChat Live Chat
  * Plugin URI: http://www.FrescoChat.com
  * Description: FrescoChat - Intuitive, simple but powerful Live Chat solution. Connect from any mobile device or PC  - Free plan available
- * Version: 3.1.8
+ * Version: 3.1.9
  * Author: FrescoChat
  */
 
