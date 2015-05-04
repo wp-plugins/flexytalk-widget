@@ -71,7 +71,7 @@ include("flexytalk_settings.php");
 function flexytalk_register_plugin_links($links, $file) {
 	$base = plugin_basename(__FILE__);
 	if ($file == $base) {
-		$links[] = '<a href="admin.php?page=flexytalk">' . __('Settings','flexytalk_widget') . '</a>';
+		//$links[] = '<a href="admin.php?page=flexytalk">' . __('Settings','flexytalk_widget') . '</a>';
 		//$links[] = '<a href="http://www.flexytalk.com/support/faq/" target="_blank">' . __('FAQ','flexytalk_widget') . '</a>';
 		$links[] = '<a href="http://frescochat.uservoice.com" target="_blank">' . __('Support','flexytalk_widget') . '</a>';
 	}
