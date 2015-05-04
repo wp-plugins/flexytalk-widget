@@ -61,6 +61,8 @@ More info about installation, settings and use of FrescoChat on our [HowTo pages
 
 == Screenshots ==
 
+0. Configure your working hours
+
 1. FrescoChat Live Chat 
 
 2. FrescoChat Live Chat
