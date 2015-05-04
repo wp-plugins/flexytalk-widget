@@ -3,7 +3,7 @@ Contributors: sodena
 Tags: Live Chat, Live Support, Web Chat, one to one chat, free live chat, jabber, xmpp, sidebar chat, widget, website alive, support chat, sales chat, wordpress chat, live chat widget free, mobile chat, phone chat, chat operator, FrescoChat, 
 Requires at least: 2.7
 Tested up to: 4.2.1
-Stable tag: 3.1.9 
+Stable tag: 3.1.9
 License: GPLv2 or later 
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -11,59 +11,54 @@ Powerful, affordable and most loved Live Chat solution for everyone.
 
 == Description ==
 
-Live Chat solution based on Jabber. Install any IM app on mobile devices and chat with your website visitors on the go.
+We build FrescoChat to make your live chat experience easier while you stay focused in your business. Free plan available for 1 agent with unlimited chats
+
+
+**HOW IT WORKS**
+
+* **Native IM Live Chat solution based on Jabber protocol:** It works with popular IM apps for any platform on Desktop and Mobile devices. Once installed on your computer, FrescoChat will log you in automatically when you turn on your PC and the client will run silently in the background, no need to sign in to a web dashboard and switching browser tabs to find it.
+
+* **Set up your working hours and FrescoChat will manage your online / offline status: **Create as many time ranges as you need for your breaks or build complex weekly shift schemes for your agents
+
+* **Do you frequently leave your desktop?** You don't need to remember to turn offline. Configure your IM client to switch your status after certain period of inactivity
+
+* **Stay connected from multiple devices:** FrescoChat will follow you wherever you are
+
+* **Set up automated invites to your web visitors: ** Each page on your website may have a customized message to offer help given the content of the web page.
+
+
+**TEAM FEATURES**
+
+* **Departments:** Group agents into departments, let the web visitor decide to which department they want to chat
+
+* **Intelligent routing:** FrescoChat will look for the least busy operator, and send chat requests to agents in a round robin fashion, if there's no response, will send an alert to the next available agent
+
+* **Agent to agent chat:** Being Jabber based, you chat with other agents the same way you use to do it it with your current messaging client
+
+* **Transfer chats:** Transfer your chat session to a specific agent, department, or simply to the next agent available
+
+
+**CUSTOMIZING LOOK AND FEEL**
+
+* Use our default fixed-position chat bar or pick your own clickable images to popup the chatbox
+
+* Select your own attention grabber
+
+* Choose from dozens of themes for your chat box and chat bar
+
+* Translate / Localize messages and texts on chat box
+
+* Set up chat box size, position and even zoom.
 
 
 
-* Please visit [FrescoChat Live Chat](http://www.FrescoChat.com) to compare live chat plans and sign up.
 
+**and more... Check all of our features at [http://www.FrescoChat.com](http://www.FrescoChat.com)**
 
-Some of our features:
-
-
-* **Use with any IM / Jabber ready app** on Desktop or Mobile like Pidgin, Adium, Apple Messages / iChat, IM+, Gibberbot, etc. 
-* **Multiple concurrent live chats** (based on your plan)
-* **Transfer live chats between agents** 
-* **Agent to agent chat** 
-* **Trigger Rules:**  Decide on which pages you send custom invites to your visitors 
-* **Departments:**  Group agents into departments
-* **Queues:** When all agents are busy, visitors enter a queue and they are updated on their position in the line.  
-* **Offline Messages:** If no agent is online, visitor can leave a message.
-* **Send live chat transcript to visitor's email**  
-* **Live Chat transcript to account owner**   
-* **Facebook integration:** Install FrescoChat Live Chat on your Facebook business page as a tab  
-* **Smart chat routing**: live chat requests are sent to the least occupied agent. If he doesn't reply in time, the request is sent to the next available agent. Never loose a live chat session!
-* **View live chat History:**  View past live chat sessions from the visitor you are chatting with  
-* **Search live chat archive:**  Search, view and export all your live chat sessions 
-* **Google Analytics integration**: Track FrescoChat Page Views and Events in your Google Analytics account 
-* **Integrate social media channels**:  invite your visitors to like your Facebook page, follow you on Twitter and add your Google+ page to their circles. 
-* **IP Blocking:** Block the visitor’s IP to keep this person from starting a new chat again.
-* **Avatar and agent information** 
-* **Gravatar.com integration:** Use your current Gravatar Profile 
-* **Eye Catcher Image:** Use our default eye catcher images or set you own one.
-* **Mutliple chatbox themes** to choose from 
-* **Chat bar** styles and customization 
-* **Full translation and localization:** You may customize and translate every text displayed on the chatbox  
-* **Automatic online / offline status**: Set your status directly on your IM app and choose if you want to be online when your status is away or busy. 
-* **Custom online / offline images**: If you dont want to use the default chatbar, you can set your own images
-* **Use FrescoChat Widget**: You can install FrescoChat chatbar in a static position (default behavior) or use the included widget on any selected widget area.
-* **Customize mobile behavior:** FrescoChat detects when the visitor is on a mobile device and optimizes its behavior. Several options to customize 
-* **Jabber compatible**: Use your current Jabber IM account
-* **Stay connected from multiple devices** and manage device priorities
-* **Manage multiple accounts from a centralized control panel:** 
-* **Use the same IM account across multiple FrescoChat accounts:** 
-* Sound Alerts - Persistent chatbox across website navigation - Open Chatbox in new browser window - Draggable chatbox - Customizable chatbox size -Hide chatbar when offline
-
-== Installation ==
-
-
-More info about installation, settings and use of FrescoChat on our [HowTo pages.](http://www.FrescoChat.com/support/howto-index/) 
 
 == Screenshots ==
 
-0. Configure your working hours
-
-1. FrescoChat Live Chat 
+1. Configuring working hours 
 
 2. FrescoChat Live Chat
 
