@@ -59,22 +59,25 @@ We build FrescoChat to make your live chat experience easier while you stay focu
 == Screenshots ==
 
 
-12. FrescoChat Live Chat
+1. FrescoChat Live Chat
 
-13. FrescoChat Live Chat
+2. FrescoChat Live Chat
 
-11. FrescoChat Live Chat
+3. FrescoChat Live Chat
 
-10. FrescoChat Live Chat
+4. FrescoChat Live Chat
 
-1. Configuring working hours 
+5. FrescoChat Live Chat 
 
 6. FrescoChat Live Chat 
 
 7. FrescoChat Live Chat
 
-8. FrescoChat Live Chat
+8. FrescoChat Control Panel
 
+9. FrescoChat Live Chat
+
+10. FrescoChat - Working hours
 ==Changelog ==
 
 3.1.9
