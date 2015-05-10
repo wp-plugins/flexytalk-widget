@@ -20,6 +20,8 @@ We build FrescoChat to make your live chat experience easier while you stay focu
 
 * **Set up your working hours and FrescoChat will manage your online / offline status:** Create as many time ranges as you need for your breaks or build complex weekly shift schemes for your agents
 
+* **Do you frequently leave your desktop?** You don't need to remember to turn offline. Configure your IM client to switch your status after certain period of inactivity
+
 * **Stay connected from multiple devices:** FrescoChat will follow you wherever you are
 
 * **Set up automated invites to your web visitors:** Each page on your website may have a customized message to offer help given the content of the web page.
@@ -56,15 +58,16 @@ We build FrescoChat to make your live chat experience easier while you stay focu
 
 == Screenshots ==
 
+
+12. FrescoChat Live Chat
+
+13. FrescoChat Live Chat
+
+11. FrescoChat Live Chat
+
+10. FrescoChat Live Chat
+
 1. Configuring working hours 
-
-2. FrescoChat Live Chat
-
-3. FrescoChat Live Chat
-
-4. FrescoChat Live Chat
-
-5. FrescoChat Live Chat
 
 6. FrescoChat Live Chat 
 
