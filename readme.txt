@@ -58,15 +58,16 @@ We build FrescoChat to make your live chat experience easier while you stay focu
 
 == Screenshots ==
 
+
+12. FrescoChat Live Chat
+
+13. FrescoChat Live Chat
+
+11. FrescoChat Live Chat
+
+10. FrescoChat Live Chat
+
 1. Configuring working hours 
-
-2. FrescoChat Live Chat
-
-3. FrescoChat Live Chat
-
-4. FrescoChat Live Chat
-
-5. FrescoChat Live Chat
 
 6. FrescoChat Live Chat 
 
