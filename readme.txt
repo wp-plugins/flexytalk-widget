@@ -13,14 +13,12 @@ Powerful, affordable and most loved Live Chat solution for everyone.
 
 We build FrescoChat to make your live chat experience easier while you stay focused in your business. Free plan available for 1 agent with unlimited chats
 
-
+[youtube https://youtu.be/zUTZ7O35pFM]
 **HOW IT WORKS**
 
 * **Native IM Live Chat solution based on Jabber protocol:** It works with popular IM apps for any platform on Desktop and Mobile devices. Once installed on your computer, FrescoChat will log you in automatically when you turn on your PC and the client will run silently in the background, no need to sign in to a web dashboard and switching browser tabs to find it.
 
 * **Set up your working hours and FrescoChat will manage your online / offline status:** Create as many time ranges as you need for your breaks or build complex weekly shift schemes for your agents
-
-* **Do you frequently leave your desktop?** You don't need to remember to turn offline. Configure your IM client to switch your status after certain period of inactivity
 
 * **Stay connected from multiple devices:** FrescoChat will follow you wherever you are
 
