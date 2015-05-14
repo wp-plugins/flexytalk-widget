@@ -17,6 +17,7 @@ Bring the power and simplicity of FrescoChat to your website. Your day-to-day li
 [vimeo https://vimeo.com/127736424]
 
 **Learn more about us at [http://www.FrescoChat.com](http://www.FrescoChat.com)**
+
 **HOW IT WORKS**
 
 * **Native IM Live Chat solution based on Jabber protocol:** It works with popular IM apps for any platform on Desktop and Mobile devices. Once installed on your computer, FrescoChat will log you in automatically when you turn on your PC and the client will run silently in the background, no need to sign in to a web dashboard and switching browser tabs to find it.
