@@ -7,13 +7,16 @@ Stable tag: 3.1.9
 License: GPLv2 or later 
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Powerful, affordable and most loved Live Chat solution for everyone. 
+Powerful, affordable and most loved Live Chat solution for everyone. Chat on the move using traditional IM apps for desktop and mobile.
 
 == Description ==
 
-We build FrescoChat to make your live chat experience easier while you stay focused in your business. Free plan available for 1 agent with unlimited chats
+Bring the power and simplicity of FrescoChat to your website. Your day-to-day live chat experience will be more pleasant and simple. No sign in/out from web dashboards, amazing level of customizations, great look and loaded with features you will love.
+
 
 [vimeo https://vimeo.com/127736424]
+
+**Learn more about us at [http://www.FrescoChat.com](http://www.FrescoChat.com)**
 **HOW IT WORKS**
 
 * **Native IM Live Chat solution based on Jabber protocol:** It works with popular IM apps for any platform on Desktop and Mobile devices. Once installed on your computer, FrescoChat will log you in automatically when you turn on your PC and the client will run silently in the background, no need to sign in to a web dashboard and switching browser tabs to find it.
